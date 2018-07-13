@@ -1,0 +1,155 @@
+﻿https://www.watch-life.net/links | 网络链接 | 守望轩
+https://www.xiaohui.com/weekly/internet-edu.htm | 网络时代的高素质教师，等于抱了一只金饭碗 - 程序员小辉
+https://yoyow.org/ | YOYOW基于区块链的UGC平台
+
+https://www.watch-life.net/wechat/weixin-app.html | 微信小程序，个人开发者创业新平台 | 守望轩
+https://www.watch-life.net/wordpress/wordpress-and-weixin.html | 打通WordPress和微信公众号 | 守望轩
+https://www.watch-life.net/wordpress/wordpress-https-link.html | WordPress整站轻松开启HTTPS | 守望轩
+https://www.watch-life.net/wordpress/wordpress-rest-api.html | WordPress版微信小程序开发系列(一)：WordPress REST API | 守望轩
+https://www.watch-life.net/wordpress/wp-pagenavi.html | wp-pagenavi 中文版 | 守望轩
+https://www.watch-life.net/wordpress/wordpress-rest-api-weixin-weapp.html | 利用WordPress REST API 开发微信小程序从入门到放弃 | 守望轩
+http://wp-study.dev/wp-admin/plugins.php | 插件 ‹ Zhongshan GAMDER Electric Co., Ltd. — WordPress
+
+http://blog.wpjam.com/m/weui-js/#toc-5 | weui.js：WeUI 的轻量级 js 封装。
+http://blog.wpjam.com/m/weui/ | WeUI：微信官方网页开发样式库
+http://blog.wpjam.com/project/wpjam-grabmp/ | WPJAM GrabMP：一键抓取公众号文章到 WordPress 博客，并且突破微信图片防盗链
+http://blog.wpjam.com/m/diable-emoji/ | WordPress 技巧：禁用 Emoji 功能
+http://blog.wpjam.com/m/wpjam_array_multisort/ | PHP 二维关联数组根据其中一个字段排序
+https://weui.io/ | WeUI
+http://blog.wpjam.com/m/wordpress-as-backend/ | 使用 WordPress 纯粹做后端和管理界面，实现前后端分离
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=WordPress%20rest%20api&oq=WordPress&rsv_pq=e9c9d01b0000ad82&rsv_t=d203EYBE4j6mNI98PGZ8cd0Bf0lT7FhlNsna1n2QHkIJxkSK%2B9ZCLJDAxwA&rqlang=cn&rsv_enter=1&rsv_sug3=10&rsv_sug1=10&rsv_sug7=100&rsv_sug2=0&inputT=4162&rsv_sug4=4278 | WordPress rest api_百度搜索
+http://www.cnblogs.com/xjb/p/wordpress-rest-api-weixin-weapp.html | 利用WordPress REST API 开发微信小程序从入门到放弃 - xjb - 博客园
+https://github.com/iamxjb/winxin-app-watch-life.net | iamxjb/winxin-app-watch-life.net: WordPress版微信小程序
+
+https://docs.reduxframework.com/core/sections/getting-started-with-sections/ | Getting Started with Sections » Redux Documentation
+http://www.html5pano.com/ | HTML5 Pano - 国内首家跨平台三维全景漫游系统开发与WebVr制作平台
+http://www.thinkd.net/ | 【中山星动全景】腾讯商家全景认证拍摄机构_720全景_全景拍摄_全景制作_全景网站_微信全景_三维全景_三维全景虚拟现实_展厅全景_360全景_中山专业720全景摄影制作_全景航拍_空中全景_vr全景_vr展厅_珠海全景_江门全景_佛山全景
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=krpano&oq=krpanoSWFObject&rsv_pq=ec8b15d200014122&rsv_t=ecabp6ThF%2Bkk4m4gX6SFEKbM%2Fm8d3GMrI%2FkewmnIE%2BUqnMf9UmXXluDu%2Fq4&rqlang=cn&rsv_enter=1&rsv_sug3=2&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&inputT=494&rsv_sug4=4175&rsv_sug=1 | krpano_百度搜索
+https://krpano.com/
+http://www.krpano.tech/ | KRPano技术解密 | ——KRPano高级开发技术分享站
+
+http://doc.metinfo.cn/muban/tag/mblable/54-cn.html | $download_paralist-米拓学院
+http://php.net/manual/zh/function.header.php | PHP: header - Manual
+https://www.baidu.com/s?ie=UTF-8&wd=PHP%20%E8%8E%B7%E5%8F%96%E9%A1%B5%E9%9D%A2url | PHP 获取页面url_百度搜索
+http://www.thinkphp.cn/topic/45176.html | PHP中获取当前页面的完整URL - ThinkPHP框架
+http://www.cmd5.com/ | md5在线解密破解,md5解密加密
+http://www.w3school.com.cn/php/func_string_strpos.asp | PHP strpos() 函数
+
+https://developer.wordpress.org/reference/functions/the_post/ | the_post() | Function | WordPress Developer Resources
+https://www.baidu.com/s?ie=UTF-8&wd=wordpress%20the_content%E6%97%A0%E8%BE%93%E5%87%BA | wordpress the_content无输出_百度搜索
+http://tieba.baidu.com/p/4234772012 | <?php the_content(); ?> 不显示文章内容【wordpress吧】_百度贴吧
+http://www.cnblogs.com/huangtailang/p/4129265.html | WordPress 无法使用the_content()方法输出内容 - HTL - 博客园
+http://jo2.org/wordpress%E7%9A%84the_content%E5%87%BD%E6%95%B0%E6%97%A0%E8%BE%93%E5%87%BA%E5%86%85%E5%AE%B9/ | wordpress的the_content函数无输出内容 - 脚儿网
+https://www.baidu.com/s?ie=UTF-8&wd=wordpress%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E7%AB%A0%E7%B1%BB%E5%9E%8B | wordpress自定义文章类型_百度搜索
+http://blog.wpjam.com/article/wordpress-post-type/ | WordPress 自定义文章类型（Post Type）终极指南
+http://blog.wpjam.com/m/wordpress-template-hierarchy-infograghic/ | WordPress 模板层次结构信息图
+https://developer.wordpress.org/themes/basics/template-hierarchy/ | Template Hierarchy | Theme Developer Handbook | WordPress Developer Resources
+
+https://www.wpdaxue.com/wechat-subscribers-lite.html | 简便易用的免费微信订阅号插件 WeChat Subscribers Lite | WordPress大学
+https://www.wpdaxue.com/wechat-fans.html | WordPress 关注微信公众号查看隐藏内容 | WordPress大学
+
+https://stackoverflow.com/questions/8413016/how-can-i-remove-unnecessary-menu-links-from-wordpress-admin-area | How can I remove unnecessary menu links from wordpress admin area - Stack Overflow
+https://codex.wordpress.org/Function_Reference/remove_menu_page | Function Reference/remove menu page « WordPress Codex
+
+https://wordpress.stackexchange.com/questions/170033/convert-output-of-nav-menu-items-into-a-tree-like-multidimensional-array | menus - Convert output of nav_menu items into a tree-like multidimensional array - WordPress Development Stack Exchange
+https://developer.wordpress.org/reference/functions/wp_get_nav_menu_items/ | wp_get_nav_menu_items() | Function | WordPress Developer Resources
+http://blog.csdn.net/qmhball/article/details/8044628 | PHP中的替代语法(冒号、endif、endwhile、endfor) - IT民工的小日子 - CSDN博客
+
+http://www.zhutihome.com/5491.html | 让WordPress编辑器支持emmet的插件---wp-emmet | WordPress主题之家
+http://www.zhutihome.com/5440.html | WordPress微信采集助手--N4BW-WechatGrab | WordPress主题之家
+https://www.wpdaxue.com/make-your-wordpress-site-faster.html | 让你的WordPress网站更快的16条建议 | WordPress大学
+https://www.wpdaxue.com/wordpress-dashboard.html | WordPress入门 之 鲜为人知的后台“小私密” | WordPress大学
+http://zmingcx.com/shielding-wordpress-useless-items.html | 屏蔽WordPress后台无用项 | 知更鸟
+http://www.wopus.org/plugins/functions/4575.html | WordPress数据库批量替换插件：Search & Replace | Wopus
+https://cn.vuejs.org/v2/guide/ | 介绍 — Vue.js
+https://www.wpdaxue.com/remove-wordpress-nav-classes.html | 移除 WordPress 菜单输出的多余的CSS选择器id或class | WordPress大学
+https://www.wpdaxue.com/remove-wp_nav_menu-div-ul.html | 禁止WordPress菜单函数 wp_nav_menu() 输出 div 和 ul 标签 | WordPress大学
+https://devework.com/wp-nav-menu-walker-nav-menu.html | wp_nav_menu 函数经Walker_Nav_Menu 类自定义导航菜单HTML | DeveWork
+https://segmentfault.com/q/1010000005602336 | 关于wordpress中页面输出导航菜单的问题， - SegmentFault
+https://codex.wordpress.org/Class_Reference/Walker | Class Reference/Walker « WordPress Codex
+https://github.com/wp-bootstrap/wp-bootstrap-navwalker | GitHub - wp-bootstrap/wp-bootstrap-navwalker: A custom WordPress nav walker class to fully implement the Twitter Bootstrap 3.0+ navigation style in a custom theme using the WordPress built in menu manager.
+
+http://wp-study.dev/wp-admin/post.php?post=64&action=edit | 编辑当前字段组 ‹ Zhongshan GAMDER Electric Co., Ltd. — WordPress
+https://www.advancedcustomfields.com/resources/displaying-custom-field-values-in-your-theme/ | ACF | Displaying values in your theme
+https://www.advancedcustomfields.com/resources/the_field/ | ACF | the_field()
+https://docs.reduxframework.com/core/getting-started/ | Getting Started » Redux Documentation
+https://docs.reduxframework.com/core/advanced/embedding-redux-into-your-theme-or-plugin/ | Embedding Redux into Your Theme or Plugin » Redux Documentation
+https://github.com/ReduxFramework/ReduxSampleTheme | GitHub - reduxframework/ReduxSampleTheme: Use the Redux Generator instead!
+https://docs.reduxframework.com/core/arguments/#disable_google_fonts_link | Global Arguments » Redux Documentation
+http://boke112.com/3869.html#comments | WordPress后台主题设置框架ReduxFrameWork精简整合使用教程_WordPress_boke112导航
+
+https://www.baidu.com/s?ie=UTF-8&wd=css3%20calc | css3 calc_百度搜索
+http://caibaojian.com/calc.html | CSS3 calc() 会计算的属性-前端开发博客
+
+http://www.ashuwp.com/framework/flexslider | wordpress后台框架 | 阿树工作室
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E4%B8%AD%E6%96%87wordpress%E5%90%8E%E5%8F%B0%E6%A1%86%E6%9E%B6&oq=wordpress%25E5%2590%258E%25E5%258F%25B0%25E6%25A1%2586%25E6%259E%25B6&rsv_pq=95cd3c2c0001ee63&rsv_t=3681uKbtVEC3zQMRTuP8kkosWd%2Byq8QL0z5xecVLDipmsiC4X7eSE4sIWu4&rqlang=cn&rsv_enter=0&rsv_sug3=16&rsv_sug1=7&rsv_sug7=100&rsv_sug2=0&inputT=3251&rsv_sug4=210939&rsv_sug=1 | 中文wordpress后台框架_百度搜索
+http://ju.outofmemory.cn/entry/161240 | WordPress主题后台选项框架OptionTree的集成与使用指南：（四）主题模板获取主题选项的 - 为程序员服务
+http://ju.outofmemory.cn/entry/52485 | [教程]wordpress主题后台设置框架Options Framework（中文版） - 为程序员服务
+http://www.ashuwp.com/framework/getdata | wordpress后台框架 | 阿树工作室
+https://yusi123.com/3205.html | 盘点18个免费的WordPress主题后台选项开发框架 – 欲思博客
+https://yfdxs.com/redux-framework.html | wordpress强大的开源后台框架Redux Framework介绍与使用 – 远方的雪山
+http://zmingcx.com/wordpress-backend-options-framework.html | WordPress主题后台选项框架 | 知更鸟
+http://zmingcx.com/ | 知更鸟 | 崇尚专注　追求极致
+https://pan.baidu.com/s/1eSmnHaa | redux-framework.zip_免费高速下载|百度网盘-分享无限制
+http://boke112.com/japancolors/ | 日本传统色彩大全_boke112导航
+
+https://wptheming.com/options-framework-plugin/ | Options Framework Plugin | WP Theming
+https://yusi123.com/3205.html/3 | 盘点18个免费的WordPress主题后台选项开发框架 – 欲思博客
+http://upplex.de/bootstrap-3-wordpress-theme-framework/#page | Bootstrap 3 Wordpress Theme - Free Framework
+
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&tn=baidu&wd=wordpress%E4%B8%BB%E9%A2%98%E5%90%8E%E5%8F%B0%E6%A1%86%E6%9E%B6&oq=wordpress%25E4%25B8%25BB%25E9%25A2%2598%25E6%25A1%2586%25E6%259E%25B6&rsv_pq=fdc37a1c00000ad6&rsv_t=28a94GR7HpLTzNrPl0%2F4FCUtGLysLwcT%2Flfvacw2lvHxKYGakyu6WmgmJU8&rqlang=cn&rsv_enter=1&rsv_sug3=9&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&prefixsug=wordpress%25E4%25B8%25BB%25E9%25A2%2598%25E5%2590%258E%25E5%258F%25B0%25E6%25A1%2586%25E6%259E%25B6&rsp=1&inputT=3862&rsv_sug4=13410&rsv_sug=1 | wordpress主题后台框架_百度搜索
+http://www.zhutihome.com/4388.html | WordPress主题后台选项框架--OptionTree汉化版 | WordPress主题之家
+https://devework.com/5-wordpress-option-frameworks.html | 5 款前沿的WordPress主题后台选项开发框架推荐 | DeveWork
+https://wordpress.org/plugins/options-framework/ | Options Framework — WordPress Plugins
+https://generatewp.com/generator/ | Generators Archive – GenerateWP
+https://wptheming.com/options-framework-theme/ | Options Framework Theme | WP Theming
+
+http://www.wpbeginner.com/category/plugins/ | Best WordPress Plugins - We did the Research For You
+https://github.com/ashuwp/Ashuwp_framework | GitHub - ashuwp/Ashuwp_framework: 使用Ashuwp Framework框架可以给wordpress添加设置页面、文章字段、分类字段。
+http://www.ashuwp.com/courses | 教程 | 总分类 | wordpress主题定制-阿树工作室
+https://www.baidu.com/s?wd=wordpress%E6%89%8B%E6%9C%BA%E5%AE%A2%E6%88%B7%E7%AB%AF&rsf=1&rsp=3&f=1&oq=wordpress%E5%B0%8F%E7%A8%8B%E5%BA%8F&ie=utf-8&f=1&rsv_pq=f033918900004180&rsv_t=b43epRt7Xz3GentouVeEviBE7q4%2FL9tg1BjMFxs2EIP0UPAjxQG9QQrp68Y&rqlang=cn&rs_src=0&rsv_pq=f033918900004180&rsv_t=b43epRt7Xz3GentouVeEviBE7q4%2FL9tg1BjMFxs2EIP0UPAjxQG9QQrp68Y | wordpress手机客户端_百度搜索
+https://baijiahao.baidu.com/s?id=1576431389774977584&wfr=spider&for=pc | 开发| 无需后端编码，手把手教你把 WordPress 做成小程序
+https://devework.com/ | DeveWork | WordPress极客一枚
+http://blog.wpjam.com/ | 我爱水煮鱼 – 人人都爱 WordPress
+http://www.dedewp.com/6944.html | WordPress主题后台制作教程-陌小雨博客
+https://www.wpdaxue.com/wordpress-theme-basis-files-and-functions.html | WordPress主题制作教程（二）主题的基本模板及常用函数 | WordPress大学
+https://www.wpdaxue.com/basic-skills-of-creating-themes.html | WordPress主题制作教程（一）基本技能和准备工作 | WordPress大学
+https://www.ludou.org/create-wordpress-themes-header.html | WordPress主题制作全过程（五）：制作header.php - 露兜博客
+https://www.ludou.org/wordpress-create-navigation-menu.html | WordPress主题导航菜单制作的几种方法(一) - 露兜博客
+https://www.ludou.org/tag/wordpress | WordPress教程标签的文章存档 - 露兜博客
+http://blog.wpjam.com/2016/01/05/free-wpjam-basic/ | WPJAM Basic 正式免费
+http://blog.wpjam.com/project/wpjam-basic/ | WordPress 优化插件：WPJAM-Basic
+http://blog.wpjam.com/2015/12/30/wpjam-plugins-updates/ | WPJAM 出品的 WordPress 插件大更新
+
+https://www.baidu.com/s?wd=jquery%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E7%9A%84ajax%E8%AF%B7%E6%B1%82%E5%AE%8C%E6%88%90%E4%B9%8B%E5%90%8E%E6%89%A7%E8%A1%8C%E4%BB%A3%E7%A0%81&pn=10&oq=jquery%20%E5%9C%A8%E9%A1%B5%E9%9D%A2%E4%B8%8A%E7%9A%84ajax%E8%AF%B7%E6%B1%82%E5%AE%8C%E6%88%90%E4%B9%8B%E5%90%8E%E6%89%A7%E8%A1%8C%E4%BB%A3%E7%A0%81&ie=utf-8&rsv_pq=b71a599c0000121f&rsv_t=222cCwbkRtEnsJDVSzWigw%2B9uYVhl9D2Zg7qVvl6yEcxzVp2hU5%2BxvYQVrA&rsv_page=1 | jquery 在页面上的ajax请求完成之后执行代码_百度搜索
+http://www.w3school.com.cn/jquery/ajax_ajaxstop.asp | jQuery ajax - ajaxStop() 方法
+https://www.baidu.com/s?ie=UTF-8&wd=%E9%BE%88%E4%B8%8B%E5%88%AE%E6%B2%BB | 龈下刮治_百度搜索
+https://www.baidu.com/s?ie=UTF-8&wd=js%20%E6%97%B6%E9%97%B4%E6%88%B3%E8%BD%ACyyyy-mm-dd | js 时间戳转yyyy-mm-dd_百度搜索
+http://www.cnblogs.com/yjf512/p/3796229.html | javascript时间戳和日期字符串相互转换 - 轩脉刃 - 博客园
+http://www.cnblogs.com/xx71/p/7132063.html | 通过js将时间戳转换成"yyyy--mm--dd"格式 - 么么哒欣酱 - 博客园
+http://bbs.metinfo.cn/search/q-5ZCO5Y+w55WM6Z2i#all | 后台界面 - 搜索 - MetInfo 社区
+https://www.baidu.com/s?ie=UTF-8&wd=%E8%87%AA%E6%89%A7%E8%A1%8C%E5%87%BD%E6%95%B0 | 自执行函数_百度搜索
+http://www.jb51.net/article/31078.htm | js自执行函数的几种不同写法的比较_javascript技巧_脚本之家
+
+https://www.baidu.com/s?ie=UTF-8&wd=xenu | xenu_百度搜索
+http://home.snafu.de/tilman/xenulink.html#Download | Find broken links on your site with Xenu's Link Sleuth (TM)
+https://xenus-link-sleuth.en.softonic.com/ | Xenu's Link Sleuth - Download
+
+http://www.ashuwp.com/courses/highgrade/627.html | 阿树工作室—主题后台框架 | wordpress主题定制-阿树工作室
+http://www.ashuwp.com/courses/noplugin/158.html | wordprss主题功能集成之为主题添加自定义头部功能|wordpress主题定制-阿树工作室
+
+https://codex.wordpress.org/zh-cn:%E5%87%BD%E6%95%B0%E5%8F%82%E8%80%83 | zh-cn:函数参考 « WordPress Codex
+
+https://codex.wordpress.org/zh-cn:%E6%9D%A1%E4%BB%B6%E6%A0%87%E7%AD%BE | zh-cn:条件标签 « WordPress Codex
+https://developer.wordpress.org/reference/functions/wp_nav_menu/ | wp_nav_menu() | Function | WordPress Developer Resources
+
+http://doc.metinfo.cn/muban/tag/mblable/ | 模板标签-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/31-cn.html | $class1-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/36-cn.html | $page_list-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/63-cn.html | $product_list-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/46-cn.html | $class3_list[$class3]-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/41-cn.html | $nav_list2[$class1]-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/42-cn.html | $nav_list3[$class2]-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/43-cn.html | $class_list[classid]-米拓学院
+https://www.baidu.com/s?ie=UTF-8&wd=php%20foreach%20%E9%99%90%E5%88%B6%E5%BE%AA%E7%8E%AF%E6%AC%A1%E6%95%B0 | php foreach 限制循环次数_百度搜索
+https://zhidao.baidu.com/question/808581835682824252.html | php中foreach怎么控制循环次数？_百度知道

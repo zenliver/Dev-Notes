@@ -1,0 +1,8 @@
+/*=== 隐藏browser-sync提示 ===*/
+#__bs_notify__ {
+    display: none !important;
+}
+
+.old-content {
+    display: none;
+}

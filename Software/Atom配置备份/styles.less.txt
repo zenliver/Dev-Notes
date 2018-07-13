@@ -1,0 +1,62 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// 增大全局字号
+* {
+    font-size: 16px;
+}
+
+atom-workspace {
+    font-family: "Microsoft YaHei";
+}
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+    font-family: "Consolas", "Microsoft YaHei" !important;
+    // font-size: 25px !important;
+}
+
+status-bar a {
+    font-size: 16px;
+}
+
+// 增大关闭按钮
+.tab-bar .tab .close-icon::before {
+    font-size: 16px;
+}
+// 隐藏编辑区右侧竖线
+atom-text-editor.editor .wrap-guide {
+    display: none !important;
+}
+// 隐藏左侧代码树提示按钮
+.atom-dock-toggle-button.left {
+    display: none;
+}
+
+// style the background color of the tree view
+.tree-view {
+  // background-color: whitesmoke;
+}
+
+// style the background and foreground colors on the atom-text-editor-element itself
+atom-text-editor {
+  // color: white;
+  // background-color: hsl(180, 24%, 12%);
+}
+
+// To style other content in the text editor's shadow DOM, use the ::shadow expression
+atom-text-editor::shadow .cursor {
+  // border-color: red;
+}

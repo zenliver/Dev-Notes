@@ -1,0 +1,14 @@
+simplified-chinese-menu
+emmet
+file-icons
+minimap
+tree-view-copy-relative-path
+open-in-browsers
+atom-beautify
+jquery-snippets
+atom-ternjs
+livestyle-atom
+pigments
+color-picker
+atom-html-preview
+platformio-ide-terminal

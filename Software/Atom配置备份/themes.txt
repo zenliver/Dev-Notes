@@ -1,0 +1,2 @@
+UI主题：Atom Dark
+语法主题：monokai

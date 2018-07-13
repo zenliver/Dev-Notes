@@ -1,0 +1,2 @@
+﻿WIN+R启动“运行”，打开cmd，执行命令：
+ipconfig/flushdns

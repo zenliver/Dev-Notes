@@ -1,0 +1,138 @@
+/*Code by ZHJ/ZenLiver*/
+/*项目名称*/
+
+/*全站公用样式*/
+
+/*=== 全局样式 ===*/
+
+/*图标*/
+i[class^="xzicon-"] {
+    color: #f7448f !important;
+}
+/*按钮*/
+.btn.important, .btn.blockBtn, .btn.pay {
+    background-color: #ec0971 !important;
+    border-color: #ec0971 !important;
+}
+/*圆角单选框*/
+.hookLabel .hookBox:after {
+    background-color: #ec0971 !important;
+    border-color: #ec0971 !important;
+}
+.hookLabel .hook {
+    color: #fff !important;
+}
+.circleLabel input:checked + .circle, .circleLabel.activeLabel .circle {
+    background-color: #ec0971;
+    color: #ec0971;
+}
+/*文本框focus状态*/
+input.textInput:focus {
+    border-color: #ec0971 !important;
+}
+/*选择开关*/
+.switchLabel .switchBox:after {
+    background-color: #ec0971;
+}
+/*杂项*/
+.iBc, .hookLabel .hookBox:after, .textInput.important, .textarea.important, .selectBtn.active, .tabs a.active, .pagingBox a.active, .search, .selectItem.active .selectLink .circleLabel .circle {
+    /*border-color: #0e465f;*/
+}
+.iBgc, .hookLabel .hookBox:after, .blockBox.important, .pagingBox a.active, .search, .search .searchBtn .btn, .stepBox .stepItem span, .flotAddBtn, #dragDownFreshBarContainer .refreshBg {
+    background-color: #f7448f;
+}
+.sC, .selectBtn.active, .dialogBtnBox .button, .exhibitList > li.active:after, .selectFootBar .b4 {
+    color: #ec0971;
+}
+/*组件/应用标题*/
+.appTitle h2 {
+    font-size: 16px !important;
+}
+/*社会化登陆图标*/
+.user_social i {
+    padding: 10px;
+    border: 1px solid #f7448f;
+    border-radius: 50%;
+}
+/*退出登陆按钮*/
+a.btn.blockBtn.important[role="logoutBtn"] {
+    height: auto;
+    line-height: inherit;
+    background-color: initial !important;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    top: 1px;
+}
+/*商品列表模块通用样式*/
+.goods_list .appColumn .latticePad {
+    margin-top: 10px;
+}
+@media (max-width: 767px) {
+    .goods_list .goods_list_btnBox {
+        /*margin-top: 0;*/
+    }
+}
+
+/*去除html元素的margin-top*/
+.appWrapper[data-appid="htmlcode"] {
+    margin-top: 0;
+}
+/*隐藏响站链接*/
+.copyright a[href*="xiangzhan.com"] {
+    display: none;
+}
+div[id^="a148"] {
+    display: none;
+}
+
+/*=== 全局页中 ===*/
+
+#mainContainer {
+    /*background-color: #f8f8f8;*/
+}
+
+/*=== 页头 ===*/
+
+
+
+/*=== 页尾 ===*/
+
+
+
+/*=== 后台侧栏用户中心 ===*/
+
+.user_center {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.user_center_2 {
+    border: 1px solid #eee;
+    padding: 20px 20px 0 20px;
+}
+@media (min-width: 961px) and (max-width: 1199px) {
+    .user_center {
+        padding-left: 0 !important;
+    }
+}
+.user_center_2_info a.pic img {
+    width: 84px !important;
+    height: 84px !important;
+}
+@media (min-width: 768px) and (max-width: 960px) {
+    .user_center_2_orderTab.user_center_orderTab {
+        display: none;
+    }
+}
+@media (min-width: 961px) and (max-width: 1199px) {
+    .user_center_2_orderTab.user_center_orderTab {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .user_center {
+        display: none;
+    }
+}

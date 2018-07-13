@@ -1,0 +1,517 @@
+﻿http://www.ashuwp.com/courses/simple/81.html | WordPress主题制作基础教程之开始制作模板|wordpress主题定制-阿树工作室
+
+http://www.w3school.com.cn/php/func_string_substr_count.asp | PHP substr_count() 函数
+http://www.lianhewl.com/admin/index.php?lang=cn#metnav_25 | 六匹马网络管理后台
+http://doc.metinfo.cn/muban/#doc_2.3 | 模板制作-MetInfo文档中心
+
+http://6pima.dev/admin/#metnav_29 | 六匹马网络管理后台
+http://6pima.dev/message/index.php?lang=cn#a | 联系-响应式网站设计【六匹马网络】中山响应式网站建设
+http://www.sz0760.com/ | 中山网站建设|中山网页设计|中山网络公司|中山seo|网站优化-【深中互联】
+http://www.sz0760.com/website_knowledge.html | 建站知识|中山网站建设知识|中山网页设计知识-中山网站建设【深中互联】
+http://www.zsceall.com/newshome.html## | 公司新闻-中山做企业网站_网站建设_网站设计_帮维网络_华企立方唯一官网
+http://doc.metinfo.cn/muban/tag/mblable/ | 模板标签-米拓学院
+http://doc.metinfo.cn/muban/tag/mblable/41-cn.html | $nav_list2[$class1]-米拓学院
+http://doc.metinfo.cn/muban/tag/mbfaq/44-cn.html | 栏目标识详解-米拓学院
+http://metinfo-test.dev/ | MetInfo-MetInfo测试网站
+
+http://wp-study.dev/ | Zhongshan GAMDER Electric Co., Ltd. – 又一个WordPress站点
+
+http://www.sz0760.com/jingpinxingwangzhan/45-18.html | 卡姿兰品牌官网-精品型网站-中山网站建设【深中互联】
+http://www.zsceall.com/newsshow-40-43.html## | 个性化定制的网站和模板网站有什么区别？-常见问题-中山做企业网站_网站建设_网站设计_帮维网络_华企立方唯一官网
+https://www.baidu.com/s?ie=UTF-8&wd=php%20%E7%BB%9F%E8%AE%A1%20%E6%97%A0%E6%95%B0%E6%8D%AE%E5%BA%93 | php 统计 无数据库_百度搜索
+https://zhidao.baidu.com/question/262725561827968645.html?qbl=relate_question_0&word=php%20%CD%B3%BC%C6%20%CE%DE%CA%FD%BE%DD%BF%E2 | php如何实现访问统计_百度知道
+
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=wordpress4.8%E5%90%8E%E5%8F%B0%E6%85%A2&oq=wordpress%25E5%2590%258E%25E5%258F%25B0%25E6%2585%25A2&rsv_pq=c2d47c0a000465f0&rsv_t=a59bgsLty72h1j2MN0g9HqsS5DpngIBs4sWyROyuw%2BpL2uaCwIgpKXie60U&rqlang=cn&rsv_enter=1&rsv_sug3=4&rsv_sug1=1&rsv_sug7=100&rsv_sug2=0&prefixsug=wordpress4.8%25E5%2590%258E%25E5%258F%25B0%25E6%2585%25A2&rsp=0&inputT=1418&rsv_sug4=2317 | wordpress4.8后台慢_百度搜索
+http://jingyan.baidu.com/article/219f4bf7f32de2de452d387e.html | 解决Wordpress后台访问速度慢的三种方法_百度经验
+https://www.baidu.com/s?ie=UTF-8&wd=wordpress%204.8%20%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A8%A1%E6%9D%BF | wordpress 4.8 自定义模板_百度搜索
+http://jingyan.baidu.com/article/066074d6817060c3c21cb02e.html | WordPress:自定义页面模板_百度经验
+https://codex.wordpress.org/zh-cn:Main_Page | zh-cn:WordPress 官方中文文档 « WordPress Codex
+https://codex.wordpress.org/zh-cn:%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91 | zh-cn:主题开发 « WordPress Codex
+
+https://www.baidu.com/s?ie=UTF-8&wd=wordpress | wordpress_百度搜索
+
+http://amazeui.org/ | Amaze UI | 中国首个开源 HTML5 跨屏前端框架
+http://bbs.metinfo.cn/search/q-6Iux5paH54mI#all | 英文版 - 搜索 - MetInfo 社区
+http://bbs.metinfo.cn/question/3297 | 请问如何设置单页模板，或者每个栏目都可以自定义模板 - MetInfo 社区
+
+http://bbs.metinfo.cn/question/655 | 怎么添加和管理多个语言网站？ - MetInfo 社区
+https://bbs.metinfo.cn/question/2952 | 不同语言版本之间，产品的集体复制转移。 - MetInfo 社区
+https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl | Full Page Screen Capture - Chrome Web Store
+
+https://www.baidu.com/s?ie=UTF-8&wd=%E6%B8%85%E7%90%86%E5%BE%AE%E4%BF%A1%E5%86%85%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8%E7%BC%93%E5%AD%98 | 清理微信内置浏览器缓存_百度搜索
+https://segmentfault.com/q/1010000002599890 | 前端 - 怎样禁止微信内置浏览器的缓存？ - SegmentFault
+https://www.v2ex.com/t/161685 | 微信内置浏览器怎么清理缓存？ - V2EX
+http://www.cnblogs.com/weihua88/p/5714057.html | 微信内置浏览器无法清除缓存问题 - 可苦可乐8 - 博客园
+
+https://www.51.la/report-before201111/3_Page.asp?ord=p_ci&id=19253391&d1=2017-8-4 | 页面浏览 - 昨日详情 - 6pima.com统计报告 (我要啦提供)
+http://localhost/php-study/article_search.php?keyword=%E5%87%A1%E5%BA%A6&page=3 | “凡度”的搜索结果 - PHP Study
+http://www.w3school.com.cn/jquery/event_submit.asp | jQuery 事件 - submit() 方法
+http://www.w3school.com.cn/tiy/t.asp?f=jquery_event_submit_trigger | W3School在线测试工具 V2
+http://php.net/manual/en/function.echo.php | PHP: echo - Manual
+https://www.baidu.com/s?ie=UTF-8&wd=%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81 | 表单验证_百度搜索
+http://validform.rjboy.cn/ | Validform - 一行代码搞定整站的表单验证！- Jquery表单验证插件
+https://www.baidu.com/s?ie=UTF-8&wd=form%20preventDefault | form preventDefault_百度搜索
+https://zhidao.baidu.com/question/1383310583767520980.html | 用了Jquery的preventDefault阻止表单submit从此再也提交不了了！有没有同学有恢复的办法？_百度知道
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=wamp%20Cache-Control&oq=wamp%2520%25E5%258E%25BB%25E6%258E%2589%25E7%25BC%2593%25E5%25AD%2598&rsv_pq=c820f3070001db64&rsv_t=43feiRTratxAuL5KPrYfrY4jOwrUkuqeb1stokY6Oxx1tgLeaTynY3vxxaw&rqlang=cn&rsv_enter=1&rsv_sug3=3&rsv_sug1=2&rsv_sug7=000&rsv_n=2&bs=wamp%20%E5%8E%BB%E6%8E%89%E7%BC%93%E5%AD%98 | wamp Cache-Control_百度搜索
+http://www.cnblogs.com/zichi/p/4865048.html | 如何在 apache 中设置缓存有效时间 - 韩子迟 - 博客园
+https://www.baidu.com/s?ie=UTF-8&wd=js%20%E5%8E%BB%E6%8E%89%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%89%8D%E5%90%8E%E7%A9%BA%E6%A0%BC | js 去掉字符串前后空格_百度搜索
+http://www.jb51.net/article/87107.htm | Javascript 5种方法实现过滤删除前后所有空格_javascript技巧_脚本之家
+http://www.cnblogs.com/fanyf/p/3785387.html | JS去除字符串左右两端的空格 - 园封记忆 - 博客园
+https://www.baidu.com/s?ie=UTF-8&wd=php%20%E8%BE%93%E5%87%BAhtml | php 输出html_百度搜索
+http://blog.csdn.net/jxyuhua/article/details/88581 | 一种直接用PHP输出HTML代码的方式 - jxyuhua的地盘 - CSDN博客
+https://www.baidu.com/s?ie=UTF-8&wd=php%E8%BE%93%E5%87%BAhtml%E4%BB%A3%E7%A0%81%E5%9D%97 | php输出html代码块_百度搜索
+http://blog.csdn.net/whatday/article/details/54864437 | PHP中添加HTML代码的三种方法（print<<<END） - whatday的专栏 - CSDN博客
+https://www.baidu.com/s?ie=UTF-8&wd=%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E5%89%8D%E5%AF%B9%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86 | 表单提交前对数据处理_百度搜索
+http://www.cnblogs.com/PengLee/p/5650643.html | 表单数据的提交和处理——实例2 - 超级Peng - 博客园
+http://gamder.6pima.com/ | gamder-gamder
+
+http://localhost/php-study/article_search.php | 文章搜索 - PHP Study
+http://www.w3school.com.cn/sql/sql_like.asp | SQL LIKE 操作符
+http://localhost/phpmyadmin/#PMAURL-3:tbl_sql.php?db=php_study&table=article&server=1&target=&token=ca7acf05324c84d2d7cb383534f75613 | localhost / mysql wampserver / php_study / article | phpMyAdmin 4.1.14
+https://www.baidu.com/s?ie=UTF-8&wd=url%E5%8F%82%E6%95%B0%E9%80%97%E5%8F%B7 | url参数逗号_百度搜索
+https://zhidao.baidu.com/question/1993083615038886027.html | 有逗号的URL是用什么技术_百度知道
+http://www.itstrike.cn/Question/83005f33-1d7d-4f67-92ec-f9663458610c.html | [iis]我可以在 URL 中使用逗号吗？
+https://www.baidu.com/s?ie=UTF-8&wd=stoppropagation | stoppropagation_百度搜索
+http://gamder.6pima.com/index.php?lang=en&met_mobileok=1 | gamder-gamder
+http://gamder.6pima.com/about/show.php?lang=ar&id=135 | عن artdna-家的电器
+http://192.168.0.103:3000/about.html | About ARTDNA - Zhongshan GAMDER Electric Co., Ltd.
+https://www.baidu.com/s?ie=UTF-8&wd=mysql%20like%20%E5%8F%98%E9%87%8F | mysql like 变量_百度搜索
+https://zhidao.baidu.com/question/560288002.html | php+mysql+like+通配符+变量_百度知道
+
+http://huayi.dev/product/view/id/498 | 中山市华艺灯饰照明股份有限公司
+
+http://m.huayilighting.com/product/view/id/190 | 中山市华艺灯饰照明股份有限公司
+http://m.huayilighting.com/admin/default/login | 六匹马内容管理系统
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=yii%20404%E9%94%99%E8%AF%AF&oq=Dkcms&rsv_pq=8d9a5c740002bc36&rsv_t=5a64n6sEqWQ9fgntUDo729GECJG6EAneCVPkzv4mLcQbWirmIzpvcJse%2F88&rqlang=cn&rsv_enter=1&rsv_sug3=24&rsv_sug1=4&rsv_sug7=100&_sglink=1&bs=Dkcms | yii 404错误_百度搜索
+http://blog.csdn.net/cc_rain0624/article/details/70570061 | Yii 2.0 GII 访问404错误 - 博客频道 - CSDN.NET
+http://www.yiichina.com/question/1707 | 关于重写路由规则总是出现404错误的问题 - 问答 - Yii Framework 中文社区
+http://huayi.dev/admin | 六匹马内容管理系统
+http://localhost/phpmyadmin/db_structure.php?db=hesti&table=&server=1&target=&token=e37d4fe616b25fe6e46194a85f8b5441#PMAURL-42:index.php?db=&table=&server=1&target=&token=e37d4fe616b25fe6e46194a85f8b5441 | localhost / mysql wampserver | phpMyAdmin 4.1.14
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=CUrlManager.enablePrettyUrl&oq=%2526quot%253B%2526lt%253BUrlManager.enablePrettyUrl%2526quot%253B&rsv_pq=90b382320004f65f&rsv_t=2690HPbaWdv%2Bq9OsiSCDyOMZMZCmSN0nrgjyaNdXWViTUhL%2BtNvnG4XFahE&rqlang=cn&rsv_enter=0&inputT=1884&rsv_sug3=7&rsv_sug4=1884 | CUrlManager.enablePrettyUrl_百度搜索
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=The%20requested%20URL%20was%20not%20found%20on%20this%20server.%20YII&oq=The%2520requested%2520URL%2520%252Fproduct%252Findex%252Fcid%252F10%2520was%2520not%2520found%2520on%2520this%2520server.&rsv_pq=989416c80004c877&rsv_t=3c98un%2BBn3NYVIL2POjCZB%2Bb6uL5No56j9udZKTb04Gd4OjS3gO7muFgz9s&rqlang=cn&rsv_enter=1&rsv_sug3=7&rsv_sug2=0&inputT=4944&rsv_sug4=5999 | The requested URL was not found on this server. YII_百度搜索
+http://www.yiichina.com/topic/5592 | YII2.0 去掉index.php - 话题 - Yii Framework 中文社区
+https://www.baidu.com/s?ie=UTF-8&wd=%E5%BC%80%E5%90%AFapache-rewrite | 开启apache-rewrite_百度搜索
+http://www.cnblogs.com/li-mei/p/5959217.html | apache开启rewrite重写 - 冰柠檬草 - 博客园
+http://192.168.0.103/news/view?cid=28&id=93 | 中山市华艺灯饰照明股份有限公司
+
+http://www.imooc.com/video/3521/0 | WAMPServer多站点配置-慕课网
+https://www.baidu.com/s?wd=wamp2.5%E5%A4%9A%E7%AB%99%E7%82%B9%E9%85%8D%E7%BD%AE&rsf=9&rsp=6&f=1&oq=wamp%20%E5%A4%9A%E7%AB%99%E7%82%B9&ie=utf-8&usm=1&rsv_pq=fde8da540004ab35&rsv_t=9563AwfqG5XtEKn76r40hRyVZhTiz3rhnEAP3cNjjv5l%2Fj1ZOKPeSUojAXI&rqlang=cn&rs_src=0 | wamp2.5多站点配置_百度搜索
+http://blog.csdn.net/u014420383/article/details/47837411 | Wampserver 2.5 多站点配置方法 - Reven_凯的专栏 - CSDN博客
+http://blog.csdn.net/kucoll/article/details/50705383 | Apache2.4.9 多域名多网站配置 - kucoll的专栏 - CSDN博客
+http://shuaibai123.blog.51cto.com/10163353/1639512 | 设置本地wamp环境挂载多站点同时运行 - 白俊遥博客 - 51CTO技术博客
+https://www.baidu.com/s?ie=UTF-8&wd=%E6%9F%A5%E7%9C%8B%E6%9C%AC%E6%9C%BA%E5%B1%80%E5%9F%9F%E7%BD%91IP | 查看本机局域网IP_百度搜索
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=wamp%20%E5%B1%80%E5%9F%9F%E7%BD%91%E8%AE%BF%E9%97%AE%20%E5%A4%9A%E7%AB%99%E7%82%B9&oq=wamp%2520%25E5%259C%25A8%25E7%25BA%25BF%25E7%258A%25B6%25E6%2580%2581%2520%25E5%25A4%259A%25E7%25AB%2599%25E7%2582%25B9&rsv_pq=c7c9ea940001475c&rsv_t=a5983MZXLw7sLM%2F4Oa%2BhquGiIf5LLS8v%2BPk47%2F95fKQG5NAa8nzNK8Jn9Cc&rqlang=cn&rsv_enter=1&inputT=4263&rsv_sug3=50&rsv_sug1=14&rsv_sug7=000&rsv_sug2=0&prefixsug=wamp%2520%25E5%25B1%2580%25E5%259F%259F%25E7%25BD%2591%25E8%25AE%25BF%25E9%2597%25AE%2520%25E5%25A4%259A%25E7%25AB%2599%25E7%2582%25B9&rsp=0&rsv_sug4=5736&rsv_sug=1 | wamp 局域网访问 多站点_百度搜索
+http://www.jianshu.com/p/732b249a1398 | 配置 wamp：局域网访问、自定义根目录、多站点 - 简书
+http://jingyan.baidu.com/article/1709ad808c6b9d4634c4f0b4.html | wamp下Apache2.4.x局域网访问403的解决办法_百度经验
+https://www.baidu.com/s?ie=UTF-8&wd=Undefined%20variable | Undefined variable_百度搜索
+http://www.jb51.net/article/32127.htm | PHP提示Notice: Undefined variable的解决办法_php技巧_脚本之家
+https://www.baidu.com/s?q1=photoshop&q6=portablesoft.org&ie=UTF-8&tn=baiduadv | site:(portablesoft.org) photoshop_百度搜索
+https://www.portablesoft.org/down/2746/ | 下载 Photoshop CS6 Extended 13.0.0.0 Ansifa 完美者特别版（32位） 绿色版 - 精品绿色便携软件
+
+http://localhost/phpmyadmin/#PMAURL-4:sql.php?db=php_study&table=article&server=1&target=&token=e0903b379b7b12f2f51a4a927ace3fd3 | localhost / mysql wampserver / php_study / article | phpMyAdmin 4.1.14
+http://localhost/php-study/admin/index.php# | 文章列表 - 后台管理
+http://www.w3school.com.cn/sql/sql_in.asp | SQL IN 操作符
+https://www.baidu.com/s?ie=UTF-8&wd=%E5%A4%8D%E9%80%89%E6%A1%86%E9%80%89%E4%B8%AD%E4%BA%8B%E4%BB%B6 | 复选框选中事件_百度搜索
+http://blog.csdn.net/gyb_csdn/article/details/51578323 | 单个和多个checkbox选中事件 - Gyb_csdn的博客 - CSDN博客
+http://www.w3school.com.cn/jsref/prop_checkbox_checked.asp | HTML DOM checked 属性
+
+https://www.baidu.com/s?ie=UTF-8&wd=PHP%E8%8E%B7%E5%8F%96url | PHP获取url_百度搜索
+http://www.thinkphp.cn/topic/45176.html | PHP中获取当前页面的完整URL - ThinkPHP框架
+
+http://www.6pima.com/ | 中山响应式网站建设,中山H5网站建设,中山品牌网站建设,中山app开发,中山商城开发-响应式网站设计【六匹马网络】中山响应式网站建设
+http://gamder.6pima.com/product/product.php?lang=en&class3=115 | Zhongshan GAMDER Electric Co., Ltd.
+chrome-extension://ojodgdaaholkmelbddlhnfdgamohijhk/options/index.html#block | 选项
+https://www.baidu.com/s?ie=UTF-8&wd=chrome%20%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%20%E4%BF%AE%E6%94%B9js | chrome 开发者工具 修改js_百度搜索
+https://stackoverflow.com/questions/6657229/how-can-i-edit-javascript-in-my-browser-like-i-can-use-firebug-to-edit-css-html | How can I edit javascript in my browser like I can use Firebug to edit CSS/HTML? - Stack Overflow
+http://www.vandudesign.com/brand/show.php?lang=cn&id=8 | 品牌故事-凡度家居科技有限公司
+http://www.vandudesign.com/message/ | 经销加盟-合作多赢-凡度家居科技有限公司
+http://localhost:3000/jiameng.html | 会员加盟 - 中山市凡度家居科技有限公司
+http://localhost:3000/case_detail.html | 广州华夏汽车城东风本田展厅 - 案例 - 中山市凡度家居科技有限公司
+http://www.loyallighting.com/index.php | Loyal Lighting Co., Ltd
+http://www.rcjsjj.com/ | 日出江山 中式归来、日出江山、中山市博大家具有限公司官方网站
+
+http://localhost/phpmyadmin/tbl_row_action.php#PMAURL-3:sql.php?db=php_study&table=article&server=1&target=&token=07c524b1302f113b1fdbcce6f8c475e7 | localhost / mysql wampserver / php_study / article | phpMyAdmin 4.1.14
+http://localhost/php-study/admin/ | 文章列表 - 后台管理
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=require_once%3A%20failed%20to%20open%20stream%3A%20No%20such%20file%20or%20directory&oq=require_once(.%252Fconfig.php)%253A%2520failed%2520to%2520open%2520stream%253A%2520No%2520such%2520file%2520or%2520directory&rsv_pq=f06f9276000373d6&rsv_t=6bffhgwzv53vQ8ruNJiqb7zvSVMQD0%2B4JPbUaRUYF%2BpRpnnXS8Z5N3EnybA&rqlang=cn&rsv_enter=1&rsv_sug3=2&rsv_sug2=0&inputT=902&rsv_sug4=1837 | require_once: failed to open stream: No such file or directory_百度搜索
+http://www.veryhuo.com/a/view/failed-to-open-stream.html | failed to open stream: No such file or directory 问题大全_最火下载站
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=mysql%20%E8%AE%BE%E5%AE%9A%E5%AD%97%E7%AC%A6%E9%9B%86&oq=sql%2520%25E8%25AE%25BE%25E5%25AE%259A%25E5%25AD%2597%25E7%25AC%25A6%25E9%259B%2586&rsv_pq=c829ff540003d501&rsv_t=7d1637cQG8qkkMXN3fvF90%2F1PNieKANatGa7ktL2BplzxlMEDQOb2tOBVR4&rqlang=cn&rsv_enter=1&rsv_sug3=4&rsv_sug1=1&rsv_sug7=000&rsv_sug2=0&prefixsug=mysql%2520%25E8%25AE%25BE%25E5%25AE%259A%25E5%25AD%2597%25E7%25AC%25A6%25E9%259B%2586&rsp=0&inputT=941&rsv_sug4=1716&rsv_sug=1 | mysql 设定字符集_百度搜索
+http://database.51cto.com/art/201010/229167.htm | 修改mysql默认字符集的方法 - 51CTO.COM
+http://www.imooc.com/video/1819 | 修改文章-慕课网
+
+http://www.mayicy.cn/Index/webshow.shtml | 网站建|设企业网站建设|网站制作|网站建设云平台|网上商城|高端设计定制营|销型网站建设 - 蚂蚁创业
+http://www.mayicy.cn/goods/transfer_show/id/198.shtml | 2年洪山区家政服务公司急转，业务范围广泛 - 公司转让 - 蚂蚁创业
+http://localhost:3000/Public/forgetpass.shtml.htm | 第一站创业，免费公司注册，开公司，商标注册，代理记账，工商登记，网站建设，让创业更简单
+view-source:http://www.mayicy.cn/Goods/transfer.shtml | view-source:www.mayicy.cn/Goods/transfer.shtml
+http://www.mayicy.cn/Goods/transfer.shtml | 公司转让 - 蚂蚁创业
+http://www.mayicy.cn/Public/Home/plugins/layer/layer.js | www.mayicy.cn/Public/Home/plugins/layer/layer.js
+http://layer.layui.com/ | layer官方演示与讲解（jQuery弹出层插件）
+http://www.layui.com/demo/table.html | 表格 - 在线演示 - layui
+http://www.layui.com/ | layui - 经典模块化前端框架
+http://layer.layui.com/mobile/ | layer弹层组件移动版
+http://mywork.6pima.cn/artdna-html/products_detail.html | Doorbell Switch Indoor - A69 series - 86 British Style - Zhongshan GAMDER Electric Co., Ltd.
+https://www.baidu.com/s?ie=UTF-8&wd=imwork | imwork_百度搜索
+http://www.oray.com/ | 花生壳官网|动态域名|免费域名|域名注册|向日葵远程控制|远程桌面-Oray开放的互联网应用服务引领者
+http://hsk.oray.com/ | 花生壳软件-内网也能用！内网动态域名|动态域名解析软件|内外网映射_穿透-Oray花生壳
+http://15u2d53596.imwork.net/ | Zhongshan GAMDER Electric Co., Ltd.
+
+http://bbs.metinfo.cn/question/1628 | 网站外观设置（模板设置） - MetInfo 社区
+http://help.metinfo.cn/metinfobang-zhu-shou-ce.html | 快速使用 MetInfo · MetInfo 帮助文档
+http://bbs.metinfo.cn/question/392 | MetInfo常见使用问题汇总贴 - MetInfo 社区
+http://doc.metinfo.cn/muban/#doc_1.1 | 模板制作-MetInfo文档中心
+http://bbs.metinfo.cn/search/q-6Ieq5a6a5LmJ5qih5p2/#all | 自定义模板 - 搜索 - MetInfo 社区
+http://bbs.metinfo.cn/question/1424 | 为什么 MetInfo 把自定义模板复杂化？ - MetInfo 社区
+
+http://www.orsoon.com/Soft/11302.html | office2010下载|office2010四合一绿色特别版(2016.2.24 更 - 未来软件园下载站
+
+https://www.baidu.com/s?ie=UTF-8&wd=github%E5%86%99%E6%96%87%E7%AB%A0 | github写文章_百度搜索
+http://www.ruanyifeng.com/blog/2017/06/life-after-45.html | 45岁以后的人生 - 阮一峰的网络日志
+https://ruanyf.github.io/survivor/ | 未来世界的幸存者
+https://www.zhihu.com/question/20962496 | 如何在 GitHub 上写博客？ - 知乎
+https://github.com/fredshare/blog/issues?q=label%3Ablog | Issues · fredshare/blog
+https://hexo.io/zh-cn/ | Hexo
+http://chaoo.oschina.io/2016/05/23/Hexo3-2-github%E6%90%AD%E5%BB%BA%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2.html | Hexo3.2+GitHub搭建静态博客 | 秋过冬漫长
+https://www.baidu.com/s?ie=UTF-8&wd=win10%20%E7%B3%BB%E7%BB%9F%E7%9B%98%E6%B8%85%E7%90%86 | win10 系统盘清理_百度搜索
+
+http://s.orsoon.com/cse/search?action=search&q=winrar&s=5088004605437776844&ie=utf-8 | winrar_站内搜索站内搜索
+http://www.orsoon.com/Soft/10416.html | winrar 64位破解版|WinRAR(压缩解压)V5.40【64位】中文特别版 - 未来软件园下载站
+
+https://www.baidu.com/s?wd=win10%200xc000007b&rsf=9&rsp=1&f=1&oq=0xc000007b%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E6%97%A0%E6%B3%95%E6%AD%A3%E5%B8%B8%E5%90%AF%E5%8A%A8%20win10&ie=utf-8&rsv_idx=1&rsv_pq=e21710df00073c73&rsv_t=97ebNnoTt3DXBiUfp7ahfBcwyzUgpFI6BmYb2kHkDngd8u4BlNMjAXedbIg&rqlang=cn&rs_src=0 | win10 0xc000007b_百度搜索
+http://cache.baiducontent.com/c?m=9d78d513d9861af34fece47d0f01d7171b1e97624c86d2177dd6914dc3701c011969b9fd61600705a0d8613751ee5e5c9da177246b1420c0c79fce579be6d0737ec93a357b1c844618d61caf&p=917fc54ad5c343b412be9b7c445398&newp=916f840485cc43ff57ee947c494788231610db2151d4d201298ffe0cc4241a1a1a3aecbf21241102d8c47b6006a44b57ecf03372350034f1f689df08d2ecce7e&user=baidu&fm=sc&query=win10+0xc000007b&qid=d146a8850007204c&p1=6 | vs编译出的程序在win10上报 应用程序无法正常启动0xc000007b-CSDN论坛
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=directxrepair&oq=directxrepairbz&rsv_pq=ac2cc48f00079112&rsv_t=06897MFiweGELQXojskoXUYbHLlmxCzxJYnik5mhTaDMuLbXfdOyEnyYKYM&rqlang=cn&rsv_enter=1&rsv_sug3=2&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&inputT=458&rsv_sug4=2087&rsv_sug=2 | directxrepair_百度搜索
+http://www.crsky.com/soft/31471.html | DirectX修复工具|DirectX修复工具 v3.5 增强版下载_非凡软件站
+http://www.pc6.com/softview/SoftView_57945.html | DirectX修复工具下载 v3.5增强版_DirectX repair - pc6下载站
+http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed19fa950d100b92235c4380146584844623c3933fc23846161121feb124261204d7cf7c7001d8131ab5ae22376a4376b899829f4badea902a2d8a2531200b873105a518b8b84232b721872be8b81897ad803384dfa3c4a95644be53127bf0e7fa2d1762bd7880112690ac8e49654866bdfa4413e829763eec2257b737ee9136797387e1ad585bb05ec76160d2f469a73f62b611&p=8b2a9713919f09e60ebd9b7d0c1690&newp=aa769a4786cc42ae58a98f22445796231610db2151d7d1106b82c825d7331b001c3bbfb423241604d2c67f6707a8425eeaf335783c0021a3dda5c91d9fb4c57479&user=baidu&fm=sc&query=0xc000007b%D3%A6%D3%C3%B3%CC%D0%F2%CE%DE%B7%A8%D5%FD%B3%A3%C6%F4%B6%AF+win10&qid=e21710df00073c73&p1=5 | Win10应用程序无法正常启动提示错误0xc000007b解决方法
+http://blog.csdn.net/marvinoceansdeep/article/details/50453939 | Windows10应用程序无法正常启动0xc000007b怎么解决 - MarvinOceansdeep的专栏 - CSDN博客
+https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=34429 | Download DirectX 9.0c End-User Runtime from Official Microsoft Download Center
+
+http://tieba.baidu.com/p/5044389201 | 最新版本谷歌怎么更改默认编码方式啊？？？【chrome吧】_百度贴吧
+
+http://idangero.us/swiper/demos/ | Swiper Demos
+https://www.baidu.com/s?ie=UTF-8&wd=js%20%E5%88%A4%E6%96%AD%E6%B5%8F%E8%A7%88%E5%99%A8%E8%AF%AD%E8%A8%80 | js 判断浏览器语言_百度搜索
+http://www.cnblogs.com/dreamhome/archive/2013/01/27/2878532.html | JS判断浏览器语言及终端类型 - 风吹屁股凉冰冰 - 博客园
+http://www.jb51.net/article/48368.htm | js 判断浏览器使用的语言示例代码_javascript技巧_脚本之家
+
+http://localhost:3000/products_detail.html | Doorbell Switch Indoor - A69 series - 86 British Style - Zhongshan GAMDER Electric Co., Ltd.
+http://iconfont.cn/manage/index?spm=a313x.7781069.1998910419.db775f1f3&manage_type=myprojects&projectId=353024 | Iconfont-阿里巴巴矢量图标库
+
+https://www.baidu.com/s?ie=UTF-8&wd=%E5%9F%9F%E5%90%8D301%E9%87%8D%E5%AE%9A%E5%90%91 | 域名301重定向_百度搜索
+http://www.luopaichao.com/idc/17.html | 详解301域名重定向跳转设置的7种方法-罗排超IDC博客
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=wordpress%20%E5%A4%9A%E4%B8%AA%E7%BC%96%E8%BE%91%E6%A1%86&oq=wordpress%2520%25E5%25A4%259A%25E4%25B8%25AA%25E7%25BC%2596%25E8%25BE%2591%25E5%2599%25A8&rsv_pq=d9ecf62e0000ccca&rsv_t=cb65YKrJigbaLeGgZr2fz%2F5P5cTyJPZCAT7bE3UaRjDHmdqoIH3qMp43xis&rqlang=cn&rsv_enter=1&inputT=318&rsv_sug3=181&rsv_sug1=64&rsv_sug7=100&bs=wordpress%20%E5%A4%9A%E4%B8%AA%E7%BC%96%E8%BE%91%E5%99%A8 | wordpress 多个编辑框_百度搜索
+https://www.v2ex.com/t/71930#r_652865 | 有对wordpress深入研究的朋友吗?如何在写文章时，再加一个文本编辑框 - V2EX
+https://www.themepark.com.cn/wordpresstjdgbjqfdym.html | wordpress添加多个编辑器（附带源码） - WEB主题公园
+https://www.themepark.com.cn/?s=%E5%A4%9A%E4%B8%AA%E7%BC%96%E8%BE%91%E5%99%A8&cat=0 | 搜索结果: "多个编辑器" -
+http://wanlimm.com/77201506174417.html | wordpress CMS主题怎样格式化文章编辑器，达到分区域编辑文章？ - 高时银博坛
+http://www.ashuwp.com/level/noplugin | 功能集成 | 教程分类 | wordpress主题定制-阿树工作室
+https://www.baidu.com/s?ie=UTF-8&wd=wordpress%E4%BC%81%E4%B8%9A%E7%BD%91%E7%AB%99%E4%B8%BB%E9%A2%98 | wordpress企业网站主题_百度搜索
+https://www.themepark.com.cn/tag/zdypb/ | 找到标签"自定义排版" -
+https://www.baidu.com/s?wd=wordpress%E5%A4%9A%E8%AF%AD%E8%A8%80%E5%88%87%E6%8D%A2&rsf=1&rsp=1&f=1&oq=wordpress%E5%A4%9A%E8%AF%AD%E8%A8%80%E6%8F%92%E4%BB%B6&ie=utf-8&rsv_idx=1&rsv_pq=f627ca30000033a6&rsv_t=3ecdrP8PLjx7%2B9J5oc5VDXI0O7eD8e6QQ9k4YUEbXTc6vF47i36v%2F3CgtVg&rqlang=cn&rs_src=0 | wordpress多语言切换_百度搜索
+https://wpml.org/zh-hans/%e7%89%b9%e8%89%b2/ | 特色 - WPML
+https://www.wpdaxue.com/polylang-multilingual.html | 使用 Polylang 插件让你的 WordPress 站点支持多语言 | WordPress大学
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=fastclick.js%E4%B8%8D%E6%94%AF%E6%8C%81%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA&oq=fastclick.js%25E4%25B8%258D%25E6%2594%25AF%25E6%258C%2581%25E5%25AE%2589%25E5%258D%2593%25E6%2589%258B%25E6%259C%25BA&rsv_pq=e99bd6a200054fd9&rsv_t=4b0fUhE8Y8pWGJGlMPRzIHEh%2BidzgcEVJDi8f59X5a6bF7r1Q1KTFs0ZO4U&rqlang=cn&rsv_enter=0&rsv_sug=1 | fastclick.js不支持安卓手机_百度搜索
+http://amazeui.org/1.x/javascript/fastclick/ | JS 插件 - Fastclick | Amaze UI
+http://blog.csdn.net/laike1355/article/details/51480610 | FastClick消除点击延时提高程序的运行效率 - 新的启程的博客 - 博客频道 - CSDN.NET
+
+http://cloud.youku.com/tools/ | 工具箱 - 优酷视频云
+http://cloud.youku.com/services/info?serid=1 | 免广告
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=ifarme%20%20%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6&oq=%25E7%2582%25B9%25E5%2587%25BBifarme%2520%25E4%25BA%258B%25E4%25BB%25B6%25E5%2586%2592%25E6%25B3%25A1&rsv_pq=eacda7f60000c0bb&rsv_t=9740nNBMDEiZsxm2uQtyyIqmYTxtpyPk2j2NxgNZ3J29yiZhFs0N1KZoZSo&rqlang=cn&rsv_enter=1&rsv_sug3=18&rsv_sug1=8&rsv_sug7=100&rsv_sug2=0&inputT=7907&rsv_sug4=8398 | iframe 点击事件_百度搜索
+http://docs.videojs.com/tutorial-options.html# | Tutorial: options | Video.js Documentation
+
+http://localhost:3000/# | Zhongshan GAMDER Electric Co., Ltd.
+http://www.galanz.com/index.html | Galanz Official Website
+
+http://localhost:3000/ | Zhongshan GAMDER Electric Co., Ltd.
+http://localhost:3000/rd-test.html | 响应式测试
+http://mywork.6pima.cn/artdna/company.html | 设计演示
+http://mywork.6pima.cn/artdna/about.html | 设计演示
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=js%20%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E6%98%AF%E5%90%A6%E5%8C%85%E5%90%AB%E6%95%B0%E5%AD%97&oq=js%2520%25E5%2588%25A4%25E6%2596%25AD%25E5%25AD%2597%25E7%25AC%25A6%25E4%25B8%25B2%25E4%25B8%25AD%25E8%2588%2592%25E6%259C%258D%25E5%258C%2585%25E5%2590%25AB%25E6%2595%25B0%25E5%25AD%2597&rsv_pq=a42234440004eda9&rsv_t=485c%2FrjaZM94KAMlXJAUlzhx8JdkyxLkECvjPv94YtTTtifbMc9LNYW%2FlwY&rqlang=cn&rsv_enter=1&rsv_sug3=8&rsv_sug1=3&rsv_sug7=100&rsv_sug2=0&inputT=1934&rsv_sug4=2580 | js 判断字符串中是否包含数字_百度搜索
+http://jingyan.baidu.com/article/3d69c55140e7b1f0cf02d70e.html | js判断字符串是否为数字_百度经验
+
+https://www.qianduan.net/ | 前端观察
+
+https://www.baidu.com/s?ie=UTF-8&wd=%E7%80%91%E5%B8%83%E6%B5%81%E5%B8%83%E5%B1%80 | 瀑布流布局_百度搜索
+http://www.zhangxinxu.com/wordpress/2012/03/%E5%A4%9A%E6%A0%8F%E5%88%97%E8%A1%A8%E5%8E%9F%E7%90%86%E4%B8%8B%E5%AE%9E%E7%8E%B0%E7%9A%84%E7%80%91%E5%B8%83%E6%B5%81%E5%B8%83%E5%B1%80-waterfall-layout/ | 折腾:瀑布流布局（基于多栏列表流体布局实现） « 张鑫旭-鑫空间-鑫生活
+http://www.zhangxinxu.com/study/201203/waterfall-layout.html | 瀑布流布局测试
+http://www.5icool.org/a/201201/a1002.html | 网页瀑布流布局的几种实现方式分析 - CSS - 酷站代码
+http://www.5icool.org/a/201203/a1141.html | 瀑布流布局：用CSS+DIV等宽格子堆砌瀑布流效果 - CSS - 酷站代码
+
+http://tool.oschina.net/regex/# | 在线正则表达式测试
+http://c.biancheng.net/cpp/html/1435.html | 正则表达式匹配URL或者网址_C语言中文网
+https://www.baidu.com/s?ie=UTF-8&wd=atom%20regex%20find | atom regex find_百度搜索
+https://github.com/atom/find-and-replace/issues/497 | Regex for "^" and "$" are not working · Issue #497 · atom/find-and-replace
+
+http://www.ydcss.com/ | 一点 | gulp详细入门教程
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=framework7%2Bvue&oq=framework7&rsv_pq=fae2592d00336de6&rsv_t=3daaTHMIRl3Hel8Q12y0GMKjMJ5I4wsEuyFgjp%2FOlG2P6z5Xs7pyEjCpa8M&rqlang=cn&rsv_enter=1&rsv_sug3=5&rsv_sug1=4&rsv_sug7=100&rsv_sug2=0&inputT=3475&rsv_sug4=4715 | framework7+vue_百度搜索
+http://www.framework7.cn/ | Framework7 - 完美的HTML框架 可以构建精美的iOS & Android 应用
+http://framework7.taobao.org/ | Framework7 - Full Featured Mobile HTML Framework For Building iOS & Android Apps - cn
+
+http://www.w3school.com.cn/jquery/jquery_fade.asp | jQuery 效果 - 淡入淡出
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=jquery%20%E7%82%B9%E5%87%BB%E5%85%B6%E4%BB%96%E5%9C%B0%E6%96%B9%E9%9A%90%E8%97%8F&oq=jquery%2520%25E7%2582%25B9%25E5%2587%25BB%25E4%25B9%258B%25E5%2590%258E%25E9%2587%258D%25E6%2596%25B0%25E5%2588%25A4%25E6%2596%25AD&rsv_pq=c7dd9e8c0000049c&rsv_t=66faVj7HbgK7YBMrEXfPLGm0fevwDJXkdZADKAnG5FE22%2FNDgY4DDQ0IrGA&rqlang=cn&rsv_enter=1&rsv_sug2=1&prefixsug=jquery%2520%25E7%2582%25B9%25E5%2587%25BB&rsp=3&inputT=44175&rsv_sug4=45822&rsv_sug=1 | jquery 点击其他地方隐藏_百度搜索
+http://www.jb51.net/article/41363.htm | JQuery实现点击div以外的位置隐藏该div窗口_jquery_脚本之家
+http://www.softwhy.com/forum.php?mod=viewthread&tid=8527 | jquery实现点击页面其他地方隐藏指定元素-蚂蚁部落
+http://www.jb51.net/article/43372.htm | 点击页面其它地方隐藏该div的两种思路_javascript技巧_脚本之家
+http://blog.csdn.net/u014175572/article/details/51602502 | jQuery实现点击除了特定div的页面其它地方，隐藏该div功能。 - 博客频道 - CSDN.NET
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=jquery%20%E6%A3%80%E6%B5%8B%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6&oq=jquery%2520%25E9%25A1%25B5%25E9%259D%25A2%25E7%2582%25B9%25E5%2587%25BB%25E4%25B9%258B%25E5%2590%258E%25E9%2587%258D%25E6%2596%25B0%25E6%25A3%2580%25E6%25B5%258B&rsv_pq=d0a828c000005771&rsv_t=79ccRkiSXdaDm5oeloAU2kjJislzfgWqosA%2FcYclQgcozM67qby3%2B04SpzE&rqlang=cn&rsv_enter=1&rsv_sug3=14&rsv_sug1=12&rsv_sug7=100&bs=jquery%20%E9%A1%B5%E9%9D%A2%E7%82%B9%E5%87%BB%E4%B9%8B%E5%90%8E%E9%87%8D%E6%96%B0%E6%A3%80%E6%B5%8B | jquery 检测点击事件_百度搜索
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=jquery%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8B%E9%A1%B5%E9%9D%A2%E6%9F%90%E4%B8%AA%E5%85%83%E7%B4%A0%E6%98%AF%E5%90%A6%E8%A2%AB%E7%82%B9%E5%87%BB&oq=jquery%25E5%25A6%2582%25E4%25BD%2595%25E6%25A3%2580%25E6%25B5%258B%25E9%25A1%25B5%25E9%259D%25A2%25E6%259F%2590%25E4%25B8%25AA%25E5%2585%2583%25E7%25B4%25A0%25E6%2598%25AF%25E5%2590%25A6%25E8%25A2%25AB%25E7%2582%25B9%25E5%2587%25BB&rsv_pq=bae870eb00006eda&rsv_t=a610ghdgqG8UyLKpF3PCwRJIwZ8htYUgcEeSgg9ZrkcrEEx0kulgl%2F0SrTM&rqlang=cn&rsv_enter=0&rsv_sug3=1&rsv_sug1=1&rsv_sug7=100&rsv_sug4=874&rsv_sug=1 | jquery如何检测页面某个元素是否被点击_百度搜索
+http://bbs.csdn.net/topics/391049769 | jquery如何检测页面某个元素是否被点击？-CSDN论坛-CSDN.NET-中国最大的IT技术社区
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=event.stoppropagation()&oq=event&rsv_pq=ed182be500069321&rsv_t=3700r73iXc68%2FPMGiYnpJiFcmrSdZXMGmTRyugNoVJ6%2BvUoq3dG9nl1tWhI&rqlang=cn&rsv_enter=1&rsv_sug3=6&rsv_sug1=6&rsv_sug7=100&rsv_sug2=1&prefixsug=event.stop&rsp=1&inputT=4172&rsv_sug4=4862 | event.stoppropagation()_百度搜索
+http://www.w3school.com.cn/jsref/event_stoppropagation.asp | stopPropagation() 方法
+
+http://www.gokeng.cn/ | 广东办公家具厂家,办公桌椅批发,现代家具定做-国景家具品牌官网
+http://mamilianmeng.xiangzhan.com/ | 进口奶粉,保健品,化妆品
+http://www.mmlm88.com/mobile/ | 妈咪联萌
+view-source:http://www.mmlm88.com/mobile/ | view-source:www.mmlm88.com/mobile/
+http://www.mmlm88.com/mobile/themes/mmlm/css/ectouch.css | www.mmlm88.com/mobile/themes/mmlm/css/ectouch.css
+https://www.baidu.com/s?ie=UTF-8&wd=iconfont | iconfont_百度搜索
+http://www.0760jjw.com/p-56/id-33.html | 人体工学 网布转椅A006系列-中山办公家具网
+
+http://www.brandsh.cn/works | 精选案例 班田互动
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=window.onload&oq=onload&rsv_pq=e1644312000020e1&rsv_t=442bkfIIy5WVT5sj9ZqrexSI0OvjseubMo4xfseNXRZBFKlPWMqdJa3%2Bu%2Bc&rqlang=cn&rsv_enter=1&rsv_sug3=3&rsv_sug1=1&rsv_sug7=100&rsv_sug2=0&inputT=253&rsv_sug4=1737 | window.onload_百度搜索
+http://blog.csdn.net/zndxlxm/article/details/7872090 | window.onload使用方法 - - 博客频道 - CSDN.NET
+http://www.softwhy.com/forum.php?mod=viewthread&tid=6191 | window.onload用法详解-蚂蚁部落
+http://www.w3school.com.cn/jquery/event_load.asp | jQuery 事件 - load() 方法
+
+https://www.apple.com/cn/watch/ | Watch - Apple (中国)
+https://www.baidu.com/s?wd=iframe%E8%87%AA%E5%8A%A8%E9%80%82%E5%BA%94%E9%AB%98%E5%BA%A6&rsf=1&rsp=3&f=1&oq=iframe&ie=utf-8&usm=1&rsv_pq=8011ec7100034915&rsv_t=386fAF5Bnp9VybK80lStHzmKNK080P2%2BCt%2FT8xiFWQJNfEB3dNTEtnO9uoM&rqlang=cn&rs_src=0 | iframe自动适应高度_百度搜索
+https://www.baidu.com/s?wd=%E5%B5%8C%E5%A5%97%E9%A1%B5%E9%9D%A2%E9%99%A4%E4%BA%86%E7%94%A8iframe&rsf=1&rsp=5&f=1&oq=iframe&ie=utf-8&usm=1&rsv_pq=8011ec7100034915&rsv_t=386fAF5Bnp9VybK80lStHzmKNK080P2%2BCt%2FT8xiFWQJNfEB3dNTEtnO9uoM&rqlang=cn&rs_src=0&rsv_pq=8011ec7100034915&rsv_t=386fAF5Bnp9VybK80lStHzmKNK080P2%2BCt%2FT8xiFWQJNfEB3dNTEtnO9uoM | 嵌套页面除了用iframe_百度搜索
+http://www.w3school.com.cn/tags/tag_iframe.asp | HTML <iframe> 标签
+https://www.baidu.com/s?ie=UTF-8&wd=iframe%E5%8F%AA%E6%98%BE%E7%A4%BA%E4%B8%80%E9%83%A8%E5%88%86 | iframe只显示一部分_百度搜索
+http://www.cnblogs.com/limeiky/p/5856506.html | iframe 内显示的网页 只显示改网页的某一部分！ - limeiky - 博客园
+
+https://www.baidu.com/s?ie=UTF-8&wd=%E5%8E%9F%E7%94%9FJS%E8%A7%A6%E6%91%B8%E4%BA%8B%E4%BB%B6 | 原生JS触摸事件_百度搜索
+https://www.baidu.com/s?ie=UTF-8&wd=jquery%20%E8%A7%A6%E6%91%B8%E4%BA%8B%E4%BB%B6 | jquery 触摸事件_百度搜索
+https://www.w3.org/TR/2013/REC-touch-events-20131010/#the-touchstart-event | Touch Events
+https://developer.mozilla.org/zh-CN/docs/Web/API/TouchEvent#触摸事件的类型 | TouchEvent - Web API 接口 | MDN
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=html5%20audio%20autoplay%20%E6%97%A0%E6%95%88&oq=html5%2520autoplay%2520%25E6%2597%25A0%25E6%2595%2588&rsv_pq=fd7ebcf90003083a&rsv_t=d88bskYCC%2BwswOjXvsTLeLfoIPJ%2ByJ%2Ftny2ubgN5APVI1ucQAf2kWTogujY&rqlang=cn&rsv_enter=1&rsv_sug3=7&rsv_sug2=0&inputT=1755&rsv_sug4=2466 | html5 audio autoplay 无效_百度搜索
+https://segmentfault.com/q/1010000002565534 | 前端 - HTML5的audio标签设置了autoplay属性在手机端出现的问题 - SegmentFault
+http://cdn.gbtags.com/gblibraryassets/2014xmas/demo.html#page1 | HAPPY XMAS
+https://p.baidu.com/question/18a06162636135623266620100 | audio标签手机自动播放？- 百度派
+http://www.w3school.com.cn/tags/html_ref_audio_video_dom.asp | HTML 5 视频/音频参考手册
+http://www.w2bc.com/Article/32117 | 移动端开发：使用Zepto还是jQuery Mobile-爱编程
+https://www.baidu.com/s?ie=UTF-8&wd=zepto%20touch%E4%BA%8B%E4%BB%B6 | zepto touch事件_百度搜索
+http://jingyan.baidu.com/article/7f766daf5936914101e1d03d.html | zepto.js 处理Touch事件_百度经验
+https://segmentfault.com/q/1010000002685539 | javascript - zepto.js touch事件问题 - SegmentFault
+http://www.uedsc.com/zepto-js-touch-event.html | Zepto.js触摸Touch事件说明 - Zepto.js中文API文档 - 开源文档 - 问说网
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=zepto%20touch.js&oq=js%2520cdn&rsv_pq=b08e1d510000bc0f&rsv_t=4c32Ng73%2B6eyB9akdgVWiHoo5KwD6OVEZDVUNxdQt0jhItSXf88bUgCTSa4&rqlang=cn&rsv_enter=1&rsv_sug3=11&rsv_sug1=11&rsv_sug7=100&rsv_sug2=1&prefixsug=zepto%2520touch&rsp=2&inputT=10009&rsv_sug4=10010&rsv_sug=1 | zepto touch.js_百度搜索
+http://www.w3school.com.cn/jquery/event_trigger.asp | jQuery 事件 - trigger() 方法
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=html5%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8&oq=%25E8%2583%258C%25E6%2599%25AF%25E9%259F%25B3%25E4%25B9%2590%2520%25E7%25BD%2591%25E9%25A1%25B5%25E5%25BC%2580%25E5%258F%2591&rsv_pq=8d46888c00073a4c&rsv_t=677c%2BLIjlTBpPNkahv8eWtcTY0nHhznS2HcWemlVTtmDNigodxsgoE%2BKM1A&rqlang=cn&rsv_enter=1&inputT=7757&rsv_sug3=37&rsv_sug1=21&rsv_sug7=100&bs=%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90%20%E7%BD%91%E9%A1%B5%E5%BC%80%E5%8F%91 | html5音乐播放器_百度搜索
+http://www.cnblogs.com/Scott-se7en/p/5654013.html | 一款好看+极简到不行的HTML5音乐播放器-skPlayer - Scott丶 - 博客园
+http://blog.csdn.net/zoutongyuan/article/details/38359869 | HTML5之audio实战，网页音乐播放器开发 - code小王子 - 博客频道 - CSDN.NET
+https://github.com/search?q=music+player&type=Repositories&utf8=%E2%9C%93 | Search · music player · GitHub
+https://github.com/DIYgod/APlayer | GitHub - DIYgod/APlayer: Wow, such a beautiful HTML5 music player
+https://aplayer.js.org/ | APlayer Demo
+https://aplayer.js.org/docs/#/?id=introduction | APlayer docs
+
+https://www.baidu.com/s?ie=UTF-8&wd=jquery%E8%8E%B7%E5%8F%96%E9%9A%90%E8%97%8F%E5%85%83%E7%B4%A0%E7%9A%84%E9%AB%98%E5%BA%A6 | jquery获取隐藏元素的高度_百度搜索
+http://www.cnblogs.com/catherineSue/p/6123272.html | [jQuery]无法获取隐藏元素（display:none）宽度(width)和高度(height)的新解决方案 - cather-sier - 博客园
+http://www.bootcdn.cn/jquery.actual/ | jquery.actual | Bootstrap中文网开源项目免费 CDN 加速服务
+http://vandu.6pima.cn/ | 中山市凡度家居科技有限公司
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=zepto%20jquery%20mobile&oq=zepto%20jquery&rsv_pq=cec273b900004fc2&rsv_t=a4c7JgX0j4kH60Zm7rBdkNHYZ%2FwDNQCa2tMWCDU12ISZX3yWhnoigSOt9io&rqlang=cn&rsv_enter=1&rsv_slog=enter_key&inputT=2781&rsv_sug3=15&rsv_sug1=14&rsv_sug2=0&rsv_sug4=3083 | zepto jquery mobile_百度搜索
+http://www.tuicool.com/articles/EBf6za | 移动端开发：使用jQuery Mobile还是Zepto - 推酷
+http://www.runoob.com/jquerymobile/jquerymobile-events-touch.html | jQuery Mobile 触摸事件 | 菜鸟教程
+http://www.w3school.com.cn/jquerymobile/jquerymobile_ref_events.asp | jQuery Mobile 事件
+http://www.bootcdn.cn/jquery-mobile/ | jquery-mobile | Bootstrap中文网开源项目免费 CDN 加速服务
+https://www.baidu.com/s?wd=%E7%A7%BB%E5%8A%A8%E7%AB%AF%E4%BA%8B%E4%BB%B6%E5%A4%84%E7%90%86%E6%A1%86%E6%9E%B6&rsf=1&rsp=1&f=1&oq=%E7%A7%BB%E5%8A%A8%E7%AB%AF%E4%BA%8B%E4%BB%B6&ie=utf-8&usm=1&rsv_pq=988e61b9000182c8&rsv_t=809aDHTbnPinxuX68RAsDy3e%2B8pVh4t4SQRRneBszjtXU9ZT%2Fi9XCNxK2X8&rqlang=cn&rs_src=0 | 移动端事件处理框架_百度搜索
+
+http://www.php100.com/manual/jquery/ajaxComplete.html | ajaxComplete(callback) | jQuery API 1.12 中文文档 | jQuery API 在线手册
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=jquery%E8%8E%B7%E5%8F%96%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E7%9A%84%E5%86%85%E5%AE%B9&oq=%25E4%25BF%25AE%25E6%2594%25B9ajax%25E7%2594%259F%25E6%2588%2590%25E7%259A%2584%25E5%2586%2585%25E5%25AE%25B9&rsv_pq=e44603f50001dece&rsv_t=b2eb5OVx2NazYRYv5O6AsLVvLbrTzJjqMAut4Cq7Z2RSzgb1j%2BlQP9rCvU4&rqlang=cn&rsv_enter=1&inputT=1837&rsv_sug3=53&rsv_sug1=45&rsv_sug7=100&bs=%E4%BF%AE%E6%94%B9ajax%E7%94%9F%E6%88%90%E7%9A%84%E5%86%85%E5%AE%B9 | jquery获取动态生成的内容_百度搜索
+http://blog.csdn.net/wk199351/article/details/70229127 | jQuery获取动态创建元素的内容 - 博客频道 - CSDN.NET
+
+http://www.langmeimall.com/ | 首页-朗美商城
+http://xiangzhan.com/admin/index | 响站，响应式全平台应用，免费的全平台营销系统
+http://www.mmlm88.com/p-shop_my_order.html | 我的订单
+
+http://fancyapps.com/fancybox/3/ | fancyBox - Touch enabled, responsive and fully customizable jQuery lightbox script
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=PS%E4%BF%AE%E6%94%B9%E7%BA%AF%E8%89%B2%E5%9B%BE%E6%A0%87%E9%A2%9C%E8%89%B2&oq=%25E4%25BF%25AE%25E6%2594%25B9%25E5%259B%25BE%25E7%2589%2587%25E9%25A2%259C%25E8%2589%25B2&rsv_pq=ddd38ff70013e1a8&rsv_t=a0f2xZ7T2DYL5OGHqiXSryvezsecnKcR%2FG%2FtxtLUa32rhHxzD1dGb3al18w&rqlang=cn&rsv_enter=1&inputT=9950&rsv_sug3=46&rsv_sug1=27&rsv_sug7=100&rsv_sug2=0&rsv_sug4=9950 | PS修改纯色图标颜色_百度搜索
+http://www.jianshu.com/p/38885acaa256 | 【整理】用PS修改PNG格式图标的颜色 - 简书
+https://github.com/jlmakes/scrollreveal | GitHub - jlmakes/scrollreveal: Easy scroll animations for web and mobile browsers.
+
+http://mywork.6pima.cn/to-designer/ | 给设计师的建议
+
+https://www.baidu.com/s?ie=UTF-8&wd=%E6%8F%90%E6%88%90%E6%96%B9%E6%A1%88 | 提成方案_百度搜索
+https://www.baidu.com/s?ie=UTF-8&wd=%E4%B9%B0%E7%A4%BE%E4%BF%9D | 买社保_百度搜索
+https://zhidao.baidu.com/question/310451551.html | 五险一金和三险一金的区别在哪？_百度知道
+
+http://bbs.csdn.net/topics/380099053 | js 获取网络图片的长宽。-CSDN论坛-CSDN.NET-中国最大的IT技术社区
+http://www.jb51.net/article/45018.htm | 深入理解javascript中return的作用_基础知识_脚本之家
+http://www.cnblogs.com/kenshinobiy/p/5614233.html | 通过url获取图片尺寸的几种方法：JS和php - 谦信君 - 博客园
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=js%E8%8E%B7%E5%8F%96%E8%BF%9C%E7%A8%8B%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F&oq=%25E8%258E%25B7%25E5%258F%2596%25E8%25BF%259C%25E7%25A8%258B%25E5%259B%25BE%25E7%2589%2587%25E5%25A4%25A7%25E5%25B0%258F&rsv_pq=ffd39d99000464ae&rsv_t=a49d3RmfDfwXdwVijPvQC%2F7J4wNzL%2BSDUXtHE%2B8nM%2FpS2JKOOhAgjrUCgBM&rqlang=cn&rsv_enter=1&rsv_sug3=4&rsv_sug1=1&rsv_sug7=100&rsv_sug2=0&inputT=1036&rsv_sug4=2264&rsv_sug=1 | js获取远程图片大小_百度搜索
+http://blog.csdn.net/kinglilei/article/details/6781961 | js 获取远程图片大小（判断上传图片大小） - 网站爱好者 - 博客频道 - CSDN.NET
+http://www.jb51.net/article/49654.htm | JavaScript获取图片的原始尺寸以宽度为例_javascript技巧_脚本之家
+
+https://mall.jd.com/index-179249.html | 国景家具旗舰店 - 京东
+https://mall.jd.com/view_page-59802750.html | 国景家具旗舰店 - 京东空间配套
+
+https://segmentfault.com/a/1190000006813431 | vue.js快速入门 - 前沿开发团队 - SegmentFault
+https://segmentfault.com/q/1010000005838416 | 推荐给新手学哪款前端框架比较合适？ - SegmentFault
+https://segmentfault.com/a/1190000008669330 | 基于Vue2.0高仿微信App·第一期 - 阿荡 - SegmentFault
+https://segmentfault.com/q/1010000005148104 | vue.js - 门外汉问下vue - SegmentFault
+
+http://www.php100.com/manual/jquery/jQuery.Ajax.html | $.ajax(url,[settings]) | jQuery API 1.12 中文文档 | jQuery API 在线手册
+http://justcoding.iteye.com/blog/1366102/ | AJAX 跨域请求 - JSONP获取JSON数据 - Just Code - ITeye技术网站
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=jsonp%20Uncaught%20SyntaxError%3A%20Unexpected%20token%20%3A&oq=Uncaught%2520Syntax%2526gt%253Brror%253A%2520Unexpected%2520token%2520%253A&rsv_pq=a0967a4d000181ce&rsv_t=75c06nCXNfJjbIxZ3PxLJKVHXgQ%2BnLC4RGSxPVgD0CRRVoZRybwduutdFRY&rqlang=cn&rsv_enter=1&rsv_sug3=7&rsv_sug1=1&rsv_sug7=100&rsv_sug2=0&prefixsug=jsonp%2520Uncaught%2520Syntax%2526gt%253Brror%253A%2520Unexpected%2520token%2520%253A&rsp=3&inputT=2238&rsv_sug4=3749 | jsonp Uncaught SyntaxError: Unexpected token :_百度搜索
+http://blog.csdn.net/wqmain/article/details/8905287 | Nutz 框架下 测试 jQuery-JSONP 插件跨域调用功能（Uncaught SyntaxError: Unexpected token : 出错原因解释） - 千骑卷平冈的专栏 -- wqmain@163.com - 博客频道 - CSDN.NET
+http://bbs.csdn.net/topics/390669882 | 微信开发getJSON神奇问题-CSDN论坛-CSDN.NET-中国最大的IT技术社区
+
+https://github.com/nolimits4web/Swiper | nolimits4web/Swiper: Most modern mobile touch slider with hardware accelerated transitions
+https://github.com/nolimits4web/Swiper/blob/master/demos/33-responsive-breakpoints.html#L76 | Swiper/33-responsive-breakpoints.html at master · nolimits4web/Swiper
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=background-attachment%3Afixed%20%E5%9B%BE%E7%89%87%E4%BC%9A%E6%94%BE%E5%A4%A7&oq=background-attachment%253Afixed%2520%25E5%259B%25BE%25E7%2589%2587%25E6%2594%25BE%25E5%25A4%25A7&rsv_pq=ed09197800007dab&rsv_t=c373oSph8Xq8LkH1qouxc8TxODx5xZ0SarZKIqUG%2FIfNHW2TFmhecAASrrU&rqlang=cn&rsv_enter=1&inputT=9159&rsv_sug3=40&bs=background-attachment%3Afixed%20%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7 | background-attachment:fixed 图片会放大_百度搜索
+http://www.w3school.com.cn/cssref/pr_background-position.asp | CSS background-position 属性
+https://github.com/scniro/gulp-clean-css | scniro/gulp-clean-css: Minify css with clean-css.
+
+https://www.baidu.com/s?wd=css%20cusor&ie=UTF-8&tn=02049043_42_pg&ch=5 | css cusor_百度搜索
+http://blog.csdn.net/woshixuye/article/details/7422985 | jQuery中return false,e.preventDefault(),e.stopPropagation()的区别 - IT徐胖子的专栏 - 博客频道 - CSDN.NET
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=js%20%E7%A6%81%E6%AD%A2%E9%80%89%E4%B8%AD&oq=css%2520%25E7%25A6%2581%25E6%25AD%25A2%25E9%2580%2589%25E4%25B8%25AD&rsv_pq=e252dfa3004488fd&rsv_t=ad2eJAR9W01AV7Yr4BBRw%2BlITPtc7QY4M1cBWVQHws%2FDTqZbpkH3crjFwq8&rqlang=cn&rsv_enter=1&rsv_sug3=3&rsv_sug1=1&rsv_sug7=100&rsv_sug2=0&inputT=903&rsv_sug4=903 | js 禁止选中_百度搜索
+http://www.jb51.net/css/152430.html | css禁止html标签被选中的方法_CSS教程_CSS_网页制作_脚本之家
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E6%A4%AD%E5%9C%86%E9%80%89%E6%A1%86%E5%B7%A5%E5%85%B7%20%E5%88%87%E5%9B%BE%20%E5%9C%86%E5%BD%A2&oq=%25E6%25A4%25AD%25E5%259C%2586%25E9%2580%2589%25E6%25A1%2586%25E5%25B7%25A5%25E5%2585%25B7&rsv_pq=b55dffd500015838&rsv_t=862eLFb5ZbsjOm0U2WO3qyC2uVOq3hdfXVH5rlodPz0F3E%2FAsdnhTqLXjyU&rqlang=cn&rsv_enter=1&rsv_sug3=29&rsv_sug1=8&rsv_sug7=100&rsv_sug2=0&inputT=13528&rsv_sug4=164138 | 椭圆选框工具 切图 圆形_百度搜索
+http://www.jianshu.com/p/1031b8aee925 | 特殊形状的切图处理 - 简书
+https://www.baidu.com/s?wd=ps%E8%B0%83%E6%95%B4%E5%9C%86%E5%BD%A2%E9%80%89%E5%8C%BA%E5%A4%A7%E5%B0%8F&rsf=9&rsp=0&f=1&oq=PS%20%E8%B0%83%E6%95%B4%E5%9C%86%E5%BD%A2%E9%80%89%E5%8C%BA%E7%9A%84%E5%A4%A7%E5%B0%8F&ie=utf-8&rsv_pq=82f867350001b3c9&rsv_t=0b05t07PeXaRU8lTimI7zmVB7XDPTLST%2FnQrXSoyvhVZJpdkCBjxl5fvgTY&rqlang=cn&rs_src=0 | ps调整圆形选区大小_百度搜索
+https://zhidao.baidu.com/question/535353715.html | PS精确调整选区大小_百度知道
+
+http://www.cnblogs.com/dh-dh/p/6206975.html | 关于overflow-x: hidden隐藏滚动条失效的解决方案 - chenby - 博客园
+https://segmentfault.com/q/1010000005849211 | css - overflow-x 无效 - SegmentFault
+https://www.zhihu.com/question/35453154 | 在移动端设置overflow:hidden为什么页面还能滚？要怎么禁止 - 前端开发 - 知乎
+http://www.w3school.com.cn/jsref/jsref_slice_string.asp | JavaScript slice() 方法
+
+http://www.jb51.net/css/25994.html | CSS first-letter实现首字下沉_CSS教程_CSS_网页制作_脚本之家
+http://lbsyun.baidu.com/index.php?title=jspopular | jspopular - Wiki
+http://developer.baidu.com/map/jsdemo.htm#a1_7 | 地图API示例
+https://www.baidu.com/s?ie=UTF-8&wd=%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE%20%E6%A0%87%E6%B3%A8%20%E8%87%AA%E5%AE%9A%E4%B9%89 | 百度地图 标注 自定义_百度搜索
+http://blog.csdn.net/itmyhome1990/article/details/50238901 | 百度地图API 自定义标注图标 - itmyhome的专栏 - 博客频道 - CSDN.NET
+http://blog.csdn.net/chenmoquan/article/details/13631673 | 百度地图API，自定义地图标注 - 博客频道 - CSDN.NET
+
+https://segmentfault.com/a/1190000007007885 | css table布局大法，解决你大部分居中、多列等高、左右布局的问题 - 文章总结 - SegmentFault
+http://www.w3school.com.cn/tags/tag_video.asp | HTML <video> 标签
+http://demo.zs-web.cn/
+https://www.baidu.com/s?ie=UTF-8&wd=VideoJS | VideoJS_百度搜索
+http://www.bubuko.com/infodetail-483875.html | 一款开源免费跨浏览器的视频播放器--videojs使用介绍-布布扣-bubuko.com
+http://videojs.com/getting-started/ | Getting Started with Video.js - Video.js: The Player Framework
+http://videojs.com/ | Video.js: The Player Framework
+https://github.com/videojs/video.js | videojs/video.js: Video.js - open source HTML5 & Flash video player
+
+http://re-view.emmet.io/ | Emmet Re:view — fast and easy way to test responsive design in multiple viewports
+https://www.baidu.com/s?ie=UTF-8&wd=html5%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8 | html5视频播放器_百度搜索
+http://www.helloweba.com/view-blog-266.html | 跨浏览器兼容的HTML5视频音频播放器_Helloweba
+
+https://segmentfault.com/q/1010000003982515?_ea=445950 | photoshop - ps 如何将多个图层快速导出为一张图片 - SegmentFault
+http://fontawesome.io/icons/ | Font Awesome Icons
+http://fontawesome.io/examples/ | Font Awesome Examples
+http://v3.bootcss.com/javascript/#carousel | JavaScript 插件 · Bootstrap v3 中文文档
+https://hackerthemes.com/bootstrap-cheatsheet/ | Bootstrap 4 Cheat Sheet
+
+http://fancybox.net/howto | Fancybox - Fancy jQuery lightbox alternative| How to use
+http://www.jq22.com/jquery-info28 | 强大的弹出框插件-FANCYBOX
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=event.preventDefault&oq=fff&rsv_pq=80e9d38b0000238b&rsv_t=a5fbSqdIMPNAAi4DKCv78%2BFLCIy4BdpfEKkcGbV6Ya32PGvIM9pOd3WVU3g&rqlang=cn&rsv_enter=1&rsv_n=2&rsv_sug3=1&bs=fff | event.preventDefault_百度搜索
+
+http://v3.bootcss.com/components/#thumbnails | 组件 · Bootstrap v3 中文文档
+http://v3.bootcss.com/css/#images | 全局 CSS 样式 · Bootstrap v3 中文文档
+http://www.jq22.com/yanshi28 | 强大的弹出框插件-FANCYBOX
+https://www.baidu.com/s?ie=UTF-8&wd=fancybox | fancybox_百度搜索
+file:///D:/ZHJ/JS%E5%BA%93/fancyapps-fancyBox-v2.1.6-0-gc00852a/fancyapps-fancyBox-c00852a/demo/index.html | fancyBox - Fancy jQuery Lightbox Alternative | Demonstration
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=jquery%20attr%20%E8%BE%93%E5%87%BA%E6%95%B0%E7%BB%84&oq=jquery%2520attr%2520%25E6%2595%25B0%25E7%25BB%2584&rsv_pq=fd982fe20009d254&rsv_t=7d6b8VX7gzfMQvD9V0EHZ%2Fsovf3exBPfGVOc0A%2BkydrBQMtz2aMZpAjiNTE&rqlang=cn&rsv_enter=1&rsv_sug3=8&rsv_sug1=1&rsv_sug7=000&rsv_sug2=0&inputT=1631&rsv_sug4=2463&rsv_sug=1 | jquery attr 输出数组_百度搜索
+https://zhidao.baidu.com/question/286865406.html | jquery的attr()如何取得所有匹配元素的值?_百度知道
+http://www.w3school.com.cn/jquery/jquery_traversing_filtering.asp | jQuery 遍历 - 过滤
+
+http://www.imooc.com/code/2290 | 表格-慕课网
+http://www.imooc.com/learn/101 | 瀑布流布局-慕课网
+https://www.baidu.com/s?ie=UTF-8&wd=bootstrap%E9%80%9F%E6%9F%A5%E8%A1%A8 | bootstrap速查表_百度搜索
+http://www.uisdc.com/frontend-quick-search-sheet | 前端丨超全面+最流行的「前端速查表」高清版大全
+https://daneden.github.io/animate.css/ | Animate.css
+
+http://yeoman.io/ | The web's scaffolding tool for modern webapps | Yeoman
+http://yeoman.io/generators/ | Generators | Yeoman
+
+https://mp.weixin.qq.com/acct/wxverify?action=step&t=wxverify/index&token=261360835&lang=zh_CN&step=stuff | 微信公众平台
+http://kf.qq.com/faq/120911VrYVrA151214Fz26zm.html | 腾讯客服-公众平台认证教程
+http://kf.qq.com/faq/120911VrYVrA150929Fjqeei.html | 腾讯客服-微信认证申请流程（企业类型）
+http://kf.qq.com/faq/120322fu63YV131031EZJJ77.html | 腾讯客服-公众平台如何申请微信认证？
+http://kf.qq.com/faq/120322fu63YV131224ymQRNB.html | 腾讯客服-公众平台支付验证注册方式及微信认证相关问题
+http://kf.qq.com/faq/120911VrYVrA131101fqe22I.html | 腾讯客服-问题解答
+
+https://pugjs.org/api/getting-started.html | Getting Started – Pug
+https://pugjs.org/language/includes.html | Includes – Pug
+http://www.embeddedjs.com/getting_started.html#when_to_use_ejs | EJS - JavaScript Templates
+https://github.com/mde/ejs | GitHub - mde/ejs: Embedded JavaScript templates -- http://ejs.co
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=pug%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E&oq=pug%25E6%25A8%25A1%25E6%259D%25BF&rsv_pq=878a8fb500026dd7&rsv_t=b3b76aNbq5m4%2FnuUd0nU%2BQv6vefLM9HSIjFdqjrTL8r3AGaKLki4rsKOWUY&rqlang=cn&rsv_enter=1&rsv_sug3=14&rsv_sug1=16&rsv_sug7=100&rsv_sug2=1&prefixsug=pug%25E6%25A8%25A1%25E6%259D%25BF&rsp=1&rsv_sug4=626&rsv_sug=1 | pug模板引擎_百度搜索
+https://segmentfault.com/a/1190000006198621 | Pug模板（一） - 前后端知识分享 - SegmentFault
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=Jade%20%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E&rsv_pq=92108078000196c4&rsv_t=6e31cb%2BKOUJUUbxlzDEPlFcEM0EmZfSMkwxCDmFXpOXTcl%2BrB5v5rnBoYSA&rqlang=cn&rsv_enter=1&gpc=stf%3D1455674773%2C1487297173%7Cstftype%3D1&tfflag=1 | Jade 模板引擎_百度搜索
+https://www.baidu.com/s?ie=UTF-8&wd=gulp%20include | gulp include_百度搜索
+https://www.npmjs.com/package/gulp-file-include | gulp-file-include
+https://segmentfault.com/a/1190000003787713 | BrowserSync — 你值得拥有的前端同步测试工具 - Reeoo's Page - SegmentFault
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=gulp-file-include%20%E5%AE%9E%E6%97%B6%E7%BC%96%E8%AF%91&oq=gulp-file-include%2520%25E5%25AE%259E%25E6%2597%25B6%25E7%25BC%2596%25E8%25AF%2591&rsv_pq=a91495390006bcf4&rsv_t=3487DXkv7X1POEsG6y7p4DB%2FxA%2FYsVWHP7rIAX3ERV%2Bhg6ucumhYorLu4p8&rqlang=cn&rsv_enter=0&prefixsug=gulp-file-include%2520%25E5%25AE%259E%25E6%2597%25B6%25E7%25BC%2596%25E8%25AF%2591&rsp=0 | gulp-file-include 实时编译_百度搜索
+https://www.baidu.com/s?ie=UTF-8&wd=gulp | gulp_百度搜索
+
+http://cnodejs.org/topic/534e6ab61969a7b22a0b44c1 | ejs 如何动态 include 模板？ - CNode技术社区
+https://www.zhihu.com/question/20355486 | 关于nodejs的模板引擎，如何选择 EJS 和 Jade？ - 前端开发 - 知乎
+https://www.zhihu.com/question/46418330 | 如何看待模板引擎 Jade 改名为 Pug？ - Node.js - 知乎
+https://www.oschina.net/news/77853/how-about-learn-javascript-at-2016 | 在 2016 年学 JavaScript 是一种什么样的体验？ - 开源中国社区
+http://www.cnblogs.com/duanhuajian/archive/2012/10/28/2743832.html | Mobile Web调试工具Weinre - 挨踢前端 - 博客园
+http://blog.csdn.net/frontender_way/article/details/52460092 | 手机访问本地项目实现远程调试的几种办法 - FrontEnder_way的博客 - 博客频道 - CSDN.NET
+
+http://www.xiangzhan.com/ | 不用编程做响应式网站、App和微信公众号-响站
+http://www.orsoon.com/Soft/14682.html | photoshop cc破解版|Photoshop CC 中文版下载V16.1.1 绿色便携版 - 未来软件园下载站
+http://www.rarlab.com/download.htm | WinRAR archiver, a powerful tool to process RAR and ZIP files
+http://cnodejs.org/topic/4f9904f9407edba21468f31e | 使用npm安装一些包失败了的看过来（npm国内镜像介绍） - CNode技术社区
+https://npm.taobao.org/ | 淘宝 NPM 镜像
+http://caibaojian.com/nodejs-roll-back.html | nodejs安装不了和npm安装不了的解决方法-前端开发博客
+https://www.zhihu.com/question/24225392 | HTML如何分模块设计并include？ - 前端开发 - 知乎
+https://code.google.com/p/embeddedjavascript/w/list
+
+http://www.w3school.com.cn/jquery/event_die.asp | jQuery 事件 - die() 方法
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=alert%E4%B8%8D%E5%81%9C%E7%9A%84%E5%BC%B9&oq=alert%25E5%258F%25AA%25E5%25BC%25B9%25E4%25B8%2580%25E6%25AC%25A1&rsv_pq=bc771812000189e7&rsv_t=47d0fxxRaLblxlqZBaPq2AsmMOCqEQwp43rE5GqUyzgXNpKvhbGkReQLgHo&rqlang=cn&rsv_enter=1&rsv_sug3=11&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&inputT=3772&rsv_sug4=5715 | alert不停的弹_百度搜索
+
+http://www.ayytong.com/ | 爱育幼童官网_右脑开发_全脑开发_早教中心_全脑教育_潜能开发_幼小衔接加盟
+http://www.6pima.com/service-a.html# | 响应式高端网站 - 响应式网站设计【六匹马网络】中山响应式网站建设领航者
+https://www.baidu.com/s?ie=UTF-8&wd=rem | rem_百度搜索
+http://cli.im/text?b4749600e18b1b0593e3d2e4b111ee33 | 草料文本二维码生成器
+http://cli.im/text?a383bfef8d78c5a9b354b197a111778a | 草料文本二维码生成器
+http://www.w3school.com.cn/css3/css3_background.asp | CSS3 背景
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%3Cmeta%20name%3D%22format-detection%22%20content%3D%22telephone%3Dno%22%3E&oq=ggg&rsv_pq=c2388d1f0004fa6f&rsv_t=a03e42QehXEUhe6kJgutg5mD%2BXObedX%2F4bfO4l8dZbMLxC5kEueQNRPZCoA&rqlang=cn&rsv_enter=1&rsv_n=2&rsv_sug3=1&bs=ggg | <meta name="format-detection" content="telephone=no">_百度搜索
+https://www.baidu.com/s?ie=UTF-8&wd=%E5%93%8D%E5%BA%94%E5%BC%8F%E9%A1%B5%E9%9D%A2%E5%9C%A8%E6%89%8B%E6%9C%BA%E4%B8%8B%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98 | 响应式页面在手机下兼容性问题_百度搜索
+http://www.mahaixiang.cn/ydseo/1369.html | PC网站自动适配手机网页的方法技巧-马海祥博客
+http://www.mahaixiang.cn/ydseo/1439.html | 移动端设备前端开发调试的方法技巧-马海祥博客
+https://www.baidu.com/s?ie=UTF-8&wd=%E6%89%8B%E6%9C%BA%20background-size | 手机 background-size_百度搜索
+https://zhidao.baidu.com/question/1177353446265374499.html?qbl=relate_question_0&word=%CA%D6%BB%FA%20background-size | 关于移动前端中的background-size问题_百度知道
+http://www.apple.com/cn/ | Apple (中国) - 官方网站
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E5%8E%BB%E9%99%A4nicescroll%20JS%E5%90%8E%E6%97%A0%E6%B3%95%E6%BB%9A%E5%8A%A8&oq=%25E5%258E%25BB%25E9%2599%25A4%25E6%25BB%259A%25E5%258A%25A8%25E6%259D%25A1JS%25E5%2590%258E%25E6%2597%25A0%25E6%25B3%2595%25E6%25BB%259A%25E5%258A%25A8&rsv_pq=abdcafaa000588b3&rsv_t=b041Ccdgn9pzPcIiRmz2ytyKWA7qmjuGU56RwYpaHfb6%2FE6Mppk2Z9gWUnQ&rqlang=cn&rsv_enter=1&rsv_sug3=16&rsv_sug1=4&rsv_sug7=100&rsv_sug2=0&inputT=5568&rsv_sug4=11731 | 去除nicescroll JS后无法滚动_百度搜索
+http://www.lanrenzhijia.com/jquery/2690.html | jquery.nicescroll完美滚动条使用方法 - 懒人之家
+http://www.6pima.com/service-b.html | 整合营销 - 响应式网站设计【六匹马网络】中山响应式网站建设领航者
+http://www.6pima.com/service-a.html | 响应式高端网站 - 响应式网站设计【六匹马网络】中山响应式网站建设领航者
+file:///E:/Company/%E9%A1%B9%E7%9B%AE/%E5%BC%80%E5%8F%91%E4%B8%AD/www.6pima.com/case-11.html | {案例名称} - 响应式网站设计【六匹马网络】中山响应式网站建设领航者
+http://www.php100.com/manual/jquery/toggle.html | toggle([s],[e],[fn]) | jQuery API 1.12 中文文档 | jQuery API 在线手册
+
+https://www.baidu.com/s?ie=UTF-8&wd=%E9%AB%98%E5%BA%A6%E8%87%AA%E9%80%82%E5%BA%94 | 高度自适应_百度搜索
+http://www.w3school.com.cn/jsref/dom_obj_window.asp | Window 对象
+https://www.baidu.com/s?wd=%E8%B7%A8%E5%9F%9Fiframe%E4%BF%AE%E6%94%B9%E6%A0%B7%E5%BC%8F&rsf=9&rsp=0&f=1&oq=%E4%BF%AE%E6%94%B9iframe%E9%87%8C%E9%9D%A2%E7%9A%84%E6%A0%B7%E5%BC%8F&ie=utf-8&rsv_pq=d4cfc7650006f3ff&rsv_t=b709OnQyTHgmh6RJyBTcBLYp2aCdKWQKHC%2FDUISjrFW0Q8m9I4MKcN4Mpd4&rqlang=cn&rs_src=0 | 跨域iframe修改样式_百度搜索
+
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=baidu&wd=e.preventdefault()&rsv_pq=fd64c16400065ac3&rsv_t=6b50kVh55IZe2h%2F7g4tpzuliDgIvxsGuWiDbB9x8zHt94SrcyKew5aupANI&rqlang=cn&rsv_enter=1&rsv_n=2&rsv_sug3=1 | e.preventdefault()_百度搜索
+https://www.baidu.com/s?ie=utf-8&f=3&rsv_bp=1&rsv_idx=1&tn=baidu&wd=e.preventdefault()%20%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8&oq=e.preventDefault()&rsv_pq=8e6f19f300009507&rsv_t=5568N25JAoPCQymkd8k2unK7AxCXQooNMQvIeUihTjxs96%2F2N%2FTSYHbuvDo&rqlang=cn&rsv_enter=1&rsv_sug3=2&rsv_sug1=2&rsv_sug7=100&rsv_sug2=1&prefixsug=e.preventDefault()&rsp=3&rsv_sug4=7034 | e.preventdefault() 不起作用_百度搜索
+https://segmentfault.com/q/1010000002420592 | 绑定事件 - 为什么 jquery 阻止表单 submit 事件不能用 e.preventDefault？ - SegmentFault
+https://stackoverflow.com/questions/1357118/event-preventdefault-vs-return-false | javascript - event.preventDefault() vs. return false - Stack Overflow
+
+https://www.baidu.com/s?ie=UTF-8&wd=chrome%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95JS | chrome开发者工具调试JS_百度搜索
+http://www.jb51.net/article/58570.htm | 使用Chrome调试JavaScript的断点设置和调试技巧_javascript技巧_脚本之家
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=jquery%20%E8%8E%B7%E5%8F%96%E6%96%B0%E6%B7%BB%E5%8A%A0%E7%9A%84%E5%85%83%E7%B4%A0&oq=jquery%20%E8%8E%B7%E5%8F%96%E5%8A%A8%E6%80%81%E5%85%83%E7%B4%A0&rsv_pq=a0f2c00d00005284&rsv_t=ce42oJFgXZUO8ApW3RyrcFvmqedDIfYY39Dxwlo84%2FdIOGikkW3XW8KGR00&rqlang=cn&rsv_enter=1&inputT=2115&rsv_sug3=23&rsv_sug1=9&rsv_sug7=100&bs=jquery%20%E8%8E%B7%E5%8F%96%E5%8A%A8%E6%80%81%E5%85%83%E7%B4%A0 | jquery 获取新添加的元素_百度搜索
+http://www.jb51.net/article/51085.htm | jQuery获取动态生成的元素示例_jquery_脚本之家
+http://www.w3school.com.cn/jquery/event_live.asp | jQuery 事件 - live() 方法
+http://www.w3school.com.cn/tiy/t.asp?f=jquery_event_live_newelement | W3School在线测试工具 V2
+http://www.w3school.com.cn/jquery/event_preventdefault.asp | jQuery 事件 - preventDefault() 方法
+
+http://blog.csdn.net/bboyjoe/article/details/46697673 | 如何用jQuery实现在鼠标滚动后导航栏保持固定 - bboyjoe的博客 - 博客频道 - CSDN.NET
+http://www.helloweba.com/view-blog-194.html | jQuery实现页面滚动时元素智能定位_Helloweba
+
+https://github.com/kevinsawicki/monokai/issues | Issues · kevinsawicki/monokai · GitHub
+https://www.baidu.com/s?ie=UTF-8&wd=%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85ATOM%E6%8F%92%E4%BB%B6 | 手动安装ATOM插件_百度搜索
+http://kb.cnblogs.com/page/556770/ | 写给未来的程序媛_知识库_博客园
+http://kb.cnblogs.com/page/554496/ | 技术的正宗与野路子_知识库_博客园
+
+http://www.php100.com/manual/jquery/offset.html | offset([coordinates]) | jQuery API 1.12 中文文档 | jQuery API 在线手册

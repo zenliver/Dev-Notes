@@ -1,0 +1,54 @@
+// 产品详情swiper start
+#products_detail .swiper-container {
+    @media (min-width: 1200px) {
+        width: 440px;
+        height: 440px;
+    }
+}
+.swiper-pagination-bullet-active {
+    background-color: @c1;
+}
+.swiper_gallery_thumbs {
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+.swiper_gallery_thumbs_img {
+    float: left;
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    margin-right: 15px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+    &.active {
+        opacity: 1;
+        border: 2px solid @c1;
+    }
+}
+.swiper_gallery_thumbs_wrapper {
+    position: relative;
+    > ul {
+        padding: 15px 60px;
+    }
+    .swiper_gallery_thumbs_btn_prev, .swiper_gallery_thumbs_btn_next {
+        position: absolute;
+        width: 20px;
+        height: 40px;
+        line-height: 40px;
+        top: 50%;
+        margin-top: -20px;
+        text-align: center;
+        font-size: 35px;
+        color: @c1;
+        cursor: pointer;
+    }
+    .swiper_gallery_thumbs_btn_prev {
+        left: 15px;
+    }
+    .swiper_gallery_thumbs_btn_next {
+        right: 15px;
+    }
+}
+// 产品详情swiper end

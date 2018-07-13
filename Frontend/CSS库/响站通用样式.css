@@ -1,0 +1,58 @@
+/*=== 全站通用样式 start ===*/
+
+/*图标*/
+i[class^="xzicon-"] {
+    color: #f7448f !important;
+}
+/*按钮*/
+.btn.important, .btn.blockBtn, .btn.pay {
+    background-color: #ec0971 !important;
+    border-color: #ec0971 !important;
+}
+/*圆角单选框*/
+.hookLabel .hookBox:after {
+    background-color: #ec0971 !important;
+    border-color: #ec0971 !important;
+}
+.hookLabel .hook {
+    color: #fff !important;
+}
+.circleLabel input:checked + .circle, .circleLabel.activeLabel .circle {
+    background-color: #ec0971;
+    color: #ec0971;
+}
+/*文本框focus状态*/
+input.textInput:focus {
+    border-color: #ec0971 !important;
+}
+/*选择开关*/
+.switchLabel .switchBox:after {
+    background-color: #ec0971;
+}
+/*杂项*/
+.iBc, .hookLabel .hookBox:after, .textInput.important, .textarea.important, .selectBtn.active, .tabs a.active, .pagingBox a.active, .search, .selectItem.active .selectLink .circleLabel .circle {
+    border-color: #ec0971;
+}
+.iBgc, .hookLabel .hookBox:after, .blockBox.important, .pagingBox a.active, .search, .search .searchBtn .btn, .stepBox .stepItem span, .flotAddBtn, #dragDownFreshBarContainer .refreshBg {
+    background-color: #ec0971;
+}
+.sC, .selectBtn.active, .dialogBtnBox .button, .exhibitList > li.active:after, .selectFootBar .b4 {
+    color: #ec0971;
+}
+/*组件/应用标题*/
+.appTitle h2 {
+    font-size: 16px;
+}
+/*去除html元素的margin-top*/
+.appWrapper[data-appid="htmlcode"] {
+    margin-top: 0;
+}
+/*=== 隐藏响站链接 ===*/
+.copyright a[href*="xiangzhan.com"] {
+    display: none;
+}
+div[id^="a148"] {
+    display: none;
+}
+
+/*=== 全站通用样式 end ===*/
