@@ -9,15 +9,18 @@
  * http://lesscss.org
  */
 
+
 /*
  * Examples
  * (To see them, uncomment and save)
  */
 
-// Ôö´óÈ«¾Ö×ÖºÅ
+
+// å¢å¤§å…¨å±€å­—å·
 * {
     font-size: 16px;
 }
+
 
 atom-workspace {
     font-family: "Microsoft YaHei";
@@ -28,33 +31,38 @@ atom-text-editor {
     // font-size: 25px !important;
 }
 
+
 status-bar a {
     font-size: 16px;
 }
 
-// Ôö´ó¹Ø±Õ°´Å¥
+
+// å¢å¤§å…³é—­æŒ‰é’®
 .tab-bar .tab .close-icon::before {
     font-size: 16px;
 }
-// Òş²Ø±à¼­ÇøÓÒ²àÊúÏß
+// éšè—ç¼–è¾‘åŒºå³ä¾§ç«–çº¿
 atom-text-editor.editor .wrap-guide {
     display: none !important;
 }
-// Òş²Ø×ó²à´úÂëÊ÷ÌáÊ¾°´Å¥
+// éšè—å·¦ä¾§ä»£ç æ ‘æç¤ºæŒ‰é’®
 .atom-dock-toggle-button.left {
     display: none;
 }
+
 
 // style the background color of the tree view
 .tree-view {
   // background-color: whitesmoke;
 }
 
+
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
   // color: white;
   // background-color: hsl(180, 24%, 12%);
 }
+
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
 atom-text-editor::shadow .cursor {
