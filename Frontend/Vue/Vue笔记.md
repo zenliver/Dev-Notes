@@ -2,6 +2,12 @@
 
 ## Vue单文件组件
 
+Vue单文件组件本质上是一个ES6模块，所以可以通过 `export default` 导出。
+
+Vue中所有的组件、js文件都是模块（Module）。
+
+如果一个Vue模块（Module）有HTML模板（可能同时还有CSS）则使用.Vue单文件组件，如果只有JS逻辑则做成普通的JS Module。
+
 ### Vue CLI
 
 查看Vue CLI的版本：
