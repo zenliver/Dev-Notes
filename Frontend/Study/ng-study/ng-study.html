@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="" ng-app="testModule" data-ng-init="inputValue='test'" ng-controller="testModuleCtrl">
+    <p>
+      姓：<input type="text" name="" value="" ng-model="familyName">
+    </p>
+    <p>
+      名：<input type="text" name="" value="" ng-model="lastName">
+    </p>
+    <p>
+      姓名：{{familyName+' '+lastName}}
+    </p>
+  </div>
+
+  <script src="https://cdn.staticfile.org/angular.js/1.4.6/angular.min.js"></script>
+
+  <script type="text/javascript">
+
+    var testModule = angular.module('testModule',[]);
+    testModule.controller('testModuleCtrl',function($scope) {
+      $scope.familyName = '';
+      $scope.lastName = '';
+    });
+
+  </script>
+
+</body>
+</html>

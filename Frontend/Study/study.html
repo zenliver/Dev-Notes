@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <div id="study">
+
+    <p>
+      <button type="button" name="button" id="btn1">选中/不选中复选框</button>
+    </p>
+    <p>
+      <input type="checkbox" name="" value="" id="checkbox1">
+    </p>
+
+    <p>
+      <a href="./files/test.mp4" download="幼儿宝宣传片.mp4">href属性同域</a>
+      <a href="http://node1.file.jxt189.com:8080/group1/M00/0E/9F/wKgOO1hFM1uEIyR3AAAAAOBLbHM502.mp4?fn=%E5%B9%BC%E5%84%BF%E5%AE%9D%E5%AE%A3%E4%BC%A0%E7%89%87.mp4" download="1.docx">href属性跨域</a>
+    </p>
+    <p>
+      <!-- <video src="http://node1.file.jxt189.com:8080/group1/M00/0E/9F/wKgOO1hFM1uEIyR3AAAAAOBLbHM502.mp4?fn=%E5%B9%BC%E5%84%BF%E5%AE%9D%E5%AE%A3%E4%BC%A0%E7%89%87.mp4" controls poster="./files/test.jpg"> -->
+
+      </video>
+    </p>
+    <p>
+      <!-- <iframe src="http://node1.file.jxt189.com:8080/group1/M00/0E/9F/wKgOO1hFM1uEIyR3AAAAAOBLbHM502.mp4?fn=%E5%B9%BC%E5%84%BF%E5%AE%9D%E5%AE%A3%E4%BC%A0%E7%89%87.mp4" width="500" height="300"></iframe> -->
+    </p>
+    <p>
+      <!-- <iframe src="./files/test.jpg" width="500" height="300"></iframe> -->
+    </p>
+    <p>
+      <!-- <iframe src="./files/test.xls" width="500" height="300"></iframe> -->
+    </p>
+    <p>
+      <div id="el_02281523"></div>
+    </p>
+    <p>
+      <input type="text" name="" value="" id="el02281620">
+    </p>
+
+    <p id="el201905061" draggable="true"></p>
+    <p>
+      <a id="el201905062" href="https://github.com/tinymce/tinymce-vue" target="_blank">tinymce-vue</a>
+    </p>
+
+    <!-- <div class="circle">
+      <div class="circle_mask">
+        <div class="circle_inner"></div>
+      </div>
+    </div> -->
+
+    <!-- <div class="circle2"></div> -->
+
+    <div class="el201905071">ghhjhj</div>
+    <div class="el201905071">etertert</div>
+
+    <p>
+      <input id="el201905081" class="el201905081 test" type="file" name="" value="" accept="image/*,video/*">
+    </p>
+    <p>图片预览</p>
+    <p id="el201905082">
+      <img src="" alt="">
+    </p>
+    <p>视频预览</p>
+    <p id="el201905095">
+      <video src="" controls>
+
+      </video>
+    </p>
+
+    <p>
+    </p>
+
+    <p>
+
+    </p>
+
+    <script type="text/javascript">
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+
+
+<div id="div1" ondrop="drop(event)"
+ondragover="allowDrop(event)" style="height: 100px;"></div>
+<img id="drag1" src="http://www.baidu.com/img/baidu_jgylogo3.gif" draggable="true"
+ondragstart="drag(event)" width="336" height="69" />
+
+
+
+    <style media="screen">
+      #el201905095 video {
+        width: 300px;
+        height: 150px;
+      }
+    </style>
+
+    <script type="text/javascript">
+      let fileInputs = document.getElementsByClassName('el201905081');
+      console.log(fileInputs);
+      let fileInput = document.querySelector('#el201905081');
+
+      let img = document.querySelector('#el201905082 img');
+      let video = document.querySelector('#el201905095 video');
+
+      console.dir(img);
+      img.classList.add('img_preview');
+
+      fileInput.oninput = function () {
+        console.log(fileInput.files);
+
+        // let imgUrl = window.URL.createObjectURL(fileInput.files[0]);
+        // img.src = imgUrl;
+        // video.src = imgUrl;
+
+
+        let fileReader = new FileReader();
+        fileReader.readAsDataURL(fileInput.files[0]);
+
+        fileReader.onloadend = function () {
+          console.log(fileReader);
+          img.src = fileReader.result;
+          console.dir(img);
+          img.onload = function () {
+            console.log('img width:'+img.width+',height:'+img.height);
+          };
+        };
+
+      };
+
+    </script>
+
+    <script type="text/javascript">
+      let obj201905101 = {
+        1: 'a',
+        2: 'b'
+      };
+      console.log('obj201905101：'+obj201905101.length);
+    </script>
+
+
+  </div>
+
+  <style media="screen">
+
+    .circle2 {
+      width: 0;
+      height: 0;
+      border-top: 50px solid #f00;
+      border-bottom: 50px solid #0f0;
+      border-left: 50px solid #00f;
+      border-right: 50px solid #000;
+      border-radius: 50%;
+    }
+
+    .circle {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    .circle_mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      background-color: #f00;
+    }
+    .circle_inner {
+      position: absolute;
+      top: 50%;
+      margin-top: -60px;
+      left: 50%;
+      margin-left: -60px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+
+    #el201905061 {
+      width: 100px;
+      height: 100px;
+      background-color: #f00;
+    }
+    #el201905062 {
+      width: 100px;
+      height: 100px;
+      background-color: #0f0;
+    }
+    #el201905062 {
+      display: block;
+      width: 100px;
+      height: 100px;
+    }
+    #el_02281523 {
+      margin: 20px;
+      width: 50px;
+      height: 50px;
+      background-color: #ccc;
+      animation: el_02281523 2s ease;
+    }
+    @keyframes el_02281523 {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(200px);
+      }
+    }
+  </style>
+
+  <script type="text/javascript">
+
+    var btn1 =document.getElementById('btn1');
+    btn1.onclick = function () {
+      // console.log('test');
+      document.getElementById('checkbox1').checked = true;
+    }
+
+    const arr = [];
+    for (var i = 0; i < 3; i++) {
+      arr[i] = {
+        id: i,
+        class: ''
+      };
+    }
+
+    const arr1 = [
+      {
+        id: 0,
+        class: ''
+      },
+      {
+        id: 1,
+        class: ''
+      }
+    ];
+
+    const a = 1;
+
+    var b = a;
+
+    var test = arr;
+    var test1 = arr1;
+    test[0].class = 'test';
+    test1[0].class = 'test';
+    b = 2;
+
+    console.log(test);
+    console.log(arr);
+    console.log(test1);
+    console.log(arr1);
+    console.log(b);
+    console.log(a);
+
+    var arr2 = [];
+    for (var i = 0; i < arr2.length; i++) {
+      console.log(arr2[i]);
+      console.log('test');
+    }
+
+    let attrName = 'test2';
+    let obj1 = {
+      test: 'test',
+      test2: function (a) {
+        console.log('test2');
+        console.log(a+this.test);
+      }
+    };
+    obj1[attrName]('测试一下js对象的属性和方法的使用：');
+    // obj1.test2();
+    console.log(obj1);
+
+    var aaa = 1;
+    var bbb = 2;
+    if (aaa == 1 && bbb == 1) {
+      console.log('aaa === bbb');
+    }
+    if (aaa || bbb == 1) {
+      console.log('aaa === bbb');
+    }
+
+    let regexStr = '小学四年级数学教案.3GP';
+    regexStrNew = regexStr.replace(/\.([a-z]|[A-Z]|[0-9])+$/,'');
+    console.log(regexStrNew);
+
+    let arr3 = [1,2,3];
+    let arr3New = arr3;
+    arr3New.splice(2,1);
+    console.log(arr3New);
+    console.log(arr3);
+
+    let oopTest = {
+      prop1: 10,
+      method1: function () {
+        return this.prop1/2;
+      },
+      method2: function () {
+        this.prop2 = 'prop2';
+      },
+      method3: function () {
+        this.method2();
+        this.prop3 = {
+          prop3: 'prop3'
+        };
+        this.method4 = function () {
+          console.log('测试一下通过方法添加新方法');
+          console.log(this);
+        };
+      }
+    };
+    console.log(oopTest.method1());
+    oopTest.method3();
+    console.log(oopTest.prop2);
+    console.log(oopTest);
+    oopTest.method4();
+
+    let obj02281 = {
+      a: 1,
+      b: 2
+    };
+    console.log(obj02281['a']);
+
+    let arr02281 = [
+      {a: 1},
+      {b: 2}
+    ];
+    console.log(arr02281[0].a);
+
+    let el_02281523 = document.getElementById('el_02281523');
+    console.log(el_02281523);
+    el_02281523.addEventListener('animationend',function (event) {
+      // console.log(event);
+    });
+    el_02281523.onclick = function () {
+      console.log('点击了！');
+    };
+    // el_02281523.attachEvent('onmouseover',function () {
+    //   console.log('鼠标滑过了！');
+    // });
+    // el_02281523.addEventListener('mouseover',function () {
+    //   console.log('鼠标滑过了！');
+    // });
+    el_02281523.onmouseover = function () {
+      // console.log('鼠标滑过了！');
+    };
+
+    document.getElementById('el02281620').addEventListener('keyup',function (event) {
+      // console.log(event);
+      console.log('"'+event.key+'"键被按下了');
+    });
+
+    window.addEventListener('keyup',function (event) {
+      // console.log('"'+event.key+'"被按下了');
+    });
+
+    window.addEventListener('focus',function (event) {
+      // console.log('窗口获得焦点');
+    });
+
+    window.addEventListener('blur',function (event) {
+      // console.log('窗口失去焦点');
+    });
+
+    let obj201903081 = {
+      a: 1,
+      b: 2,
+      c: 3
+    };
+    console.log(obj201903081.prototype);
+    // obj201903081.prototype.test = 'test';
+    for (var key in obj201903081) {
+      console.log(key+':'+obj201903081[key]);
+
+      if (obj201903081.hasOwnProperty(key)) {
+        console.log('true');
+      } else {
+        console.log(key);
+      }
+    }
+
+    let arr201903081 = [1,2,3];
+    for (const [index,item] of arr201903081.entries()) {
+      console.log(index+':'+item);
+    }
+
+    function func04011() {
+      var var04011 = 'test';
+      var04012 = 'test2';
+    }
+    if (1 > 0) {
+      // var var04011 = 'test';
+    }
+    func04011();
+    // console.log(var04011);
+    console.log(var04012);
+
+    let let04011 = '111';
+    if (1 > 0) {
+      let let04011 = '222';
+      console.log(let04011);
+    }
+    console.log(let04011);
+
+    let el201905061 = document.querySelector('#el201905082 img');
+    let el201905062 = document.querySelector('#el201905062');
+    el201905061.onclick = function () {
+      console.log('点击了');
+      // el201905062.click();
+    };
+
+    el201905061.ondrag = function (event) {
+      console.log(event.target.src);
+      event.dataTransfer.setData('text/plain',event.clientX);
+      event.dataTransfer.effectAllowed = 'all';
+    };
+
+    let elStudy = document.querySelector('#study');
+    elStudy.ondragover = function (event) {
+      event.preventDefault();
+      event.dataTransfer.dropEffect = 'copy';
+      // event.dataTransfer.setData('text/plain',event.clientX);
+      // console.log(event);
+    };
+
+    elStudy.ondrop = function (event) {
+      event.preventDefault();
+      let data = event.dataTransfer.getData('text/plain');
+      console.log(data);
+      let img = document.createElement('img');
+      document.body.appendChild(img);
+      img.style.position = 'fixed';
+      img.style.left = data;
+      console.log(event.dataTransfer);
+    };
+
+    el201905062.onclick = function () {
+      console.log('模拟点击生效');
+    };
+
+    window.onload = function () {
+      console.log('window onload');
+      // el201905062.click();
+    };
+
+    let el201905071 = document.querySelector('.el201905071');
+    console.log(el201905071);
+    let el201905071Arr = document.getElementsByClassName('el201905071');
+    console.log(el201905071Arr);
+
+    let arr201905131 = [];
+    let findRule201905131 = function (obj) {
+      if (obj.id === 1) {
+        return obj;
+      }
+    };
+    arr201905131.forEach(function (item) {
+      console.log('空数组的item:'+item);
+    });
+    let index201905131 = arr201905131.findIndex(findRule201905131);
+    console.log('index201905131:'+index201905131);
+
+  </script>
+
+  <script type="text/javascript">
+    // window.onload = function () {
+    //   console.log('TEST');
+    //   let el201905131 = document.querySelector('#el201905131');
+    //   console.log('el201905131 width:'+el201905131.width+' height:'+el201905131.height);
+    // };
+  </script>
+
+
+
+
+</body>
+</html>
