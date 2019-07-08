@@ -4,6 +4,12 @@
     <p>
       <button type="button" name="button" @click="callFooterAlert">执行Footer中的alert</button>
     </p>
+    <p>
+      <button type="button" name="button" @click="testMethod1">测试局部import</button>
+    </p>
+    <p>
+      <button type="button" name="button" @click="testMethods">测试全部import</button>
+    </p>
     <Footer ref="footer" :testFunc="testFunc"></Footer>
   </div>
 </template>
@@ -27,11 +33,20 @@
     },
     methods: {
       callFooterAlert() {
-        this.prop1 = 'prop1_modified';
-        // this.$refs.footer.Alert();
+        this.$refs.footer.Alert();
         console.log(this.$refs.footer.msgFromHeader);
         console.log(this.$refs.footer.clickCount);
-        console.log(this.$refs.footer.prop1);
+      },
+      testMethod1() {
+        console.log(this.$testVar);
+        console.log(this.$testVar1);
+        this.$testMethod1();
+      },
+      testMethods() {
+        console.log(this);
+        console.log(this.$testMethod4);
+        console.log(this.$testVar2);
+        this.$testMethods.testMethod3();
       },
     },
     mounted () {
