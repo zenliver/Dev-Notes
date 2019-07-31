@@ -1,6 +1,6 @@
 /*
-  个人收集整理的常用js函数
-  ver: 20190703
+  个人收集整理的常用工具函数
+  ver: 20190731
 */
 
 
@@ -125,7 +125,7 @@ function getPrevNextMonth(date,type,format) {
     dateObjNew.setMonth(prevMonth);
   }
 
-  return this.timestampToDate(dateObjNew.getTime(),format);
+  return timestampToDate(dateObjNew.getTime(),format);
 
 }
 
