@@ -110,7 +110,7 @@
 
 <style lang="css">
   #footer {
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #ccc;
   }
 </style>

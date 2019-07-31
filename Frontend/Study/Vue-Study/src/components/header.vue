@@ -73,7 +73,7 @@
 <style lang="css">
   #header {
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 15px;
     margin-bottom: 20px;
   }
 </style>

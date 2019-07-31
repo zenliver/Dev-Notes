@@ -334,3 +334,26 @@ async function testAsyncFunc () {
 }
 
 testAsyncFunc();
+
+
+// try catch 测试
+try {
+  test();
+} catch (e) {
+  console.log(typeof e);
+  let el201907101 = document.querySelector('#el201907101');
+  el201907101.innerHTML = e.toString();
+} finally {
+  console.log('try finished');
+}
+
+// 测试
+
+
+// Blob测试
+let blobObj = {
+  test: 'test'
+};
+let myBlob = new Blob([],{
+  type: ''
+});

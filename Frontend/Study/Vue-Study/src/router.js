@@ -23,6 +23,11 @@ export default new Router({
       path: '/echarts',
       name: 'echarts',
       component: () => import('./router-view/echarts.vue')
+    },
+    {
+      path: '/blob_test',
+      name: 'blob_test',
+      component: () => import('./router-view/blob-test.vue')
     }
   ]
 })

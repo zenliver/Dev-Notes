@@ -7,7 +7,7 @@
 // 时间戳转日期时间字符串
 
 // time: 待转换的时间戳
-// format: 日期格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'
+// format: 日期时间格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'（这里的 '-' 和 ':' 可以换成任意字符串）
 function timestampToDate(time,format) {
 
   Date.prototype.Format = function (fmt) { //author: meizz
@@ -40,6 +40,109 @@ function timestampToDate(time,format) {
 // date: 日期时间字符串，完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'
 function dateToTimestamp(date) {
   return (new Date(Date.parse(date.replace(/-/g,"/")))).getTime();
+}
+
+
+// 日期时间字符串转星期
+
+// date: 日期时间字符串，完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'
+// type: 星期从哪一天开始，String，取值为：'sunday'（星期从周日开始）、'monday'（星期从周一开始）
+function dateToWeek(date,type) {
+
+  let dateObj = new Date(date);
+  let day = dateObj.getDay();
+  let dateTime = dateToTimestamp(date);
+
+  if (type === 'sunday') {
+    let sunday = timestampToDate(dateTime-(day-0)*24*60*60*1000,'yyyy-MM-dd');
+    let saturday = timestampToDate(dateTime+(6-day)*24*60*60*1000,'yyyy-MM-dd');
+    return {
+      start: sunday,
+      end: saturday
+    };
+  }
+
+  if (type === 'monday') {
+    let monday = timestampToDate(dateTime-(day-1)*24*60*60*1000,'yyyy-MM-dd');
+    let sunday = timestampToDate(dateTime+(7-day)*24*60*60*1000,'yyyy-MM-dd');
+    return {
+      start: monday,
+      end: sunday
+    };
+  }
+
+}
+
+
+// 根据指定日期时间字符串获取下月或上月的月份
+
+// date: 日期时间字符串，完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'
+// type: 获取类型，String，取值为 'next'（下个月） 或 'prev'（上个月）
+// format: 日期时间格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'
+function getPrevNextMonth(date,type,format) {
+
+  let dateObj = new Date(date);
+  let year = dateObj.getFullYear();
+  let month = dateObj.getMonth();
+  let nextYear = null;
+  let nextMonth = null;
+  let prevYear = null;
+  let prevMonth = null;
+
+  if (type === 'next') {
+
+    if (month <= 10) {
+      nextMonth = month + 1;
+      nextYear = year;
+    } else {
+      nextMonth = 0;
+      nextYear = year + 1;
+    }
+
+  }
+
+  if (type === 'prev') {
+
+    if (month >= 1) {
+      prevMonth = month - 1;
+      prevYear = year;
+    } else {
+      prevMonth = 11;
+      prevYear = year - 1;
+    }
+
+  }
+
+  let dateObjNew = new Date();
+
+  if (type === 'next') {
+    dateObjNew.setFullYear(nextYear);
+    dateObjNew.setMonth(nextMonth);
+  }
+
+  if (type === 'prev') {
+    dateObjNew.setFullYear(prevYear);
+    dateObjNew.setMonth(prevMonth);
+  }
+
+  return this.timestampToDate(dateObjNew.getTime(),format);
+
+}
+
+
+// 判断一个DOM元素是否是另一个元素的子元素
+
+// obj: 要判断的DOM对象
+// parentObj: 另一个DOM对象，是或不是obj的父元素
+function isParent(obj,parentObj) {
+    while (obj != undefined && obj != null && obj.tagName.toUpperCase() != 'BODY') {
+        if (obj == parentObj) {
+            return true;
+        }
+        obj = obj.parentNode;
+    }
+
+    return false;
 }
 
 
@@ -76,6 +179,6 @@ function base64ToBlob(dataUrl) {
   }
 
   return new Blob([ab], {
-      type: mime
+    type: mime
   });
 }
