@@ -14,6 +14,7 @@
     "vue": "^2.5.17",
     "vue-cropper": "^0.4.9",
     "vue-router": "^3.0.1",
+    "vue-slim-better-scroll": "^1.7.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

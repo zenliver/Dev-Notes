@@ -54,3 +54,6 @@ event.on('error',function () {
 });
 
 event.emit('error'); // 'error' 是一个特殊的事件，表示程序运行异常
+
+let str1 = Buffer.from('test','ascii');
+console.log(str1);

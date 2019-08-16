@@ -8,12 +8,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Index',
+      name: 'index',
       component: Index
     },
     {
       path: '/about',
-      name: 'About',
+      name: 'about',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
@@ -28,6 +28,17 @@ export default new Router({
       path: '/blob_test',
       name: 'blob_test',
       component: () => import('./router-view/blob-test.vue')
+    },
+    {
+      path: '/array_order',
+      name: 'array_order',
+      component: () => import('./router-view/ArrayOrder.vue')
+    },
+    {
+      path: '/scroll_load',
+      name: 'scroll_load',
+      component: () => import('./router-view/ScrollLoad.vue')
     }
+
   ]
 })
