@@ -38,7 +38,11 @@ export default new Router({
       path: '/scroll_load',
       name: 'scroll_load',
       component: () => import('./router-view/ScrollLoad.vue')
+    },
+    {
+      path: '/multi_check',
+      name: 'multi_check',
+      component: () => import('./router-view/MultiCheck.vue')
     }
-
   ]
 })

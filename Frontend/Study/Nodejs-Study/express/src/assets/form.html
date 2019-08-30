@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>表单页面</title>
+</head>
+<body>
+
+  <h1>GET请求</h1>
+
+  <div class="get">
+    <form class="" action="/submit_form_get" method="get">
+      <p>
+        <label for="">姓名：</label>
+        <input type="text" name="name" value="">
+      </p>
+      <p>
+        <label for="">手机号码：</label>
+        <input type="text" name="mobile" value="">
+      </p>
+      <p>
+        <button type="submit">提交</button>
+      </p>
+    </form>
+  </div>
+
+  <h1>POST请求</h1>
+
+  <div class="post">
+    <form class="" action="/submit_form_post" method="post">
+      <p>
+        <label for="">姓名：</label>
+        <input type="text" name="name" value="">
+      </p>
+      <p>
+        <label for="">手机号码：</label>
+        <input type="text" name="mobile" value="">
+      </p>
+      <p>
+        <button type="submit">提交</button>
+      </p>
+    </form>
+  </div>
+
+  <h1>文件上传</h1>
+
+  <div class="post">
+    <form class="" action="/upload_file" method="post" enctype="multipart/form-data">
+      <p>
+        <label for="">上传：</label>
+        <input type="file" accept=".jpg,.png" name="file" value="">
+      </p>
+      <p>
+        <button type="submit">上传</button>
+      </p>
+    </form>
+  </div>
+
+  <h1>REST API POST</h1>
+
+  <div class="post">
+    <form class="" action="/add_user" method="post">
+      <p>
+        <button type="submit">添加用户</button>
+      </p>
+    </form>
+  </div>
+
+  <div class="post">
+    <form class="" action="/del_user" method="post">
+      <p>
+        <button type="submit">删除用户</button>
+      </p>
+    </form>
+  </div>
+
+
+
+</body>
+</html>
