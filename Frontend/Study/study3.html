@@ -21,6 +21,42 @@
 
   <p id="el201907101"></p>
 
+  <div class="table">
+    <div class="left_col">left_col</div>
+    <div class="right_col">
+      <p>right_col</p>
+      <p>
+        全局方法
+        如果你完整引入了 Element，它会为 Vue.prototype 添加如下全局方法：$msgbox, $alert, $confirm 和 $prompt。因此在 Vue instance 中可以采用本页面中的方式调用 MessageBox。调用参数为：
+
+        $msgbox(options)
+        $alert(message, title, options) 或 $alert(message, options)
+        $confirm(message, title, options) 或 $confirm(message, options)
+        $prompt(message, title, options) 或 $prompt(message, options)
+        ¶ 单独引用
+        如果单独引入 MessageBox：
+
+        import { MessageBox } from 'element-ui';
+      </p>
+    </div>
+  </div>
+
+  <style media="screen">
+    .table {
+      display: table;
+      border: 1px solid #ccc;
+    }
+    .left_col {
+      display: table-cell;
+      width: 20%;
+      border-right: 1px solid #ccc;
+    }
+    .right_col {
+      display: table-cell;
+      width: 80%;
+    }
+  </style>
+
   <script src="./js/study3.js" charset="utf-8"></script>
 
 </body>

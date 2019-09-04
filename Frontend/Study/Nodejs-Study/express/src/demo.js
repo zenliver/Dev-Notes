@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var multer = require('multer');
 var util = require('util');
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
+var mysql = require('./mysql.js');
 
 var app = express();
 
@@ -156,6 +157,34 @@ app.get('/user_detail/:id',function (req,res) {
   });
 
 });
+
+mysql.mysql.connect();
+
+let sql1 = 'SELECT * FROM user';
+mysql.mysql.query(sql1,function (error,result) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('mysql查询结果：');
+    console.log(result);
+  }
+});
+
+// let sql2 = 'INSERT INTO user(id,name,age) VALUES(0,?,?)';
+// let sql2 = 'UPDATE user SET name = ?,age = ? WHERE id = ?';
+let sql2 = 'DELETE FROM user WHERE id = ?';
+// let sql2Params = ['韩梅梅',18];
+// let sql2Params = ['韩梅',16,4];
+let sql2Params = [4];
+mysql.mysql.query(sql2,sql2Params,function (error,result) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log(result);
+  }
+});
+
+mysql.mysql.end();
 
 var server = app.listen(9001,function () {
   // console.log(server.address());
