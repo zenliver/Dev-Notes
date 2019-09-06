@@ -1,12 +1,23 @@
 export default {
   methods: {
-    getPosts(dataKey) {
+    getPosts(dataKey,callback) {
 
-      this.$axios.get('/api/posts/list').then( (response) => {
+      let params = {
+        pageNum: this.page.pageNum,
+        pageSize: this.page.pageSize
+      };
+
+      this.$axios.get('/api/posts/list',{
+        params: params
+      }).then( (response) => {
         console.log(response);
 
         if (response.data.status) {
-          this[dataKey] = response.data.data;
+          this[dataKey] = response.data.data.list;
+
+          if (callback) {
+            callback(response);
+          }
         } else {
           this.$message.error('列表失败');
         }

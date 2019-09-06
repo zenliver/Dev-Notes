@@ -17,6 +17,10 @@
       </div>
     </div>
 
+    <div class="text-center pt30">
+      <el-pagination @size-change="handleSizeChange" @current-change="handleCurrentChange" :current-page="page.pageNum" :page-sizes="[3, 10, 20, 50, 100]" :page-size="page.pageSize" layout="total, sizes, prev, pager, next, jumper" :total="page.totalCount"></el-pagination>
+    </div>
+
   </div>
 </template>
 
@@ -28,6 +32,11 @@
     data () {
       return {
         postList: [],
+        page: {
+          pageNum: 1,
+          pageSize: 3,
+          totalCount: 0
+        },
       };
     },
     mixins: [
@@ -35,10 +44,27 @@
       DateFilter
     ],
     methods: {
+      handleSizeChange(payload) {
+        console.log(payload);
 
+        this.page.pageSize = payload;
+        this.page.pageNum = 1;
+
+        this.getPosts('postList',this.getPostsCallback);
+      },
+      handleCurrentChange(payload) {
+        console.log(payload);
+
+        this.page.pageNum = payload;
+
+        this.getPosts('postList',this.getPostsCallback);
+      },
+      getPostsCallback(response) {
+        this.page.totalCount = response.data.data.totalCount;
+      },
     },
     mounted () {
-      this.getPosts('postList');
+      this.getPosts('postList',this.getPostsCallback);
     },
   }
 </script>
