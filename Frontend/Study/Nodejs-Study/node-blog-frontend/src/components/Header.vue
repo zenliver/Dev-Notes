@@ -5,11 +5,14 @@
       <router-link :to="{ name: 'index', params: {} }">NodeJS Blog</router-link>
     </h1>
 
-    <h4 class="pt10 pb10">后端：nodejs, express, mysql 前端：vue</h4>
+    <h4 class="pt10 pb10">后端：nodejs+express+mysql, 前端：vue</h4>
 
     <div class="menu clearfix">
       <div class="menu_item left">
         <router-link :to="{ name: 'index', params: {} }">首页</router-link>
+      </div>
+      <div class="menu_item left">
+        <router-link :to="{ name: 'user_register', params: {} }">注册</router-link>
       </div>
       <div class="menu_item left">
         <router-link :to="{ name: 'admin_post_list', params: {} }" target="_blank">后台管理</router-link>

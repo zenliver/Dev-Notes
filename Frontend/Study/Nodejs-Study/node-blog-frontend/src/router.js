@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import FrontPage from './views/FrontPage.vue'
+import FrontPage from './views/FrontPage.vue';
+import FrontUserPage from './views/FrontUserPage.vue';
 
 Vue.use(Router)
 
@@ -26,6 +27,23 @@ export default new Router({
         },
       ]
     },
+    {
+      path: '/user',
+      component: FrontUserPage,
+      children: [
+        {
+          path: 'register',
+          name: 'user_register',
+          component: () => import('./views/UserRegister.vue')
+        },
+        {
+          path: 'login',
+          name: 'user_login',
+          component: () => import('./views/UserLogin.vue')
+        }
+      ]
+    },
+    // 后台管理
     {
       path: '/admin',
       component: () => import('./views/admin/AdminPage.vue'),
