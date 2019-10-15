@@ -43,6 +43,11 @@ export default new Router({
       path: '/multi_check',
       name: 'multi_check',
       component: () => import('./router-view/MultiCheck.vue')
-    }
+    },
+    {
+      path: '/slot_test',
+      name: 'slot_test',
+      component: () => import('./router-view/SlotTest.vue')
+    },
   ]
 })

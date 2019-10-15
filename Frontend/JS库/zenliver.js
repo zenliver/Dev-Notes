@@ -146,6 +146,63 @@ function isParent(obj,parentObj) {
 }
 
 
+// 获取url中的单个查询参数
+
+// url: 待处理的url，String，如果是获取当前页面的则传 window.location.href 即可
+// paramName: 需获取的参数名，String
+function getQueryParam(url,paramName) {
+
+  var reg = new RegExp("(^|&)" + paramName + "=([^&]*)(&|$)", "i");
+  var firstQueryIndex = url.indexOf('?');
+  var queryString = url.slice(firstQueryIndex+1); // 获取完整的查询字符串（不包括 ?）
+  var result = queryString.match(reg);
+
+  if (result !== null) {
+    return decodeURIComponent(result[2]);
+  } else {
+    return null;
+  }
+
+}
+
+
+// 获取url中的所有查询参数（返回参数对象）
+
+// url: 待处理的url，String，如果是获取当前页面的则传 window.location.href 即可
+function getQueryParams(url) {
+  var params = {};
+
+  var firstQueryIndex = url.indexOf('?');
+
+  if (firstQueryIndex >= 0) { // url中有问号
+
+    var queryString = url.slice(firstQueryIndex+1); // 获取完整的查询字符串（不包括 ?）
+
+    if (queryString.length > 0) { // 存在查询参数（但参数不一定都有值）
+      var paramsPairs = queryString.split('&');
+      console.log(paramsPairs);
+
+      for (var i=0; i<paramsPairs.length; i++) {
+        var paramsArr = paramsPairs[i].split('=');
+
+        var name = decodeURIComponent(paramsArr[0]);
+        var value = paramsArr[1] !== undefined ? decodeURIComponent(paramsArr[1]) : null; // 判断参数是否有值
+
+        params[name] = value;
+      }
+
+    } else { // 不存在查询参数
+      params = null;
+    }
+
+  } else { // url中没有问号
+    params = null;
+  }
+
+  return params;
+}
+
+
 // 生成随机字符串（伪随机，用于对安全性要求不高的场景）
 
 // len: 生成的随机字符串的长度（Number，可不传，默认为32）

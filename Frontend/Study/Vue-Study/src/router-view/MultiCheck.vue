@@ -1,6 +1,10 @@
 <template lang="html">
   <div class="multi_check">
 
+    <p>从组件外通过 props 接收的数据：</p>
+    <p>prop1: {{prop1}}</p>
+    <p>prop2: {{prop2}}</p>
+
     <div class="list">
       <div class="item" v-for="(item,index) in data" :key="item.id">
         <p>
@@ -21,6 +25,14 @@
   export default {
     components: {
       CheckItem
+    },
+    props: {
+      prop1: {
+        type: String
+      },
+      prop2: {
+        type: String
+      },
     },
     data () {
       return {
@@ -123,5 +135,6 @@
   }
   .multi_check {
     padding: 20px;
+    border: 1px solid #000;
   }
 </style>
