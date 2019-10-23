@@ -1,6 +1,6 @@
 /*
   个人收集整理的常用工具函数
-  ver: 20190731
+  ver: 20191023
 */
 
 
@@ -200,6 +200,229 @@ function getQueryParams(url) {
   }
 
   return params;
+}
+
+
+// 获取扁平数组中所有顶级节点（返回数组）
+
+// flatArr: 待处理的扁平数组，Array
+// nodeKey: 每个节点的id属性名，String，常见的如：'id'
+// parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
+// returnType: 返回类型，String，取值为：'node' 返回顶级节点对象数组、'nodeKey' 返回顶级节点id数组、'parentNodeKey' 返回顶级节点的父节点id数组，如果没传则默认返回顶级节点对象数组
+function getTopLevelNodes(flatArr,nodeKey,parentNodeKey,returnType) {
+
+  // 判断扁平数组中哪些元素是顶级节点
+  // 方法：如果某一节点的 parentId 的值不是任何一个节点的 id 值，就说明这个节点是顶级节点，否则就是普通节点
+  // 扁平数组中可能只有一个顶级节点，此时这个顶级节点就是根节点，也可能有多个顶级节点，此时没有根节点
+
+  var nodeKeyArr = [];
+
+  flatArr.forEach(function (item) {
+    nodeKeyArr.push(item[nodeKey]);
+  });
+
+  var resultArr = [];
+
+  flatArr.forEach(function (item2) {
+    if (nodeKeyArr.indexOf(item2[parentNodeKey]) < 0) { // 判断是否是顶级节点
+
+      if (resultArr.indexOf(item2[parentNodeKey]) < 0) { // 过滤重复的
+
+        switch (returnType) { // 判断返回类型
+          case 'node':
+            resultArr.push(item2);
+            break;
+          case 'nodeKey':
+            resultArr.push(item2[nodeKey]);
+            break;
+          case 'parentNodeKey':
+            resultArr.push(item2[parentNodeKey]);
+            break;
+          default:
+            resultArr.push(item2);
+        }
+
+      }
+
+    }
+  });
+
+  return resultArr;
+}
+
+
+// 扁平数组转换为树形数组
+
+// flatArr: 待处理的扁平数组，Array
+// nodeKey: 节点的id属性名，String，常见的如：'id'
+// parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
+// childrenNodeKey: 每个节点的子节点数组的属性名，String，常见的如：'children'
+// rootNodeParentKeyValue: 根节点的父节点的id属性值，根据实际的值来传，常见的如：0、null，也可以传一个不是根节点的节点的父节点的id属性值以获取一个【局部的树形数组】
+// arrSortFunction: 返回的数组的排序函数，Function，如果传了则按照排序函数对数组及所有子节点进行排序，如果没传或传 null 则不进行排序
+function flatToTree(flatArr,nodeKey,parentNodeKey,childrenNodeKey,rootNodeParentKeyValue,arrSortFunction) {
+
+  var treeArr = [];
+
+  for (var i = 0; i < flatArr.length; i++) {
+
+    if (flatArr[i][parentNodeKey] === rootNodeParentKeyValue) {
+
+      // 递归调用
+      var levelTempArr = flatToTree(flatArr,nodeKey,parentNodeKey,childrenNodeKey,flatArr[i][nodeKey],arrSortFunction);
+
+      if (levelTempArr.length > 0) {
+        flatArr[i][childrenNodeKey] = levelTempArr;
+      }
+
+      treeArr.push(flatArr[i]);
+
+      // 数组排序
+      if (treeArr.length > 1) {
+        if (arrSortFunction) {
+          treeArr.sort(arrSortFunction);
+        }
+      }
+
+    }
+
+  }
+
+  return treeArr;
+}
+
+
+// 扁平数组转换为树形数组（增强版）
+
+// 此函数依赖另两个函数：getTopLevelNodes()、flatToTree()
+
+// flatArr: 待处理的扁平数组，Array
+// nodeKey: 每个节点的id属性名，String，常见的如：'id'
+// parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
+// childrenNodeKey: 每个节点的子节点数组的属性名，String，常见的如：'children'
+// arrSortFunction: 返回的数组的排序函数，Function，如果传了则按照排序函数对数组及所有子节点进行排序，如果没传或传 null 则不进行排序
+function flatToTreeEnhance(flatArr,nodeKey,parentNodeKey,childrenNodeKey,arrSortFunction) {
+
+  var flatArrStr = JSON.stringify(flatArr);
+
+  var topLevelNodesParentKeyValues = getTopLevelNodes(JSON.parse(flatArrStr),nodeKey,parentNodeKey);
+
+  console.log(topLevelNodesParentKeyValues);
+
+  var resultArr = [];
+
+  if (topLevelNodesParentKeyValues.length === 1) {
+
+    resultArr = flatToTree(JSON.parse(flatArrStr),nodeKey,parentNodeKey,childrenNodeKey,topLevelNodesParentKeyValues[0],arrSortFunction);
+
+  } else {
+
+    topLevelNodesParentKeyValues.forEach( (value) => {
+      var curTreeArr = flatToTree(JSON.parse(flatArrStr),nodeKey,parentNodeKey,childrenNodeKey,value,arrSortFunction);
+
+      resultArr = resultArr.concat(curTreeArr);
+    });
+
+  }
+
+  console.log(resultArr);
+
+  return resultArr;
+}
+
+
+// 树形数组转换为扁平数组
+
+// treeArr: 待处理的树形数组，Array
+// childrenNodeKey: 每个节点的子节点数组的属性名，String，常见的如：'children'
+function treeToFlat(treeArr,childrenNodeKey) {
+
+  var flatArr = [];
+
+  function treeToFlatFunc(arr,childrenKey) {
+
+    for (var i = 0; i < arr.length; i++) {
+      flatArr.push(arr[i]);
+
+      if (arr[i][childrenKey]) {
+        treeToFlatFunc(arr[i][childrenKey],childrenKey); // 递归调用
+      }
+    }
+
+  }
+
+  treeToFlatFunc(treeArr,childrenNodeKey);
+
+  // 删除扁平数组中的所有对象的 children 属性
+  for (var j = 0; j < flatArr.length; j++) {
+    if (flatArr[j][childrenNodeKey]) {
+      delete flatArr[j][childrenNodeKey];
+    }
+  }
+
+  return flatArr;
+}
+
+
+// 获取扁平数组中某一节点的所有父级节点（追朔到根节点，返回数组）
+
+// flatArr: 待处理的扁平数组，Array
+// nodeKey: 每个节点的id属性名，String，常见的如：'id'
+// parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
+// curNode: 当前节点对象，Object
+function getAllParentsNodes(flatArr,nodeKey,parentNodeKey,curNode) {
+
+  var allParentsNodes = [];
+
+  function process(arr,key,parentKey,curObj) {
+    for (var i = 0; i < arr.length; i++) {
+
+      if (arr[i][key] === curObj[parentKey]) {
+        allParentsNodes.push(arr[i]);
+
+        process(arr,key,parentKey,arr[i]); // 递归调用
+
+        break;
+      }
+
+    }
+  }
+
+  process(flatArr,nodeKey,parentNodeKey,curNode);
+
+  return allParentsNodes;
+}
+
+
+// 获取扁平数组中某一节点的所有子级节点（延展到最后一级叶子节点，返回数组）
+
+// flatArr: 待处理的扁平数组，Array
+// nodeKey: 每个节点的id属性名，String，常见的如：'id'
+// parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
+// curNode: 当前节点对象，Object
+function getAllChildrenNodes(flatArr,nodeKey,parentNodeKey,curNode) {
+
+  var allChildrenNodes = [];
+
+  function process(arr,key,parentKey,node) {
+
+    arr.forEach(function (item) {
+
+      if (item[parentKey] === node[key]) {
+
+        allChildrenNodes.push(item);
+
+        // 递归调用
+        process(arr,key,parentKey,item);
+
+      }
+
+    });
+
+  }
+
+  process(flatArr,nodeKey,parentNodeKey,curNode);
+
+  return allChildrenNodes;
 }
 
 
