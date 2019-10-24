@@ -55,8 +55,53 @@ let arr201910231 = [
   {
     id: 4,
     parentId: 3
+  },
+  {
+    id: 5,
+    parentId: 4
+  },
+  {
+    id: 6,
+    parentId: 5
+  },
+  {
+    id: 7,
+    parentId: 5
   }
 ];
 
 let topLevelNodes = getTopLevelNodes(arr201910231,'id','parentId','node');
 console.log(topLevelNodes);
+
+
+function getAllChildrenNodes(flatArr,nodeKey,parentNodeKey,curNode) {
+
+  var allChildrenNodes = [];
+
+  function process(arr,key,parentKey,node) {
+
+    arr.forEach(function (item) {
+
+      if (item[parentKey] === node[key]) {
+
+        allChildrenNodes.push(item);
+
+        // 递归调用
+        process(arr,key,parentKey,item);
+
+      }
+
+    });
+
+  }
+
+  process(flatArr,nodeKey,parentNodeKey,curNode);
+
+  return allChildrenNodes;
+}
+
+let node201910241 = arr201910231[2];
+
+let allChildrenNodes = getAllChildrenNodes(JSON.parse(JSON.stringify(arr201910231)),'id','parentId',node201910241);
+
+console.log(allChildrenNodes);
