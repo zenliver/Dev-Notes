@@ -7,8 +7,9 @@
       <router-link :to="{ name: 'echarts', params: {} }">ECharts</router-link>
       <router-link :to="{ name: 'array_order', params: {} }">数组排序</router-link>
       <router-link :to="{ name: 'scroll_load', params: {} }">滚动加载</router-link>
-      <router-link :to="{ name: 'multi_check', params: {} }">多选</router-link>
       <router-link :to="{ name: 'slot_test', params: {} }">Slot测试</router-link>
+      <router-link :to="{ name: 'multi_check', params: {} }">多选</router-link>
+      <router-link :to="{ name: 'keep_alive', params: {} }">KeepAlive</router-link>
     </div>
 
     <div class="header" v-if="routeName === 'index'">

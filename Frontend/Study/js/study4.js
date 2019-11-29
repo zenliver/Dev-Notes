@@ -105,3 +105,12 @@ let node201910241 = arr201910231[2];
 let allChildrenNodes = getAllChildrenNodes(JSON.parse(JSON.stringify(arr201910231)),'id','parentId',node201910241);
 
 console.log(allChildrenNodes);
+
+
+let arr201911081 = [1,2,3,4,5,6];
+arr201911081.forEach(function (item) {
+  console.log(item);
+  if (item > 3) {
+    return ;
+  }
+});

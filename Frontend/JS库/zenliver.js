@@ -1,11 +1,14 @@
 /*
-  个人收集整理的常用工具函数
-  ver: 20191023
+  个人JS工具函数库
+  ver: 20191129
 */
 
 
-// 时间戳转日期时间字符串
+/* 时间戳转日期时间字符串 */
 
+// 返回：转换后的日期时间字符串
+
+// 参数：
 // time: 待转换的时间戳
 // format: 日期时间格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'（这里的 '-' 和 ':' 可以换成任意字符串）
 function timestampToDate(time,format) {
@@ -35,25 +38,63 @@ function timestampToDate(time,format) {
 }
 
 
-// 日期时间字符串转时间戳
+/* 日期时间字符串转时间戳 */
 
+// 返回：转换后的时间戳（Number）
+
+// 参数：
 // date: 日期时间字符串，完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'
 function dateToTimestamp(date) {
   return (new Date(Date.parse(date.replace(/-/g,"/")))).getTime();
 }
 
 
-// 日期时间字符串转星期
+/* 日期时间字符串或时间戳转星期几字符串 */
 
-// date: 日期时间字符串，完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'
-// type: 星期从哪一天开始，String，取值为：'sunday'（星期从周日开始）、'monday'（星期从周一开始）
-function dateToWeek(date,type) {
+// 返回：格式如 '周几' 、'星期几' 的字符串
+
+// 参数：
+// date: 日期时间字符串（String）或时间戳（Number）
+// dayTextPrefix: 表示星期几或周几的字符串前缀，String，一般为：'周'、'星期'
+function dateToDay(date,dayTextPrefix) {
+
+  var transObj = {
+    0: '日',
+    1: '一',
+    2: '二',
+    3: '三',
+    4: '四',
+    5: '五',
+    6: '六'
+  };
+
+  var day = new Date(date).getDay();
+
+  return dayTextPrefix+transObj[day];
+}
+
+
+/* 根据指定日期（日期时间字符串或时间戳）获取其所属星期的起止日期 */
+// 注意：本函数依赖另两个函数：dateToTimestamp()、timestampToDate()
+
+// 返回：指定日期所属星期的起止日期对象（起止日属性值均为日期时间字符串）
+
+// 参数：
+// date: 指定日期的日期时间字符串（完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'）或时间戳（Number）
+// startDay: 星期从哪一天开始，String，取值为：'sunday'（星期从周日开始）、'monday'（星期从周一开始）
+function dateToWeek(date,startDay) {
 
   let dateObj = new Date(date);
   let day = dateObj.getDay();
-  let dateTime = dateToTimestamp(date);
+  let dateTime = null;
 
-  if (type === 'sunday') {
+  if (date.constructor === String) { // date是日期时间字符串
+    dateTime = dateToTimestamp(date);
+  } else { // date是时间戳
+    dateTime = date;
+  }
+
+  if (startDay === 'sunday') {
     let sunday = timestampToDate(dateTime-(day-0)*24*60*60*1000,'yyyy-MM-dd');
     let saturday = timestampToDate(dateTime+(6-day)*24*60*60*1000,'yyyy-MM-dd');
     return {
@@ -62,7 +103,7 @@ function dateToWeek(date,type) {
     };
   }
 
-  if (type === 'monday') {
+  if (startDay === 'monday') {
     let monday = timestampToDate(dateTime-(day-1)*24*60*60*1000,'yyyy-MM-dd');
     let sunday = timestampToDate(dateTime+(7-day)*24*60*60*1000,'yyyy-MM-dd');
     return {
@@ -74,12 +115,16 @@ function dateToWeek(date,type) {
 }
 
 
-// 根据指定日期时间字符串获取下月或上月的月份
+/* 根据指定日期（日期时间字符串或时间戳）获取下个月或上个月的月份 */
+// 注意：本函数依赖另一个函数：timestampToDate()
 
-// date: 日期时间字符串，完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'
+// 返回：指定日期的下个月或上个月的月份（日期时间字符串）
+
+// 参数：
+// date: 指定日期的日期时间字符串（完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'）或时间戳（Number）
 // type: 获取类型，String，取值为 'next'（下个月） 或 'prev'（上个月）
-// format: 日期时间格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'
-function getPrevNextMonth(date,type,format) {
+// returnFormat: 返回的月份的日期时间格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'
+function getPrevNextMonth(date,type,returnFormat) {
 
   let dateObj = new Date(date);
   let year = dateObj.getFullYear();
@@ -125,29 +170,36 @@ function getPrevNextMonth(date,type,format) {
     dateObjNew.setMonth(prevMonth);
   }
 
-  return timestampToDate(dateObjNew.getTime(),format);
+  return timestampToDate(dateObjNew.getTime(),returnFormat);
 
 }
 
 
-// 判断一个DOM元素是否是另一个元素的子元素
+/* 判断一个DOM元素是否是另一个元素的子元素 */
 
-// obj: 要判断的DOM对象
+// 返回：Boolean（true 是，false 不是）
+
+// 参数：
+// obj: 一个DOM对象
 // parentObj: 另一个DOM对象，是或不是obj的父元素
 function isParent(obj,parentObj) {
-    while (obj != undefined && obj != null && obj.tagName.toUpperCase() != 'BODY') {
-        if (obj == parentObj) {
-            return true;
-        }
-        obj = obj.parentNode;
+  while (obj != undefined && obj != null && obj.tagName.toUpperCase() != 'BODY') {
+    if (obj == parentObj) {
+      return true;
     }
 
-    return false;
+    obj = obj.parentNode;
+  }
+
+  return false;
 }
 
 
-// 获取url中的单个查询参数
+/* 获取url中单个查询参数的值 */
 
+// 返回：某个参数的值（字符串）
+
+// 参数：
 // url: 待处理的url，String，如果是获取当前页面的则传 window.location.href 即可
 // paramName: 需获取的参数名，String
 function getQueryParam(url,paramName) {
@@ -166,8 +218,11 @@ function getQueryParam(url,paramName) {
 }
 
 
-// 获取url中的所有查询参数（返回参数对象）
+/* 获取url中的所有查询参数的值 */
 
+// 返回：所有参数对象
+
+// 参数：
 // url: 待处理的url，String，如果是获取当前页面的则传 window.location.href 即可
 function getQueryParams(url) {
   var params = {};
@@ -203,8 +258,32 @@ function getQueryParams(url) {
 }
 
 
-// 获取扁平数组中所有顶级节点（返回数组）
+/* 去除简单数组（由字符串或数字组成的一维数组）中重复的元素 */
 
+// 返回：一个新的不重复的简单数组
+
+// 参数：
+// arr: 有重复元素的简单数组
+function removeDuplicatesOfSimpleArray(arr) {
+
+  var noDuplicatesArr = [];
+
+  for (var i = 0; i < arr.length; i++) {
+    if (noDuplicatesArr.indexOf(arr[i]) < 0) {
+      noDuplicatesArr.push(arr[i]);
+    }
+  }
+
+  return noDuplicatesArr;
+
+}
+
+
+/* 获取扁平数组中所有顶级节点 */
+
+// 返回：所有顶级节点数组
+
+// 参数：
 // flatArr: 待处理的扁平数组，Array
 // nodeKey: 每个节点的id属性名，String，常见的如：'id'
 // parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
@@ -251,8 +330,11 @@ function getTopLevelNodes(flatArr,nodeKey,parentNodeKey,returnType) {
 }
 
 
-// 扁平数组转换为树形数组
+/* 扁平数组转换为树形数组 */
 
+// 返回：转换后的树形数组
+
+// 参数：
 // flatArr: 待处理的扁平数组，Array
 // nodeKey: 节点的id属性名，String，常见的如：'id'
 // parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
@@ -291,10 +373,12 @@ function flatToTree(flatArr,nodeKey,parentNodeKey,childrenNodeKey,rootNodeParent
 }
 
 
-// 扁平数组转换为树形数组（增强版）
+/* 扁平数组转换为树形数组（增强版） */
+// 注意：此函数依赖另两个函数：getTopLevelNodes()、flatToTree()
 
-// 此函数依赖另两个函数：getTopLevelNodes()、flatToTree()
+// 返回：转换后的树形数组
 
+// 参数：
 // flatArr: 待处理的扁平数组，Array
 // nodeKey: 每个节点的id属性名，String，常见的如：'id'
 // parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
@@ -330,8 +414,11 @@ function flatToTreeEnhance(flatArr,nodeKey,parentNodeKey,childrenNodeKey,arrSort
 }
 
 
-// 树形数组转换为扁平数组
+/* 树形数组转换为扁平数组 */
 
+// 返回：转换后的扁平数组
+
+// 参数：
 // treeArr: 待处理的树形数组，Array
 // childrenNodeKey: 每个节点的子节点数组的属性名，String，常见的如：'children'
 function treeToFlat(treeArr,childrenNodeKey) {
@@ -363,8 +450,11 @@ function treeToFlat(treeArr,childrenNodeKey) {
 }
 
 
-// 获取扁平数组中某一节点的所有父级节点（追朔到根节点，返回数组）
+/* 获取扁平数组中某一节点的所有父级节点（追朔到根节点） */
 
+// 返回：某一节点的所有父级节点数组
+
+// 参数：
 // flatArr: 待处理的扁平数组，Array
 // nodeKey: 每个节点的id属性名，String，常见的如：'id'
 // parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
@@ -393,8 +483,11 @@ function getAllParentsNodes(flatArr,nodeKey,parentNodeKey,curNode) {
 }
 
 
-// 获取扁平数组中某一节点的所有子级节点（延展到最后一级叶子节点，返回数组）
+/* 获取扁平数组中某一节点的所有子级节点（延展到最后一级叶子节点） */
 
+// 返回：某一节点的所有子级节点数组
+
+// 参数：
 // flatArr: 待处理的扁平数组，Array
 // nodeKey: 每个节点的id属性名，String，常见的如：'id'
 // parentNodeKey: 每个节点的父节点的属性名，String，常见的如：'parentId'
@@ -426,23 +519,31 @@ function getAllChildrenNodes(flatArr,nodeKey,parentNodeKey,curNode) {
 }
 
 
-// 生成随机字符串（伪随机，用于对安全性要求不高的场景）
+/* 生成随机字符串（伪随机，适用于对安全性要求不高的场景） */
 
-// len: 生成的随机字符串的长度（Number，可不传，默认为32）
-function randomStr(len) {
-　　len = len || 32;
-　　var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
-　　var maxPos = $chars.length;
-　　var pwd = '';
-　　for (let i = 0; i < len; i++) {
-　　　　pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
-　　}
-　  return pwd;
+// 返回：一个随机字符串
+
+// 参数：
+// length: 生成的随机字符串的长度，Number，可不传，默认为32
+function getRandomStr(length) {
+  length = length || 32;
+  var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
+  var maxPos = $chars.length;
+  var str = '';
+
+  for (let i = 0; i < length; i++) {
+    str += $chars.charAt(Math.floor(Math.random() * maxPos));
+  }
+
+  return str;
 }
 
 
-// 将 'data:' 格式的图片（base64数据）转换为blob对象（转换后可输出blob对象，获取图片大小等信息，还可用于文件上传）
+/* 将 'data:' 格式的图片（base64数据）转换为blob对象（转换后可输出blob对象，获取图片大小等信息，可用于文件上传） */
 
+// 返回：blob对象
+
+// 参数：
 // dataUrl: 图片的 'data:' 格式的url（base64数据）
 function base64ToBlob(dataUrl) {
   var arr = dataUrl.split(',');
@@ -461,4 +562,53 @@ function base64ToBlob(dataUrl) {
   return new Blob([ab], {
     type: mime
   });
+}
+
+
+/* 从缓存或服务端获取数据（适用于Vue项目） */
+
+// 返回：无
+
+// 参数：
+// type: 本地缓存的类型，String，取值为：'sessionStorage'、'localStorage'
+// storageKey: 本地缓存中的存储key，String
+// dataKey: Vue组件中的data属性名，String
+// dataEditCallback: 缓存数据保存之前对数据进行处理的回调，Function
+// dataSetCallback: 缓存数据保存之后的回调，Function
+// getDataFromServerFunc: 从服务端获取数据的方法，Function
+function getDataFromCacheOrServer(type,storageKey,dataKey,dataEditCallback,dataSetCallback,getDataFromServerFunc) {
+
+  let data = window[type][storageKey];
+
+  // 先检查缓存中是否有数据，如果有则读取缓存中的数据，如果没有则从服务端获取
+
+  if (data) { // 缓存中有数据，从缓存读取
+
+    // 数据保存之前对数据进行处理的回调
+    if (dataEditCallback && dataEditCallback.constructor === Function) {
+      dataEditCallback(data); // 传入data并处理
+    }
+
+    // 保存数据
+    try { // data 是JSON字符串
+      this[dataKey] = JSON.parse(data);
+    } catch (e) { // data 是普通字符串
+      this[dataKey] = data;
+    } finally {
+
+    }
+
+    // 数据保存之后的回调
+    if (dataSetCallback && dataSetCallback.constructor === Function) {
+      dataSetCallback();
+    }
+
+  } else { // 缓存中没有数据，从服务端获取
+
+    if (getDataFromServerFunc && getDataFromServerFunc.constructor === Function) {
+      getDataFromServerFunc();
+    }
+
+  }
+
 }

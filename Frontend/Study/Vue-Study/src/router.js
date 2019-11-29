@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from './router-view/index.vue'
+import Index from './router-view/index.vue';
+import EmptyPage from './router-view/EmptyPage.vue';
 
 Vue.use(Router)
 
@@ -41,13 +42,33 @@ export default new Router({
     },
     {
       path: '/multi_check',
-      name: 'multi_check',
-      component: () => import('./router-view/MultiCheck.vue')
+      component: EmptyPage,
+      children: [
+        {
+          path: '',
+          name: 'multi_check',
+          component: () => import('./router-view/MultiCheck.vue')
+        }
+      ]
     },
     {
       path: '/slot_test',
       name: 'slot_test',
       component: () => import('./router-view/SlotTest.vue')
     },
+    {
+      path: '/keep_alive',
+      component: EmptyPage,
+      meta: {
+        keepAlive: false
+      },
+      children: [
+        {
+          path: '',
+          name: 'keep_alive',
+          component: () => import('./router-view/KeepAlive.vue')
+        }
+      ]
+    }
   ]
 })
