@@ -1,6 +1,6 @@
 /*
   个人JS工具函数库
-  ver: 20191129
+  ver: 20191216
 */
 
 
@@ -171,6 +171,50 @@ function getPrevNextMonth(date,type,returnFormat) {
   }
 
   return timestampToDate(dateObjNew.getTime(),returnFormat);
+
+}
+
+
+/* 将指定时间转换为相对于当前时间的描述性字符串 */
+
+// 返回：相对于当前时间的描述性字符串
+
+// 参数：
+// time: 待转换的时间，格式仅限时间戳，Number
+// curTime: 当前时间的时间戳，Number
+// type: 转换类型，String，取值为：'dayDesc' 日期描述型(如：今天、明天、后天)
+function getRelativeTime(time,curTime,type) {
+
+  if (type === 'dayDesc') { // 日期描述型
+
+    let date = this.timestampToDate(time,'yyyy-MM-dd');
+    let dateTime = this.dateToTimestamp(date+' 00:00:00');
+    let curDate = this.timestampToDate(curTime,'yyyy-MM-dd');
+    let curDateTime = this.dateToTimestamp(curDate+' 00:00:00');
+    let minusVal = dateTime - curDateTime;
+    let oneDayTime = 24*60*60*1000;
+
+    switch (minusVal) {
+      case -oneDayTime:
+        return '昨天';
+        break;
+      case -(oneDayTime*2):
+        return '前天';
+        break;
+      case 0:
+        return '今天';
+        break;
+      case oneDayTime:
+        return '明天';
+        break;
+      case oneDayTime*2:
+        return '后天';
+        break;
+      default:
+        return '';
+    }
+
+  }
 
 }
 
