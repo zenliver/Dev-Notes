@@ -48,9 +48,27 @@
         console.log(this.$testVar2);
         this.$testMethods.testMethod3();
       },
+      crossDomainXHR() {
+
+        this.$axios.post('http://ykt01.jxt189.com/appApi/login',{
+          account: "wrrwwwr",
+          loginKey: "wrwrww",
+          captcha: "",
+          captchaKey: ""
+        }).then( (response) => {
+
+        });
+
+        this.$axios.get('http://ykt01.jxt189.com/api/nzp-core-openapi-server/rest/org/find_mywxcids.json?uid=166864').then( (response) => {
+          
+        });
+
+      },
     },
     mounted () {
       window.localStorage.testItem = 'TEST';
+
+      this.crossDomainXHR();
     },
   }
 </script>
