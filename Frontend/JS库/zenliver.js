@@ -656,3 +656,61 @@ function getDataFromCacheOrServer(type,storageKey,dataKey,dataEditCallback,dataS
   }
 
 }
+
+/* 读取cookie */
+
+// 说明：只能读取非 HttpOnly 的cookie，HttpOnly 的cookie无法使用脚本读取，只能用于http传输
+// 返回：cookie的值（字符串），如果不存在或是 HttpOnly 的则返回 null
+
+// 参数：
+// name: cookie的名字，String
+function getCookie(name) {
+  var reg = new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+  var arr = document.cookie.match(reg);
+
+  if (arr) {
+		return decodeURIComponent(arr[2]);
+	} else {
+		return null;
+	}
+}
+
+/* 删除cookie */
+
+// 说明：只能删除非 HttpOnly 的cookie，HttpOnly的cookie只能通过服务端的响应头将该cookie设为过期的方式删除
+// 返回：无
+
+// 参数：
+// name: cookie的名字，String
+// path: cookie生效的路径，String，一般都是 '/'
+// domain: 设置cookie时指定的域名，String，如果设置cookie时指定了域名，则必须传（不用写前面的'.'），如果设置cookie时没有指定域名，则不能传。设置cookie时如果指定了域名在控制台中看到的域名前有一个'.'，如果没有指定域名则前面没有'.'。
+function delCookie(name,path,domain) {
+  if (domain) { // 如果设置cookie时指定了域名，删除时也必须指定域名，否则无法删除
+    document.cookie = name+'=null;domain='+domain+';path='+path+';expires='+new Date(0).toGMTString();
+  } else { // 如果设置cookie时没有指定域名，删除时也不能指定域名，否则无法删除
+    document.cookie = name+'=null;path='+path+';expires='+new Date(0).toGMTString();
+  }
+}
+
+/* 清除当前域名下的所有cookie */
+
+// 说明：只能清除当前域名下的非 HttpOnly 的cookie
+// 返回：无
+
+// 参数：
+// path: cookie生效的路径，String，一般情况下都是'/'，如果有path不是'/'的再单独调用此函数即可
+// domain: 设置cookie时指定的域名，String，如果待清除的cookie在设置时都没有指定域名则不用传；如果有设置时指定了域名的则必须传指定的域名（不用写前面的'.'）
+function clearAllCookies(path,domain) {
+  var names = document.cookie.match(/[^ =;]+(?==)/g);
+
+  if (names) {
+    for (var i = 0; i < names.length; i++) {
+      // 清除设置时没有指定域名的（这种cookie只在当前域名下有效）
+      document.cookie = names[i]+'=null;path='+path+';expires='+new Date(0).toGMTString();
+      // 清除设置时指定了域名的（这种cookie在当前域名和所有子域名下都有效，控制台看到的domain前有一个'.'）
+      if (domain) {
+        document.cookie = names[i]+'=null;path='+path+';domain='+domain+';expires='+new Date(0).toGMTString();
+      }
+    }
+  }
+}

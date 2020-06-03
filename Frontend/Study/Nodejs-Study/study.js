@@ -12,9 +12,10 @@ console.log('Server is running at http://localhost:8888');
 var fs = require('fs');
 
 // 同步读取方式（阻塞）
-let content = fs.readFileSync('./file.txt');
-// console.log(content);
-// console.log(content.toString());
+console.log('__dirname:'+__dirname);
+let content = fs.readFileSync(__dirname+'./../ng-study/ng-study.html');
+console.log(content);
+console.log(content.toString());
 console.log('文件读取完成');
 
 // 异步读取方式（非阻塞）
