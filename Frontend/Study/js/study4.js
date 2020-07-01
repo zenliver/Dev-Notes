@@ -114,3 +114,40 @@ arr201911081.forEach(function (item) {
     return ;
   }
 });
+
+let scrollEl = document.getElementById('scroll');
+let scrollEl1 = document.getElementById('scroll1');
+let scrollEl2 = document.getElementById('scroll2');
+
+for (var i = 0; i < 10; i++) {
+  let item = document.createElement('p');
+
+  function plusA(str,times) {
+    let strNew = '';
+
+    for (var i = 0; i < times; i++) {
+      strNew += str;
+    }
+
+    return strNew;
+  }
+
+  item.innerHTML = plusA('a',i);
+
+  scrollEl1.appendChild(item);
+}
+
+scrollEl2.innerHTML = scrollEl1.innerHTML;
+
+let scrollDistance = 0;
+
+window.setInterval(function () {
+  console.log(scrollEl.scrollTop);
+  scrollDistance += 1;
+
+  if (scrollDistance >= (scrollEl1.scrollHeight)) {
+    scrollDistance = 0;
+  }
+
+  scrollEl.scrollTop = scrollDistance;
+},100);

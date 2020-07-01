@@ -4,6 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <style media="screen">
+    * {
+      box-sizing: border-box;
+    }
+    #scroll {
+      width: 300px;
+      height: 200px;
+      overflow: hidden;
+      background-color: #ddd;
+    }
+
+    .table {
+      display: table;
+      width: 100%;
+    }
+    .table-cell {
+      display: table-cell;
+      width: 33.3333%;
+      text-align: center;
+      background-color: #ddd;
+      padding: 0 10px;
+    }
+    .list {
+      border: 1px solid #f00;
+    }
+  </style>
   <title>Study4</title>
 </head>
 <body>
@@ -12,7 +39,92 @@
     <a href="https://ykt01.jxt189.com/app/?client=app#/app/user_app_list" target="_blank">启动APP</a>
   </div>
 
+  <div id="scroll">
+    <div id="scroll1"></div>
+    <div id="scroll2"></div>
+  </div>
+
+  <div id="video">
+    <video id="video_m3u8" class="video-js vjs-default-skin" style="width: 300px; height: 200px;">
+      <source src="http://1.194.225.217:9959/live.m3u8?token=t5ee1a6a43515b77" type="application/x-mpegURL">
+    </video>
+  </div>
+
+  <div>
+    <a id="test" href="javascript:;" onclick="test()">test</a>
+  </div>
+
+  <div id="app">
+    {{message}}
+  </div>
+
+  <div class="table">
+    <div class="table-cell">
+      <div class="list">
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+        <p>aaa</p>
+      </div>
+    </div>
+    <div class="table-cell">
+      <div class="list">
+        <p>bbb</p>
+        <p>bbb</p>
+        <p>bbb</p>
+        <p>bbb</p>
+        <p>bbb</p>
+      </div>
+    </div>
+    <div class="table-cell">
+      <div class="list">
+        <p>ccc</p>
+        <p>ccc</p>
+      </div>
+    </div>
+  </div>
+
   <script src="./js/study4.js" charset="utf-8"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <!-- <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet"> -->
+  <!-- <script src='https://vjs.zencdn.net/7.4.1/video.js'></script> -->
+  <!-- <script src="https://cdn.bootcdn.net/ajax/libs/videojs-contrib-hls/5.15.0/videojs-contrib-hls.js"></script> -->
+
+  <script type="text/javascript">
+    // var myVideo = videojs('video_m3u8', {
+    //   loop: true,
+    //   controls: true,
+    //   preload: 'auto',
+    //   autoplay: true
+    // });
+  </script>
+
+  <script type="text/javascript">
+    // document.getElementById('test').onclick = function () {
+    //   alert('test');
+    // }
+
+    function test() {
+      alert('TEST');
+    }
+  </script>
+
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello Vue!'
+      }
+    });
+  </script>
 
 </body>
 </html>

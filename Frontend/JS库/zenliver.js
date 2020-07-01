@@ -1,6 +1,6 @@
 /*
   个人JS工具函数库
-  ver: 20191216
+  ver: 20200701
 */
 
 
@@ -88,28 +88,40 @@ function dateToWeek(date,startDay) {
   let day = dateObj.getDay();
   let dateTime = null;
 
-  if (date.constructor === String) { // date是日期时间字符串
+  if (date.constructor === String) { // 传日期时间字符串
     dateTime = dateToTimestamp(date);
-  } else { // date是时间戳
+  }
+
+  if (date.constructor === Number) { // 传时间戳
     dateTime = date;
   }
 
-  if (startDay === 'sunday') {
+  if (startDay === 'sunday') { // 星期从周日开始
+
     let sunday = timestampToDate(dateTime-(day-0)*24*60*60*1000,'yyyy-MM-dd');
     let saturday = timestampToDate(dateTime+(6-day)*24*60*60*1000,'yyyy-MM-dd');
+
     return {
       start: sunday,
       end: saturday
     };
+
   }
 
-  if (startDay === 'monday') {
+  if (startDay === 'monday') { // 星期从周一开始
+
+    if (day === 0) { // 如果当天是星期天，特殊处理
+      day = 7;
+    }
+
     let monday = timestampToDate(dateTime-(day-1)*24*60*60*1000,'yyyy-MM-dd');
     let sunday = timestampToDate(dateTime+(7-day)*24*60*60*1000,'yyyy-MM-dd');
+
     return {
       start: monday,
       end: sunday
     };
+
   }
 
 }
@@ -239,9 +251,27 @@ function isParent(obj,parentObj) {
 }
 
 
-/* 获取url中单个查询参数的值 */
+/* 获取当前页面url中某个查询参数的值或判断是否存在该参数 */
 
-// 返回：某个参数的值（字符串）
+// 返回：指定参数的值，如果不存在该参数则返回null
+
+// 参数：
+// paramName: 需获取的参数名，String
+function getQueryString(paramName) {
+	var reg = new RegExp("(^|&)" + paramName + "=([^&]*)(&|$)", "i");
+	var r = window.location.search.substr(1).match(reg);
+
+	if (r != null) {
+    return decodeURIComponent(r[2]);
+  } else {
+    return null;
+  }
+}
+
+
+/* 获取url中单个查询参数的值或判断是否存在该参数 */
+
+// 返回：指定参数的值（字符串），如果不存在该参数则返回null
 
 // 参数：
 // url: 待处理的url，String，如果是获取当前页面的则传 window.location.href 即可
@@ -250,7 +280,15 @@ function getQueryParam(url,paramName) {
 
   var reg = new RegExp("(^|&)" + paramName + "=([^&]*)(&|$)", "i");
   var firstQueryIndex = url.indexOf('?');
-  var queryString = url.slice(firstQueryIndex+1); // 获取完整的查询字符串（不包括 ?）
+  var queryString0 = url.slice(firstQueryIndex+1); // 获取?后面的部分
+  var queryString = '';
+
+  if (queryString0.indexOf('#') >= 0) { // 如果?后面的部分还包含#
+    queryString = queryString0.replace(/#.*$/,'');
+  } else {
+    queryString = queryString0;
+  }
+
   var result = queryString.match(reg);
 
   if (result !== null) {
@@ -262,7 +300,7 @@ function getQueryParam(url,paramName) {
 }
 
 
-/* 获取url中的所有查询参数的值 */
+/* 获取url中的所有查询参数 */
 
 // 返回：所有参数对象
 
@@ -302,6 +340,100 @@ function getQueryParams(url) {
 }
 
 
+/* 替换url中某一参数的值 */
+
+// 说明：如果指定的参数存在则替换其值，如果不存在则添加该参数
+// 返回：替换参数值后的新url
+
+// 参数：
+// url: 待处理的url，String，如果是获取当前页面的则传 window.location.href 即可
+// paramName: 待替换参数值的参数名称
+// newVal: 参数的新值
+function replaceQueryParam(url,paramName,newVal) {
+	var pattern = paramName + '=([^&#]*)';
+	var replaceText = paramName + '=' + newVal;
+
+	return url.match(pattern) ? url.replace(eval('/(' + paramName + '=)([^&#]*)/gi'), replaceText) : (url.match('[\?]') ? url + '&' + replaceText : url + '?' + replaceText);
+}
+
+
+/* 给url添加新参数 */
+
+// 返回：添加了新参数的url
+
+// 参数：
+// url: 待处理的url
+// paramName: 新参数的名字
+// paramValue: 新参数的值
+function addQueryParam(url,paramName,paramValue) {
+	let newUrl = null;
+
+	if (url.match(/.*?\?/)) { // url中有问号
+		newUrl = url.replace(/.*?\?/,function (match) {
+			return match+paramName+'='+paramValue+'&';
+		});
+	} else if (url.match(/.*?#/)) { // url中没有问号，但有#
+		newUrl = url.replace(/.*?#/,function (match) {
+			return match.slice(0,-1)+'?'+paramName+'='+paramValue+'#';
+		});
+	} else { // url中既没有问号也没有#
+		newUrl = url+'?'+paramName+'='+paramValue;
+	}
+
+	return newUrl;
+}
+
+
+/* 一次给url添加多组参数 */
+
+// 说明：本函数依赖另一个函数 replaceQueryParam()
+// 返回：添加多组参数后的新url
+
+// 参数：
+// originalUrl: 待处理的url，String，如果是获取当前页面的则传 window.location.href 即可
+// params: 需添加的参数数组，Array，数据格式为：[{name: 'param1', value: 'value1'}, {name: 'param2', value: 'value2'}]
+function addQueryParams(originalUrl,params) {
+	var paramStr = "";
+	for (var i = 0; i < params.length; i++) {
+		var p = params[i];
+		var splitSign = paramStr ? "&" : "";
+		paramStr += splitSign;
+		if (p.name && p.value) {
+			if (originalUrl.indexOf(p.name + "=") != -1) {
+				/*参数已存在，替换*/
+				originalUrl = replaceQueryParam(originalUrl, p.name, p.value);
+			} else {
+				paramStr += p.name + "=" + p.value;
+			}
+		}
+	}
+	if (!paramStr) {
+		return originalUrl;
+	}
+
+	var resultUrl = "";
+
+	var currentUrl = originalUrl.split('#')[0];
+	if (/\?/g.test(currentUrl)) {
+		if (/name=[-\w]{4,25}/g.test(currentUrl)) {
+			currentUrl = currentUrl.replace(/name=[-\w]{4,25}/g, name + "=" + value);
+		} else {
+			currentUrl += "&" + paramStr;
+		}
+	} else {
+		currentUrl += "?" + paramStr;
+	}
+
+	if (originalUrl.split('#').length > 1) {
+		resultUrl = currentUrl + '#' + originalUrl.split('#')[1];
+	} else {
+		resultUrl = currentUrl;
+	}
+
+	return resultUrl;
+}
+
+
 /* 去除简单数组（由字符串或数字组成的一维数组）中重复的元素 */
 
 // 返回：一个新的不重复的简单数组
@@ -320,6 +452,31 @@ function removeDuplicatesOfSimpleArray(arr) {
 
   return noDuplicatesArr;
 
+}
+
+
+/* 对数组进行分页 */
+
+// 返回：分页后的单页数组
+
+// 参数：
+// dataList: 待分页的列表数组
+// pageSize: 每页多少条
+// pageNum: 当前页码
+function pageList(dataList,pageSize,pageNum) {
+  let pageList = [];
+
+  for (var i = 0; i < dataList.length; i++) {
+    if ( i < (pageNum*pageSize) && i >= (pageNum-1)*pageSize ) {
+      pageList.push(dataList[i]);
+    }
+
+    if (i >= pageNum*pageSize) {
+      break;
+    }
+  }
+
+  return pageList;
 }
 
 
@@ -713,4 +870,30 @@ function clearAllCookies(path,domain) {
       }
     }
   }
+}
+
+
+/* 获取两个经纬度坐标之间的直线距离 */
+
+// 返回：两个经纬度坐标之间的直线距离
+
+// 参数：
+// lat1: 第一个坐标的纬度
+// lng1: 第一个坐标的经度
+// lat2: 第二个坐标的纬度
+// lng2: 第二个坐标的经度
+function get2LocationDistance(lat1,lng1,lat2,lng2) {
+  const EARTH_RADIUS = 6378.137 * 1000; //地球半径
+  const radLat1 = (lat1 * Math.PI / 180.0);
+  const radLat2 = (lat2 * Math.PI / 180.0);
+  const a = radLat1 - radLat2;
+  const b = (lng1 * Math.PI / 180.0) - (lng2 * Math.PI / 180.0);
+  let s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2)
+    + Math.cos(radLat1) * Math.cos(radLat2)
+    * Math.pow(Math.sin(b / 2), 2)));
+  s = s * EARTH_RADIUS;
+  s = Math.round(s * 10000) / 10000;
+  console.log(`${s}米`)
+
+  return s;//返回数值单位：米
 }
