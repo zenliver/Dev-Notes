@@ -1,6 +1,6 @@
 /*
   个人JS工具函数库
-  ver: 20200701
+  ver: 20200731
 */
 
 
@@ -10,7 +10,7 @@
 
 // 参数：
 // time: 待转换的时间戳
-// format: 日期时间格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'（这里的 '-' 和 ':' 可以换成任意字符串）
+// format: 返回的日期时间字符串的格式，String，完整的格式为 'yyyy-MM-dd HH:mm:ss'（这里的 '-' 和 ':' 可以换成任意字符串）
 function timestampToDate(time,format) {
 
   Date.prototype.Format = function (fmt) { //author: meizz
@@ -127,6 +127,50 @@ function dateToWeek(date,startDay) {
 }
 
 
+/* 根据指定日期（日期时间字符串或时间戳）获取其所属月的起止日期 */
+
+// 返回：指定日期所属月的起止日期对象（起止日属性值均为日期时间字符串）
+function dateToMonth(date) {
+
+}
+
+
+/* 根据指定日期（日期时间字符串或时间戳）获取多少天以前或以后的日期 */
+
+// 说明：本函数依赖另外两个函数 dateToTimestamp() 和 timestampToDate()
+// 返回：指定日期多少天以前或以后的日期（日期时间字符串）
+
+// 参数：
+// date: 指定日期的日期时间字符串（完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'）或时间戳（Number）
+// type: 往前（过去）推算还是往后（未来）推算，String，取值为：'before'(往前多少天)、'after'（往后多少天）
+// dayNum: 往前或往后推算的天数，Number
+// format: 返回的日期时间字符串的格式，String，完整的格式为 'yyyy-MM-dd HH:mm:ss'（这里的 '-' 和 ':' 可以换成任意字符串）
+function dateBeforeAfter(date,type,dayNum,format) {
+  let time = null;
+
+  if (date.constructor === Number) {
+    time = date;
+  }
+
+  if (date.constructor === String) {
+    time = dateToTimestamp(date);
+  }
+
+  let newTime = null;
+
+  if (type === 'before') {
+    newTime = time - dayNum*24*60*60*1000;
+  }
+
+  if (type === 'after') {
+    newTime = time + dayNum*24*60*60*1000;
+  }
+
+  return timestampToDate(newTime,format);
+
+}
+
+
 /* 根据指定日期（日期时间字符串或时间戳）获取下个月或上个月的月份 */
 // 注意：本函数依赖另一个函数：timestampToDate()
 
@@ -135,8 +179,8 @@ function dateToWeek(date,startDay) {
 // 参数：
 // date: 指定日期的日期时间字符串（完整的格式为 '2019-07-03 10:05:20' 或 '2019/07/03 10:05:20'）或时间戳（Number）
 // type: 获取类型，String，取值为 'next'（下个月） 或 'prev'（上个月）
-// returnFormat: 返回的月份的日期时间格式字符串，完整的格式为 'yyyy-MM-dd HH:mm:ss'
-function getPrevNextMonth(date,type,returnFormat) {
+// format: 返回的月份的日期时间字符串的格式，完整的格式为 'yyyy-MM-dd HH:mm:ss'
+function getPrevNextMonth(date,type,format) {
 
   let dateObj = new Date(date);
   let year = dateObj.getFullYear();
@@ -182,7 +226,7 @@ function getPrevNextMonth(date,type,returnFormat) {
     dateObjNew.setMonth(prevMonth);
   }
 
-  return timestampToDate(dateObjNew.getTime(),returnFormat);
+  return timestampToDate(dateObjNew.getTime(),format);
 
 }
 
@@ -896,4 +940,20 @@ function get2LocationDistance(lat1,lng1,lat2,lng2) {
   console.log(`${s}米`)
 
   return s;//返回数值单位：米
+}
+
+
+/* 在新窗口打开url */
+
+// 返回：无
+
+// 参数：
+// url: 需要在新窗口打开的url
+function openNewWindow(url) {
+  var el = document.createElement("a");
+  document.body.appendChild(el);
+  el.href = url;
+  el.target = "_blank";
+  el.click();
+  el.remove();
 }

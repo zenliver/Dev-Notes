@@ -151,3 +151,26 @@ window.setInterval(function () {
 
   scrollEl.scrollTop = scrollDistance;
 },100);
+
+
+function openNewWindow(url) {
+  var el = document.createElement("a");
+  document.body.appendChild(el);
+  el.href = url;
+  el.target = "_blank";
+  el.click();
+  el.remove();
+}
+
+openNewWindow('http://ykt01.jxt189.com/edu/#/login/pwd');
+
+window.open('https://www.npmjs.com/');
+
+document.querySelector('.el202007311 a').addEventListener('click',function () {
+  openNewWindow('http://ykt01.jxt189.com/edu/#/login/pwd');
+});
+
+document.querySelector('.el202007311 a').addEventListener('click',function () {
+  alert('在新窗口打开了哦！');
+  window.open('http://www.baidu.com');
+});
