@@ -118,6 +118,69 @@
     <a href="javascript:;">点击在新窗口打开</a>
   </div>
 
+  <div class="test test-1">
+    <div class="scrollbar"></div>
+  </div>
+
+  <style media="screen">
+    .test {
+    width   : 300px;
+    height  : 200px;
+    overflow: auto;
+    margin  : 5px;
+    border  : none;
+    }
+    .scrollbar {
+    width : 300px;
+    height: 300px;
+    margin: 0 auto;
+    }
+    .test-1::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width : 10px;  /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+    }
+    .test-1::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #535353;
+    }
+    .test-1::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background   : #ededed;
+    }
+  </style>
+
+  <div class="table_test">
+    <table>
+      <thead>
+        <th>sewrw</th>
+        <th>wtwt</th>
+        <th>setet</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>eyet</td>
+          <td>eye</td>
+          <td>eyey</td>
+        </tr>
+        <tr>
+          <td>wrwwr</td>
+          <td>wrwwr</td>
+          <td>wwt</td>
+        </tr>
+        <tr>
+          <td>twtwe</td>
+          <td>wtwt</td>
+          <td>wtwtw</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
   <script src="./js/study4.js" charset="utf-8"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>

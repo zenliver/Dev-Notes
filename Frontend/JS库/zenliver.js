@@ -1,6 +1,6 @@
 /*
   个人JS工具函数库
-  ver: 20200731
+  ver: 20200828
 */
 
 
@@ -168,6 +168,43 @@ function dateBeforeAfter(date,type,dayNum,format) {
 
   return timestampToDate(newTime,format);
 
+}
+
+
+/* 获取两个起止日期之间的所有日期 */
+
+// 说明：本函数依赖另外两个函数 dateToTimestamp() 和 timestampToDate()
+// 返回：两个起止日期之间的所有日期数组（包含起止日期），数组元素均为日期时间字符串
+
+// 参数：
+// startDate: 开始日期（日期时间字符串或时间戳）
+// enDate: 截止日期（日期时间字符串或时间戳）
+// format: 返回的日期时间字符串的格式，String，完整的格式为 'yyyy-MM-dd HH:mm:ss'（这里的 '-' 和 ':' 可以换成任意字符串）
+function getDatesFromStartToEnd(startDate,enDate,format) {
+  let startDateTime = null;
+  let enDateTime = null;
+
+  if (startDate.constructor === Number) { // 传时间戳
+    startDateTime = startDate;
+  } else { // 传日期时间字符串
+    startDateTime = dateToTimestamp(startDate);
+  }
+
+  if (enDate.constructor === Number) { // 传时间戳
+    enDateTime = enDate;
+  } else { // 传日期时间字符串
+    enDateTime = dateToTimestamp(enDate);
+  }
+
+  let dates = [];
+  let tempDateTime = startDateTime;
+
+  while (tempDateTime <= enDateTime) {
+    dates.push(timestampToDate(tempDateTime,format));
+    tempDateTime += 24*60*60*1000;
+  }
+
+  return dates;
 }
 
 
