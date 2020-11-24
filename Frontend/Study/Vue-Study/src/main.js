@@ -11,6 +11,11 @@ Vue.prototype.$axios = axios;
 import VCharts from 'v-charts';
 Vue.use(VCharts);
 
+import VueVideoPlayer from 'vue-video-player';
+import 'video.js/dist/video-js.css';
+import 'vue-video-player/src/custom-theme.css';
+Vue.use(VueVideoPlayer);
+
 // 测试局部引入
 import {testMethod1,testVar,testVar1} from './assets/js/export1.js';
 Vue.prototype.$testMethod1 = testMethod1;

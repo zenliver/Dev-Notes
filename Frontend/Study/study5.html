@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <script src="https://libs.cdnjs.net/jsencrypt/2.1.0/jsencrypt.min.js"></script>
+
+  <script type="text/javascript">
+    function rsaEncrypt(str,publicKey){
+        var encrypt = new JSEncrypt();
+        encrypt.setPublicKey(publicKey);
+        var encrypted = encrypt.encrypt(str);
+        return encrypted;
+    }
+
+    let publicKey = `-----BEGIN PUBLIC KEY-----
+    MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpUiTgBCc36xZYbn/5Rv40muca
+    0I8gOqZlGhqwQWBuGM+54jeeWcO024Vgk0v/cs5csHSL0GvztgArmc2TRPfb97kY
+    1vT2UMiTN1iLNRAowQgd5yY/SVuECj3ZyW8AUb5X9qvgVkKCEHBTxSi2eMP1u1A0
+    cRe856G5DX863V4gxQIDAQAB
+    -----END PUBLIC KEY-----`;
+
+    let str = 'test';
+
+    console.log(rsaEncrypt(str,publicKey));
+
+  </script>
+
+</body>
+</html>

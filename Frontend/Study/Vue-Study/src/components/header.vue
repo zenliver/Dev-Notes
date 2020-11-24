@@ -10,6 +10,7 @@
       <router-link :to="{ name: 'slot_test', params: {} }">Slot测试</router-link>
       <router-link :to="{ name: 'multi_check', params: {} }">多选</router-link>
       <router-link :to="{ name: 'keep_alive', params: {} }">KeepAlive</router-link>
+      <router-link :to="{ name: 'vue_video_player', params: {} }">Vue Video Player</router-link>
     </div>
 
     <div class="header" v-if="routeName === 'index'">

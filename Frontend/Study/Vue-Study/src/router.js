@@ -69,6 +69,11 @@ export default new Router({
           component: () => import('./router-view/KeepAlive.vue')
         }
       ]
+    },
+    {
+      path: '/vue_video_player',
+      name: 'vue_video_player',
+      component: () => import('./router-view/VueVideoPlayer.vue')
     }
   ]
 })

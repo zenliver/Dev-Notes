@@ -11,10 +11,12 @@
     "axios": "^0.18.0",
     "echarts": "^4.2.1",
     "v-charts": "^1.19.0",
+    "videojs-contrib-hls.js": "^3.2.0",
     "vue": "^2.5.17",
     "vue-cropper": "^0.4.9",
     "vue-router": "^3.0.1",
     "vue-slim-better-scroll": "^1.7.1",
+    "vue-video-player": "^5.0.2",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

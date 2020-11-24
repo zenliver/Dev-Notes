@@ -1,7 +1,7 @@
-/*
+/***
   个人JS工具函数库
-  ver: 20200828
-*/
+  ver: 20201124
+***/
 
 
 /* 时间戳转日期时间字符串 */
@@ -985,7 +985,7 @@ function get2LocationDistance(lat1,lng1,lat2,lng2) {
 // 返回：无
 
 // 参数：
-// url: 需要在新窗口打开的url
+// url: 需要在新窗口打开的url，String
 function openNewWindow(url) {
   var el = document.createElement("a");
   document.body.appendChild(el);
@@ -993,4 +993,50 @@ function openNewWindow(url) {
   el.target = "_blank";
   el.click();
   el.remove();
+}
+
+
+/*** 正则验证相关函数集合 ***/
+
+// 返回：true(验证通过) 或 false(验证不通过)
+
+// 参数：
+// str: 待验证的字符串
+
+/* 验证URL */
+function validateURL(str) {
+  var regExp = /[a-zA-z]+:\/\/[^\s]*/;
+  return regExp.test(str);
+}
+
+/* 验证小写字母 */
+function validateLowerCase(str) {
+  var regExp = /^[a-z]+$/;
+  return regExp.test(str);
+}
+
+/* 验证大写字母 */
+function validateUpperCase(str) {
+  var regExp = /^[A-Z]+$/;
+  return regExp.test(str);
+}
+
+/* 验证大小写字母 */
+function validatAlphabets(str) {
+  var regExp = /^[A-Za-z]+$/;
+  return regExp.test(str);
+}
+
+/* 验证国内手机号码 */
+function validateMobile(str) {
+  var regExp = /^1\d{10}$/;
+  return regExp.test(str);
+}
+
+/* 验证密码 */
+// 规则：必须包含字母（大小写不限）、数字、特殊字符，长度8~20位
+function validatePwd(str) {
+  var regExp = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[`~!@#$%^&*()_+<>?:"{},.\/;'[\]])[A-Za-z\d`~!@#$%^&*()_+<>?:"{},.\/;'[\]]{8,20}$/;
+
+  return regExp.test(str);
 }
