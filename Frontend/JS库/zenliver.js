@@ -996,6 +996,28 @@ function openNewWindow(url) {
 }
 
 
+/* 从文件名或文件url中提取文件的扩展名 */
+
+// 返回：文件的扩展名（String）
+
+// 参数：
+// fileName: 文件名或文件的url（如果文件名后有 ? # 等则需先清除）
+function getFileExtension(fileName) {
+	return fileName.replace(/^.*\./,'');
+}
+
+
+/* 去除文件名中的扩展名 */
+
+// 返回：文件名中不带扩展名的部分
+
+// 参数：
+// fileName: 文件名
+function removeFileExtension(fileName) {
+	return fileName.replace(/\.[^\.\n]*$/,'');
+}
+
+
 /*** 正则验证相关函数集合 ***/
 
 // 返回：true(验证通过) 或 false(验证不通过)
