@@ -721,13 +721,6 @@ function treeToFlat(treeArr,childrenNodeKey) {
 
   treeToFlatFunc(treeArr,childrenNodeKey);
 
-  // 删除扁平数组中的所有对象的 children 属性
-  for (var j = 0; j < flatArr.length; j++) {
-    if (flatArr[j][childrenNodeKey]) {
-      delete flatArr[j][childrenNodeKey];
-    }
-  }
-
   return flatArr;
 }
 
