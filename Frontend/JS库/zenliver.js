@@ -312,20 +312,20 @@ function getRelativeTime(time,curTime,type) {
 }
 
 
-/* 判断一个DOM元素是否是另一个元素的子元素 */
+/* 判断一个DOM节点是否是另一个DOM节点的子节点 */
 
 // 返回：Boolean（true 是，false 不是）
 
 // 参数：
-// obj: 一个DOM对象
-// parentObj: 另一个DOM对象，是或不是obj的父元素
-function isParent(obj,parentObj) {
-  while (obj != undefined && obj != null && obj.tagName.toUpperCase() != 'BODY') {
-    if (obj == parentObj) {
+// nodeObj: 一个DOM节点对象
+// parentNodeObj: 另一个DOM节点对象，是或不是 nodeObj 的父节点
+function isParentNode(nodeObj,parentNodeObj) {
+  while (nodeObj != undefined && nodeObj != null && nodeObj.tagName.toUpperCase() != 'BODY') {
+    if (nodeObj == parentNodeObj) {
       return true;
+    } else {
+      nodeObj = nodeObj.parentNode;
     }
-
-    obj = obj.parentNode;
   }
 
   return false;
